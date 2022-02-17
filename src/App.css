@@ -1,38 +1,202 @@
-.App {
+body {
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+}
+
+
+section{
+  margin: 5% 2% !important;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button{
+  text-transform: uppercase;
+  background-color: #EDEADC !important;
+  color: #494949 !important;
+  font-family: 'Raleway', sans-serif !important;
+  border-bottom-right-radius: 20px !important;
+  border: none !important;
+  letter-spacing: 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.book-call{
+  text-transform: uppercase;
+  background-color: #EDEADC !important;
+  color: #494949 !important;
+  font-family: 'Raleway', sans-serif !important;
+  border-bottom-right-radius: 20px !important;
+  border: none !important;
+  letter-spacing: 2px;
+  font-size: 1.2rem !important;
+  padding: 15px 30px !important;
+}
+
+hr{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  max-width: 90vw;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.header-tag{
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+
+h1{
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 0.1px;
+  font-weight: 300;
+  font-size: 3rem !important;
+}
+
+h2{
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 0.1px;
+  font-weight: 300;
+  font-size: 2.4rem !important;
+}
+
+h3{
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 0.1px;
+  font-weight: 300;
+  font-size: 2rem !important;
+}
+
+.r-header{
+  font-size: 1rem !important;
+}
+
+.uppercase{
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+}
+
+.beige{
+  background-color: #f8f7f3;
+}
+
+.green{
+  background-color: #A6A896;
+}
+
+.brown{
+  background-color: #E2DFD7;
+}
+
+
+.button{
+  background-color: #ddd8c4 !important;
+  text-transform: uppercase;
+  font-size: 0.8rem !important;
+  letter-spacing: 2px !important;
+  border: none !important;
+  color: #000000 !important;
+  border-radius: 0px !important;
+  border-bottom-right-radius: 10px !important;
+  padding: 8px 30px !important;
+ }
+
+ .button:focus,.btn:active{
+   border: none !important;
+   outline: none !important;
+   box-shadow: none !important;
+ }
+
+.button-sec{
+ background-color: #ffffff !important;
+ text-transform: uppercase;
+ font-size: 0.9rem !important;
+ letter-spacing: 2px !important;
+ border: none !important;
+ color: #000000 !important;
+ border-radius: 0px !important;
+ border-bottom-right-radius: 10px !important;
+ padding: 8px 30px !important;
+}
+
+.button-sec:focus,.btn-sec:active{
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+
+
+ .line-in-middle {
+  width:400px;
+  height:100px;
+  background: linear-gradient(to right, 
+                              transparent 0%, 
+                              transparent calc(50% - 0.81px), 
+                              black calc(50% - 0.3px), 
+                              black calc(50% + 0.3px), 
+                              transparent calc(50% + 0.81px), 
+                              transparent 100%); 
+}
+
+
+.instagram{
+  background-color: #f8f7f3;
+}
+
+.reviews:hover{
+  opacity: 0.7;
+  transition: ease-in 0.1s;
+}
+
+.reviews{
+  opacity: 1;
+  transition: ease-out 0.1s;
+}
+
+
+
+@media only screen and (min-width: 960px) {
+  /* styles for browsers larger than 960px; */
+  .cta-padding{
+    padding-left: 5%;
+    padding-right: 5%;
   }
+  .banner{
+    height: 80vh !important;
+}
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media only screen and (min-width: 1440px) {
+  /* styles for browsers larger than 1440px; */
+}
+@media only screen and (min-width: 2000px) {
+  /* for sumo sized (mac) screens */
+}
+@media only screen and (max-device-width: 480px) {
+ /* styles for mobile browsers smaller than 480px; (iPhone) */
+ section{
+  margin: 15% 0% !important;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media only screen and (device-width: 768px) {
+ /* default iPad screens */
+}
+
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+/* For portrait layouts only */
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+/* For landscape layouts only */
 }

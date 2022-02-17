@@ -1,0 +1,13 @@
+.testimonial{
+    min-height: 80vh;
+}
+
+.t-link{
+    color: #494949 !important;
+    text-decoration: none !important;
+}
+
+.t-link:hover{
+    color: #494949 !important;
+    text-decoration: none !important;
+}

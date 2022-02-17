@@ -1,0 +1,42 @@
+.blog-link{
+    color: #494949 !important;
+    text-decoration: none;
+}
+
+.button-blog{
+    background-color: #ffffff !important;
+    text-transform: uppercase;
+    font-size: 0.8rem !important;
+    letter-spacing: 2px !important;
+    border: none !important;
+    color: #000000 !important;
+    border-radius: 0px !important;
+    border-bottom-right-radius: 10px !important;
+    padding: 0 !important;
+    text-decoration: none !important;
+   }
+  
+  
+   .blog-tag{
+     font-size: 0.75rem !important;
+     font-family: 'Raleway';
+     text-transform: uppercase;
+     letter-spacing: 2px;
+   }
+  
+   .blog-header{
+     font-size: 2rem !important;
+   }
+
+   .blog-img:hover{
+       opacity: 0.7;
+       transition: 0.1s ease-in;
+   }
+
+   @media only screen and (max-width: 500px) {
+     .card{
+       width: 90%;
+       margin-left: auto;
+       margin-right: auto;
+     }
+   }

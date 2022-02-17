@@ -1,0 +1,30 @@
+.Subscribe{
+    height: 90vh !important;
+}
+
+.subscribe-button{
+    text-transform: uppercase;
+    background: none !important;
+    color: #494949 !important;
+    font-family: 'Raleway', sans-serif !important;
+    border-bottom-right-radius: 20px !important;
+    border: none !important;
+    letter-spacing: 2px;
+}
+
+.subscribe-field{
+    background: none;
+    border: none;
+    border-bottom: 0.7px solid;
+    border-radius: 0;
+    width: 50%;
+}
+
+.subscribe-field:focus{
+    background: none;
+    border: none;
+    border-bottom: 0.7px solid;
+    border-radius: 0;
+    width: 50%;
+    box-shadow: none;
+}

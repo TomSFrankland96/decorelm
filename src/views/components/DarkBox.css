@@ -1,0 +1,50 @@
+.DarkBox{
+    padding: 10%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 2000px 0 0 0 rgba(248, 247, 243, 0.75);
+    color: #494949;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.line{
+    width: 95%;
+    color: #494949; /* Modern Browsers */
+    opacity: 0.85;
+}
+
+.box-header{
+    font-size: 1.2rem !important;
+}
+
+.box-text{
+    font-size: 1.1rem !important;
+}
+
+.overload{
+    background-image: url("https://res.cloudinary.com/decorelm/image/upload/v1643663636/decorelm-website/AdobeStock_345537025_ph9obj.jpg");
+}
+
+.sourcing{
+    background-image: url("https://res.cloudinary.com/decorelm/image/upload/v1643705107/decorelm-website/AdobeStock_239063394-min_ph2x23.jpg");
+}
+
+.visualisation{
+    background-image: url("https://res.cloudinary.com/decorelm/image/upload/v1643705315/decorelm-website/AdobeStock_314090421_bvlvjv.jpg");
+}
+
+.guarantee{
+    background-image: url("https://res.cloudinary.com/decorelm/image/upload/v1643705543/decorelm-website/AdobeStock_271218013_oernay.jpg");
+}
+
+.flexibility{
+    background-image: url("https://res.cloudinary.com/decorelm/image/upload/v1643830330/decorelm-website/Screenshot_2022-02-02_at_19.30.31_eykwka.png");
+}
+
+.support{
+    background-image: url("https://res.cloudinary.com/decorelm/image/upload/v1643705893/decorelm-website/AdobeStock_138103405_jnfcae.jpg");
+}

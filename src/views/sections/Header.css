@@ -1,0 +1,133 @@
+@media only screen and (min-width: 960px) {
+        /* styles for browsers larger than 960px; */
+
+    .Header-img{
+        height: 60vh;
+        object-fit: cover;
+    }
+    .Header-text{
+        padding: 5% 15% !important;
+        max-width: 90%;
+    }
+    .Header-tag{
+        text-transform: uppercase;
+        font-size: 0.8rem;
+    }
+    .Header-main{
+        font-size: 2.8rem !important;
+    }
+    .Header-sub{
+        max-width: 97% !important;
+    }
+    .bark{
+        max-width: 90px;
+    }
+    .houzz{
+        max-width: 65px;
+    }
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 3.5rem !important;
+      }
+}
+
+.header-box{
+    position: relative;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+  .bottom-right {
+    position: absolute;
+    bottom: 12px;
+    right: 40px;
+  }
+
+
+
+@media only screen and (min-width: 1440px) {
+        /* styles for browsers larger than 1440px; */
+}
+@media only screen and (min-width: 2000px) {
+        /* for sumo sized (mac) screens */
+}
+@media only screen and (max-device-width: 480px) {
+       /* styles for mobile browsers smaller than 480px; (iPhone) */
+       .Header-img{
+        height: 30vh;
+        object-fit: cover;
+    }
+    .Header-text{
+        padding-top: 7%;
+        padding-bottom: 7%;
+        width: 90% !important;
+    }
+    .Header-tag{
+        text-transform: uppercase;
+        font-size: 0.8rem;
+    }
+    .Header-main{
+        font-size: 2.2rem !important;
+    }
+    .Header-sub{
+
+    }
+    .bark{
+        max-width: 90px;
+    }
+    .houzz{
+        max-width: 70px;
+    }
+    .centered {
+        display: none;
+      }
+}
+
+@media only screen and (device-width: 768px) {
+       /* default iPad screens */
+}
+
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+      /* For portrait layouts only */
+      .Header-img{
+        height: 60vh;
+        object-fit: cover;
+    }
+    .Header-text{
+        padding: 5% 15% !important;
+        max-width: 90%;
+    }
+    .Header-tag{
+        text-transform: uppercase;
+        font-size: 0.8rem;
+    }
+    .Header-main{
+        font-size: 2.8rem !important;
+    }
+    .Header-sub{
+        max-width: 97% !important;
+    }
+    .bark{
+        max-width: 90px;
+    }
+    .houzz{
+        max-width: 65px;
+    }
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 3.5rem !important;
+      }
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+      /* For landscape layouts only */
+}

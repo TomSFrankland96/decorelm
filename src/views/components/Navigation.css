@@ -1,0 +1,99 @@
+.Alert{
+    background-color: #3F554A;
+    color: #ffffff;
+}
+
+.Alert div{
+    font-size: 0.7rem;
+    padding: 2px;
+    text-transform: uppercase;
+}
+
+.navbar a{
+    text-transform: uppercase;
+    text-decoration: none !important;
+    letter-spacing: 2.5px;
+    font-size: 0.7rem;
+    color: #000000;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #000000;
+}
+
+
+
+.logo{
+    max-width: 180px;
+}
+
+.highlight{
+    border-bottom-right-radius: 20px !important;
+    border: 0.5px solid #00000079;
+    padding: 0px;
+}
+
+.centered-nav {
+    position: fixed;
+    left: 50%;
+    transform: translate(-55%, 0);
+}
+
+.nav-houzz{
+    width: 40px;
+}
+
+.nav-bark{
+    width: 50px;
+}
+
+
+
+@media only screen and (min-width: 960px) {
+    /* styles for browsers larger than 960px; */
+    .brand-mobile{
+        display: none;
+    }
+    .cta-mobile{
+        display: none;
+    }
+    .mobile-nav{
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 959px) {
+    /* styles for browsers larger than 960px; */
+    .brand-desktop{
+        display: none;
+    }
+    .cta-desktop{
+        display: none;
+    }
+    .desktop-nav{
+        display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+  }
+  @media only screen and (min-width: 2000px) {
+    /* for sumo sized (mac) screens */
+  }
+  @media only screen and (max-device-width: 480px) {
+   /* styles for mobile browsers smaller than 480px; (iPhone) */
+  
+  }
+  
+  @media only screen and (device-width: 768px) {
+   /* default iPad screens */
+  }
+  
+  /* different techniques for iPad screening */
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  /* For portrait layouts only */
+  }
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  /* For landscape layouts only */
+  }
