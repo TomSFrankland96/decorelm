@@ -24,8 +24,7 @@ export default class Main extends Component {
                         <Row>
                             <div className="title mx-auto text-center">
                                 <h4 className="header-tag">how it works</h4>
-                                <h1>Receive our expertise in a few simple steps</h1>
-                                <p>Our online design service means you can access expert interior design for one flat fee.</p>
+                                <h1>Our trusted collaborative process puts you at the core.</h1>
                             </div>
                         </Row>
                         <Row className="mt-2 mb-5">
@@ -33,7 +32,7 @@ export default class Main extends Component {
                                 <div className="text-start align-self-center ms-auto step-text shadow bg-white w-100 p-5 m-0">
                                     <h4 className="header-tag">step 01</h4>
                                     <h3>The Details</h3>
-                                    <p>Send over visuals &amp; measurements of the room then meet your designer by phone, email or messaging to kick off the project.</p>
+                                    <p>We'll survey your room by viewing your images &amp; measurements, then chat with you to understand your unique needs &amp; preferences.</p>
                                     <hr />
                                 </div>
                             </Col>
@@ -48,7 +47,7 @@ export default class Main extends Component {
                             <Col md={6} xs={{ order: 12, span: 12 }} md={{ order: 1, span: 6 }} className="d-flex m-width m-0 g-0">
                                 <div className="text-start align-self-center ms-auto step-text shadow bg-white w-100 p-5 m-0">
                                     <h4 className="header-tag">step 02</h4>
-                                    <h3>Bring the ideas together</h3>
+                                    <h3>The Direction</h3>
                                     <p>Your designer will present some mood boards &amp; inspiration images to bring your ideas together &amp; guide the design direction.</p>
                                     <hr />
                                 </div>
@@ -58,7 +57,7 @@ export default class Main extends Component {
                             <Col md={6} className="d-flex m-0 g-0">
                                 <div className="text-start align-self-center ms-auto step-text shadow bg-white w-100 p-5 m-0">
                                     <h4 className="header-tag">step 03</h4>
-                                    <h3>Receive your design plans</h3>
+                                    <h3>The Designs</h3>
                                     <p>You'll get a detailed document containing the room layout plans, designer notes &amp; recommended furniture.</p>
                                     <hr />
                                 </div>
@@ -85,7 +84,7 @@ export default class Main extends Component {
                                 <div className="text-start align-self-center ms-auto step-text shadow bg-white w-100 p-5 m-0">
                                     <h4 className="header-tag">step 05</h4>
                                     <h3>Shop the Design</h3>
-                                    <p>Use the sourcing list to swiftly click into each item &amp; order in your own time! You'll also receive 30 days post design support from this point.</p>
+                                    <p>Remove the stress of finding the furnishings &amp; order in your own time! You'll also receive 30 days post design support from this point.</p>
                                     <a href="https://res.cloudinary.com/decorelm/image/upload/v1644059149/decorelm-website/Shopping_List_onlfkr.png" className="button-blog" target="_blank">see example <i className="bi bi-arrow-right"></i></a>
                                 </div>
                             </Col>
@@ -93,33 +92,36 @@ export default class Main extends Component {
                                 <img src="https://res.cloudinary.com/decorelm/image/upload/v1643830330/decorelm-website/Screenshot_2022-02-02_at_19.30.31_eykwka.png" className="grow-img align-self-center me-auto" />
                             </Col>
                         </Row>
+                        <Row>
+                            <div className="mx-auto d-block">
+                                <img src="https://www.westelm.co.uk/we-uk-18-2/extensions/PS/Theme_Westelm/18.2.4/img/West_Elm_logo.svg" style={{ maxWidth: '150px' }} /><img src="https://www.coxandcox.co.uk/static/version1645181634/frontend/CoxAndCox/default/en_GB/images/logo.svg" style={{ maxWidth: '150px' }} /><img src="https://media.made.com/mws-assets/images/MadeLogo.2.svg" style={{ maxWidth: '150px' }} /><img src="https://www.westelm.co.uk/we-uk-18-2/extensions/PS/Theme_Westelm/18.2.4/img/West_Elm_logo.svg" style={{ maxWidth: '150px' }} /><img src="https://www.coxandcox.co.uk/static/version1645181634/frontend/CoxAndCox/default/en_GB/images/logo.svg" style={{ maxWidth: '150px' }} /><img src="https://media.made.com/mws-assets/images/MadeLogo.2.svg" style={{ maxWidth: '150px' }} />
+                            </div>
+                        </Row>
                     </div>
                 </Container>
                 <Container fluid className="container-img">
-                    <Row className="mb-5 py-5 boxes mx-auto">
-                        <Col md={6}>
-
-
-                        </Col>
-                        <Col md={6}>
+                    <Row className="mb-5 py-5 mx-auto">
+                        <div style={{ backgroundColor: "#f8f7f3", maxWidth: "50%", padding: "20px" }} className="mx-auto">
                             <h4 className="header-tag">one flat fee</h4>
                             <h2>Starting at £395, work with us to create a home you love.</h2>
                             <div>
-                                <h3>happiness guarantee</h3>
+                                <h3 className="uppercase cta-header">happiness guarantee</h3>
                                 <p>We work with you until you are completely happy with the designs!</p>
                             </div>
                             <div>
-                                <h3>flexibility</h3>
+                                <h3 className="uppercase cta-header">flexibility</h3>
                                 <p>Receive multiple design &amp; furniture options with your design, all within your budget.</p>
                             </div>
                             <div>
-                                <h3>support</h3>
+                                <h3 className="uppercase cta-header">support</h3>
                                 <p>You'll receive 30 days post design support to answer any questions you may have.</p>
                             </div>
-                            <RouterLink to="/enquire">
-                                <Button className="button" href="/enquire">start your design project <i className="bi bi-arrow-right" /></Button>
-                            </ RouterLink>
-                        </Col>
+                            <div className="text-center">
+                                <RouterLink to="/enquire">
+                                    <Button className="button" href="/enquire">start your design project <i className="bi bi-arrow-right" /></Button>
+                                </ RouterLink>
+                            </div>
+                        </div>
                     </Row>
                 </Container>
                 <Testimonial />
