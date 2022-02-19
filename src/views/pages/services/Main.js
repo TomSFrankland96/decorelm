@@ -93,30 +93,34 @@ export default class Main extends Component {
                             </Col>
                         </Row>
                         <Row>
-                            <div className="mx-auto d-block">
-                                <img src="https://www.westelm.co.uk/we-uk-18-2/extensions/PS/Theme_Westelm/18.2.4/img/West_Elm_logo.svg" style={{ maxWidth: '150px' }} /><img src="https://www.coxandcox.co.uk/static/version1645181634/frontend/CoxAndCox/default/en_GB/images/logo.svg" style={{ maxWidth: '150px' }} /><img src="https://media.made.com/mws-assets/images/MadeLogo.2.svg" style={{ maxWidth: '150px' }} /><img src="https://www.westelm.co.uk/we-uk-18-2/extensions/PS/Theme_Westelm/18.2.4/img/West_Elm_logo.svg" style={{ maxWidth: '150px' }} /><img src="https://www.coxandcox.co.uk/static/version1645181634/frontend/CoxAndCox/default/en_GB/images/logo.svg" style={{ maxWidth: '150px' }} /><img src="https://media.made.com/mws-assets/images/MadeLogo.2.svg" style={{ maxWidth: '150px' }} />
+                            <div className="mt-3 text-center">
+                                <h4 className="header-tag mb-4">partners</h4>
+                                <img src="https://www.westelm.co.uk/we-uk-18-2/extensions/PS/Theme_Westelm/18.2.4/img/West_Elm_logo.svg" style={{ maxWidth: '150px' }} className="mx-3" /><img src="https://www.coxandcox.co.uk/static/version1645181634/frontend/CoxAndCox/default/en_GB/images/logo.svg" style={{ maxWidth: '150px' }} className="mx-3"/><img src="https://media.made.com/mws-assets/images/MadeLogo.2.svg" style={{ maxWidth: '150px' }} className="mx-3"/><img src="https://www.westelm.co.uk/we-uk-18-2/extensions/PS/Theme_Westelm/18.2.4/img/West_Elm_logo.svg" style={{ maxWidth: '150px' }} className="mx-3"/><img src="https://www.coxandcox.co.uk/static/version1645181634/frontend/CoxAndCox/default/en_GB/images/logo.svg" style={{ maxWidth: '150px' }} className="mx-3"/>
+                                <p className="mt-5">Plus 100's more...</p>
                             </div>
                         </Row>
                     </div>
                 </Container>
                 <Container fluid className="container-img">
-                    <Row className="mb-5 py-5 mx-auto">
-                        <div style={{ backgroundColor: "#f8f7f3", maxWidth: "50%", padding: "20px" }} className="mx-auto">
+                    <Row className="py-5 mx-auto">
+                        <div className="mx-auto text-center my-3 cta-box">
                             <h4 className="header-tag">one flat fee</h4>
                             <h2>Starting at £395, work with us to create a home you love.</h2>
-                            <div>
-                                <h3 className="uppercase cta-header">happiness guarantee</h3>
-                                <p>We work with you until you are completely happy with the designs!</p>
-                            </div>
-                            <div>
-                                <h3 className="uppercase cta-header">flexibility</h3>
-                                <p>Receive multiple design &amp; furniture options with your design, all within your budget.</p>
-                            </div>
-                            <div>
-                                <h3 className="uppercase cta-header">support</h3>
-                                <p>You'll receive 30 days post design support to answer any questions you may have.</p>
-                            </div>
-                            <div className="text-center">
+                            <Row className="my-3">
+                                <Col md={6}>
+                                    <div>
+                                        <h3 className="uppercase cta-header">happiness guarantee</h3>
+                                        <p>We work with you until you are completely delighted with the designs.</p>
+                                    </div>
+                                </Col>
+                                <Col md={6}>
+                                    <div>
+                                        <h3 className="uppercase cta-header">flexibility</h3>
+                                        <p>Receive multiple design &amp; furniture options with your design, all within your budget.</p>
+                                    </div>
+                                </Col>
+                            </Row>
+                            <div className="text-center my-3">
                                 <RouterLink to="/enquire">
                                     <Button className="button" href="/enquire">start your design project <i className="bi bi-arrow-right" /></Button>
                                 </ RouterLink>
@@ -125,15 +129,15 @@ export default class Main extends Component {
                     </Row>
                 </Container>
                 <Testimonial />
-                <Container fluid>
-                    <Row className="green banner">
+                <Container fluid style={{backgroundColor: "#f8f7f3"}}>
+                    <Row className="banner">
                         <Col md={7} className="d-flex">
-                            <div className="text-start align-self-center mx-auto text-white p-4 py-5 step-text">
+                            <div className="text-start align-self-center mx-auto py-5 step-text w-75">
                                 <h4 className="header-tag">get started</h4>
                                 <h1>Arrange a free call today to get your project quote.</h1>
                                 <p>We typically book up fast &amp; recommend booking your project ahead of time.</p>
                                 <RouterLink to="/enquire">
-                                    <Button className="button-sec" href="/enquire">start your design project <i className="bi bi-arrow-right"></i></Button>
+                                    <Button className="button" href="/enquire">start your design project <i className="bi bi-arrow-right"></i></Button>
                                 </ RouterLink>
                             </div>
                         </Col>
@@ -145,37 +149,37 @@ export default class Main extends Component {
                 <section>
                     <Container>
                         <Row>
-                            <div className="my-5">
+                            <div>
                                 <h4 className="header-tag">FAQs</h4>
                                 <h2>Have any questions?</h2>
                             </div>
                             <Row>
-                                <Col lg={3} xs={6} className="border-start border-end">
-                                    <div className="my-5">
+                                <Col lg={3} xs={6}>
+                                    <div className="my-5 border p-4">
                                         <h4 className="uppercase r-header mb-3">How much does it cost for each room?</h4>
                                         <p>We charge a simple flat fee per room, starting from £395.</p>
                                     </div>
                                 </Col>
-                                <Col lg={3} xs={6} className="border-end mobile-bd">
-                                    <div className="my-5">
+                                <Col lg={3} xs={6}>
+                                    <div className="my-5 border mx-1 p-4">
                                         <h4 className="uppercase r-header mb-3">How long does it take for each room?</h4>
                                         <p>A typical room design can take anywhere between 1-2 weeks.</p>
                                     </div>
                                 </Col>
-                                <Col lg={3} xs={6} className="border-start border-end">
-                                    <div className="my-5">
+                                <Col lg={3} xs={6}>
+                                    <div className="my-5 border p-4">
                                         <h4 className="uppercase r-header mb-3">What if we don't like the designs?</h4>
                                         <p>We embrace individuality &amp; work with you until you're happy.</p>
                                     </div>
                                 </Col>
                                 <Col lg={3} xs={6}>
-                                    <div className="my-5">
+                                    <div className="my-5 border p-4">
                                         <h4 className="uppercase r-header mb-3">How much budget do I need?</h4>
                                         <p>We're flexible around what budget you have, contact us to learn more.</p>
                                     </div>
                                 </Col>
                             </Row>
-                            <div className="my-5">
+                            <div className="my-3">
                                 <h4 className="uppercase r-header">Want to ask us another question?</h4>
                                 <RouterLink to="/contact">
                                     <Button className="button" href="/contact">contact us now <i className="bi bi-arrow-right"></i></Button>

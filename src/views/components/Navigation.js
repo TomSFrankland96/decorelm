@@ -39,11 +39,16 @@ export default class Navigation extends Component {
                                         <Navbar.Brand href="/"><img src="https://res.cloudinary.com/decorelm/image/upload/v1642960552/decorelm-website/Screenshot_2022-01-08_at_13.57.45_r531o9.png" className="logo mx-3" /></Navbar.Brand>
                                     </RouterLink>
                                 </div>
-                                <RouterLink to="/about-us">
-                                    <Nav.Item>
-                                        <Nav.Link href="about-us">About Us</Nav.Link>
-                                    </Nav.Item>
-                                </RouterLink>
+                                <NavDropdown title="about us" id="basic-nav-dropdown">
+                                    <RouterLink to="/about-us">
+                                        <NavDropdown.Item href="#action/3.1">
+                                            <Nav.Link href="about-us">our story</Nav.Link>
+                                        </NavDropdown.Item>
+                                    </RouterLink>
+                                    <NavDropdown.Item href="#action/3.1">
+                                        <Nav.Link href="about-us">our reviews</Nav.Link>
+                                    </NavDropdown.Item>
+                                </NavDropdown>
                                 <RouterLink to="/blog">
                                     <Nav.Item>
                                         <Nav.Link href="blog">Blog</Nav.Link>
@@ -71,11 +76,16 @@ export default class Navigation extends Component {
                                         <Navbar.Brand href="/"><img src="https://res.cloudinary.com/decorelm/image/upload/v1642960552/decorelm-website/Screenshot_2022-01-08_at_13.57.45_r531o9.png" className="logo mx-3" /></Navbar.Brand>
                                     </RouterLink>
                                 </div>
-                                <RouterLink to="/about-us">
-                                    <Nav.Item>
-                                        <Nav.Link href="about-us">About Us</Nav.Link>
-                                    </Nav.Item>
-                                </RouterLink>
+                                <NavDropdown title="about us" id="basic-nav-dropdown">
+                                    <RouterLink to="/about-us">
+                                        <NavDropdown.Item href="#action/3.1">
+                                            <Nav.Link href="about-us">our story</Nav.Link>
+                                        </NavDropdown.Item>
+                                    </RouterLink>
+                                    <NavDropdown.Item href="#action/3.1">
+                                        <Nav.Link href="about-us">our reviews</Nav.Link>
+                                    </NavDropdown.Item>
+                                </NavDropdown>
                                 <RouterLink to="/blog">
                                     <Nav.Item>
                                         <Nav.Link href="blog">Blog</Nav.Link>
@@ -97,7 +107,7 @@ export default class Navigation extends Component {
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
-            </div>
+            </div >
         )
     }
 }

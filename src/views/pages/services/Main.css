@@ -22,6 +22,12 @@ img{
     margin-top: 20px;
 }
 
+.cta-box{
+    background-color: rgba(248, 247, 243, 0.75);
+    max-width: 50%;
+    padding: 30px;
+}
+
 @media only screen and (max-device-width: 480px) {
     /* styles for mobile browsers smaller than 480px; (iPhone) */
     .step-text{
