@@ -20,7 +20,7 @@ export default class Main extends Component {
             <div>
                 <OurWork />
                 <Container fluid style={{ backgroundColor: "#f8f7f38c" }} className="py-5">
-                    <div className="w-75 mx-auto">
+                    <div className="steps mx-auto">
                         <Row>
                             <div className="title mx-auto text-center">
                                 <h4 className="header-tag">how it works</h4>
@@ -95,7 +95,7 @@ export default class Main extends Component {
                         <Row>
                             <div className="mt-3 text-center">
                                 <h4 className="header-tag mb-4">partners</h4>
-                                <img src="https://www.westelm.co.uk/we-uk-18-2/extensions/PS/Theme_Westelm/18.2.4/img/West_Elm_logo.svg" style={{ maxWidth: '150px' }} className="mx-3" /><img src="https://www.coxandcox.co.uk/static/version1645181634/frontend/CoxAndCox/default/en_GB/images/logo.svg" style={{ maxWidth: '150px' }} className="mx-3"/><img src="https://media.made.com/mws-assets/images/MadeLogo.2.svg" style={{ maxWidth: '150px' }} className="mx-3"/><img src="https://www.westelm.co.uk/we-uk-18-2/extensions/PS/Theme_Westelm/18.2.4/img/West_Elm_logo.svg" style={{ maxWidth: '150px' }} className="mx-3"/><img src="https://www.coxandcox.co.uk/static/version1645181634/frontend/CoxAndCox/default/en_GB/images/logo.svg" style={{ maxWidth: '150px' }} className="mx-3"/>
+                                <img src="https://www.westelm.co.uk/we-uk-18-2/extensions/PS/Theme_Westelm/18.2.4/img/West_Elm_logo.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://www.coxandcox.co.uk/static/version1645181634/frontend/CoxAndCox/default/en_GB/images/logo.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2"/><img src="https://media.made.com/mws-assets/images/MadeLogo.2.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2"/><img src="https://www.westelm.co.uk/we-uk-18-2/extensions/PS/Theme_Westelm/18.2.4/img/West_Elm_logo.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2"/><img src="https://www.coxandcox.co.uk/static/version1645181634/frontend/CoxAndCox/default/en_GB/images/logo.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2"/>
                                 <p className="mt-5">Plus 100's more...</p>
                             </div>
                         </Row>
@@ -153,27 +153,27 @@ export default class Main extends Component {
                                 <h4 className="header-tag">FAQs</h4>
                                 <h2>Have any questions?</h2>
                             </div>
-                            <Row>
-                                <Col lg={3} xs={6}>
-                                    <div className="my-5 border p-4">
+                            <Row className="my-4">
+                                <Col lg={3} xs={12}>
+                                    <div className="my-2 border p-4">
                                         <h4 className="uppercase r-header mb-3">How much does it cost for each room?</h4>
                                         <p>We charge a simple flat fee per room, starting from £395.</p>
                                     </div>
                                 </Col>
-                                <Col lg={3} xs={6}>
-                                    <div className="my-5 border mx-1 p-4">
+                                <Col lg={3} xs={12}>
+                                    <div className="my-2 border mx-1 p-4">
                                         <h4 className="uppercase r-header mb-3">How long does it take for each room?</h4>
-                                        <p>A typical room design can take anywhere between 1-2 weeks.</p>
+                                        <p>A typical room design can take anywhere between 7-14 days.</p>
                                     </div>
                                 </Col>
-                                <Col lg={3} xs={6}>
-                                    <div className="my-5 border p-4">
+                                <Col lg={3} xs={12}>
+                                    <div className="my-2 border p-4">
                                         <h4 className="uppercase r-header mb-3">What if we don't like the designs?</h4>
                                         <p>We embrace individuality &amp; work with you until you're happy.</p>
                                     </div>
                                 </Col>
-                                <Col lg={3} xs={6}>
-                                    <div className="my-5 border p-4">
+                                <Col lg={3} xs={12}>
+                                    <div className="my-2 border p-4">
                                         <h4 className="uppercase r-header mb-3">How much budget do I need?</h4>
                                         <p>We're flexible around what budget you have, contact us to learn more.</p>
                                     </div>

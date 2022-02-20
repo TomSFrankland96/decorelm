@@ -54,7 +54,7 @@ export default function SubscribeForm() {
     return (
         <div>
             {isFormSubmitted ? (
-                <Container className="shadow w-50 py-5">
+                <Container className="shadow form py-5">
                     <Row>
                         <Form noValidate validated={validated} onSubmit={handleSubmit} className="px-4 mx-auto">
                             <Row className="my-4 text-start">
@@ -84,7 +84,7 @@ export default function SubscribeForm() {
                     </Row>
                 </Container>
             ) : (
-                <Container className="shadow w-50 py-5">
+                <Container className="shadow form py-5">
                     <Row>
                         <div className="mx-auto">Thank you for your enquiry! We'll be in touch soon.</div>
                     </Row>

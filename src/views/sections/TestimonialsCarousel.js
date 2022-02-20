@@ -8,6 +8,8 @@ import {
     Row
 } from "react-bootstrap"
 
+import './Testimonials.css'
+
 function TestimonialsCarousel() {
     const [index, setIndex] = useState(0);
     const handleSelect = (selectedIndex, e) => {
@@ -45,7 +47,7 @@ function TestimonialsCarousel() {
                     </Col>
                 </Row>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item >
                 <Row>
                     <Col md={6}>
                         <div className="text-start my-3 p-5 border">

@@ -4,6 +4,7 @@ import {
     Card,
 } from 'react-bootstrap'
 
+
 export default class Single extends Component {
     render() {
         return (

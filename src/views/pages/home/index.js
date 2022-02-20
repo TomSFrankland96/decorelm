@@ -24,10 +24,10 @@ export default class Home extends Component {
                         "interior design studio"
                     }
                     header={
-                        "Design that creates forever homes"
+                        "Meticulous design that creates forever homes"
                     }
                     subheader={
-                        "Decorelm encompasses meticulous design to put the client at the core & create homes for a lifetime"
+                        "Welcome to Decorelm Design Studio! Encompassing better design, putting the client at the core & create homes for a lifetime."
                     }
                     page={this.state.page}
                 />

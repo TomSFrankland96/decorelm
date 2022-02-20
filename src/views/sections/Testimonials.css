@@ -15,3 +15,18 @@
 q{
     font-size: 1.2rem;
 }
+
+
+@media only screen and (max-device-width: 480px) {
+    .testimonial-box{
+        max-width: 90%;
+    }
+    
+}
+
+@media only screen and (min-device-width: 700px) {
+    .testimonial-box{
+        max-width: 70%;
+    }
+
+}

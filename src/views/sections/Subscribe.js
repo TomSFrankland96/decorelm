@@ -13,11 +13,11 @@ export default class Subscribe extends Component {
             <section className="d-flex Subcribe">
                 <Container fluid className="align-self-center">
                     <Row className="brown">
-                        <Col className="p-5 d-flex">
-                            <div className="align-self-center">
+                        <Col className="d-flex">
+                            <div className="align-self-center subscribe-box m-auto my-5">
                                 <div className="text-start">
                                     <h4 className="header-tag">subscribe</h4>
-                                    <h2>Subscribe to receive free design tips &amp; product finds</h2>
+                                    <h2 className="mb-5">Subscribe to receive free design tips &amp; product finds</h2>
                                     <SubscribeForm />
                                 </div>
                             

@@ -12,7 +12,7 @@ export default class Testimonial extends Component {
         return (
             <section>
                 <Container fluid className="align-self-center green text-white my-5">
-                    <Row className="py-5 w-75 mx-auto">
+                    <Row className="py-5 testimonial-box mx-auto">
                         <div className="align-self-center cta-padding">
                             <div className="text-center">
                                 <h4 className="header-tag">testimonials</h4>

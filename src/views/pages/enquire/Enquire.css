@@ -9,4 +9,13 @@ sup{
     .enquire-text{
         width: 55%;
     }
+    .form{
+        width: 51%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .form{
+        width: 90%;
+    }
 }

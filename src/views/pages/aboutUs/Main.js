@@ -6,13 +6,15 @@ import {
     Col
 } from 'react-bootstrap'
 
+import "./aboutUs.css"
+
 export default class Main extends Component {
     render() {
         return (
             <Container>
                 <Row>
                     <Col md={6} className="d-flex">
-                        <div className="align-self-center">
+                        <div className="align-self-center about-text mx-auto my-3">
                             <h4 className="header-tag">better for you</h4>
                             <h3 className="mb-4">Design that makes the difference</h3>
                             <p>Inspired by travelling the world and exploring different cultures, our Head Designer, Kerry, realised that a home should authentically reflect the story and personality of the people that live in it.<br /><br />
@@ -23,15 +25,15 @@ export default class Main extends Component {
                         </div>
                     </Col>
                     <Col md={6}>
-                        <img className="w-75" src="https://res.cloudinary.com/decorelm/image/upload/v1644664558/decorelm-website/photo-1557308917-ef00c7059bfd_nsbrlu.jpg" />
+                        <img className="w-75 mx-auto d-block" src="https://res.cloudinary.com/decorelm/image/upload/v1644664558/decorelm-website/photo-1557308917-ef00c7059bfd_nsbrlu.jpg" />
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={6}>
-                        <img className="w-75" src="https://res.cloudinary.com/decorelm/image/upload/v1643743956/decorelm-website/benjamin-elliott-4zbITfP0-jM-unsplash_ql4vzf.jpg" />
+                    <Col md={6} xs={{ order: 2, span: 12 }} md={{ order: 12, span: 6 }}>
+                        <img className="w-75 mx-auto d-block" src="https://res.cloudinary.com/decorelm/image/upload/v1643743956/decorelm-website/benjamin-elliott-4zbITfP0-jM-unsplash_ql4vzf.jpg" />
                     </Col>
-                    <Col md={6} className="d-flex">
-                        <div className="align-self-center">
+                    <Col md={6} className="d-flex" xs={{ order: 1, span: 12 }} md={{ order: 1, span: 6 }}>
+                        <div className="align-self-center about-text mx-auto my-4">
                             <h4 className="header-tag">better for the planet</h4>
                             <h3 className="mb-4">Greener choices, no design compromise</h3>
                             <p>Inspired by travelling the world and exploring different cultures, our Head Designer, Kerry, realised that a home should authentically reflect the story and personality of the people that live in it.<br /><br />

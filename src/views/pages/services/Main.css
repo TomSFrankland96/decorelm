@@ -22,11 +22,7 @@ img{
     margin-top: 20px;
 }
 
-.cta-box{
-    background-color: rgba(248, 247, 243, 0.75);
-    max-width: 50%;
-    padding: 30px;
-}
+
 
 @media only screen and (max-device-width: 480px) {
     /* styles for mobile browsers smaller than 480px; (iPhone) */
@@ -45,6 +41,14 @@ img{
     .step-text{
         padding: 10% 0%;
     }
+    .steps{
+        max-width: 90%
+    }
+    .cta-box{
+        background-color: rgba(248, 247, 243, 0.75);
+        max-width: 90%;
+        padding: 30px;
+    }
 }
 
 @media only screen and (min-width: 700px) {
@@ -56,6 +60,14 @@ img{
     }
     .border-start{
         border-left: none !important;
+    }
+    .steps{
+        max-width: 80%
+    }
+    .cta-box{
+        background-color: rgba(248, 247, 243, 0.75);
+        max-width: 50%;
+        padding: 30px;
     }
 }
 

@@ -6,6 +6,7 @@ import {
 } from 'react-bootstrap'
 
 import Single from './Single'
+import './OurWork.css'
 
 export default class OurWork extends Component {
     render() {
@@ -45,7 +46,7 @@ export default class OurWork extends Component {
                                 link="www.google.com"
                             />
                         </Col>
-                        <Col lg={3} md={6}>
+                        <Col lg={3} md={6} className="desktop-single">
                             <Single />
                         </Col>
                     </Row>
