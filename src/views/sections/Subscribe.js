@@ -24,7 +24,7 @@ export default class Subscribe extends Component {
                             </div>
                         </Col>
                         <Col md={5} className="d-flex">
-                            <div className="align-self-center w-75">
+                            <div className="align-self-end w-100 m-0">
                                 <img src="https://res.cloudinary.com/decorelm/image/upload/v1642960553/decorelm-website/Screenshot_2022-01-09_at_15.44.22_rpzq4o.jpg" />
                             </div>
                         </Col>

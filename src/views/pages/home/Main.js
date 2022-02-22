@@ -30,7 +30,7 @@ export default class Main extends Component {
                             <div className="p-3">
                                 <h4 className="header-tag">home design services</h4>
                                 <h2>Let us design your dream home</h2>
-                                <p>If you are thinking about, or in the middle of, styling a room (or your whole home!)</p>
+                                <p>Whether you're thinking about, or in the middle of, changing up a room or your entire home!</p>
                             </div>
                             <Col md={6}>
                                 <img src="https://res.cloudinary.com/decorelm/image/upload/v1642959603/decorelm-website/Consultation_tcvmqq.png" />

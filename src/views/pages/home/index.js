@@ -16,7 +16,7 @@ export default class Home extends Component {
         return (
             <div>
                 <Header
-                    img={"https://res.cloudinary.com/decorelm/image/upload/v1644055136/decorelm-website/istockphoto-1191254426-170667a_p4pxsn.jpg"}
+                    img={"https://media.istockphoto.com/photos/stylish-interior-of-living-room-with-mock-up-poster-frame-wooden-picture-id1305957861"}
                     imgText={
                         "Better Design, Better Planet"
                     }
@@ -27,7 +27,7 @@ export default class Home extends Component {
                         "Meticulous design that creates forever homes"
                     }
                     subheader={
-                        "Welcome to Decorelm Design Studio! Encompassing better design, putting the client at the core & create homes for a lifetime."
+                        "Decorelm aims for longevity and timelessness when it comes to interiors by creating beautiful homes designed to last a lifetime."
                     }
                     page={this.state.page}
                 />

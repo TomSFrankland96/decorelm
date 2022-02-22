@@ -32,12 +32,12 @@ export default class Main extends Component {
                                 <div className="text-start align-self-center ms-auto step-text shadow bg-white w-100 p-5 m-0">
                                     <h4 className="header-tag">step 01</h4>
                                     <h3>The Details</h3>
-                                    <p>We'll survey your room by viewing your images &amp; measurements, then chat with you to understand your unique needs &amp; preferences.</p>
+                                    <p>We’ll start by viewing images &amp; measurements of your room then arrange a chat to understand your unique preferences and requirements</p>
                                     <hr />
                                 </div>
                             </Col>
                             <Col md={6} className="d-flex m-0 g-0">
-                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1644068538/decorelm-website/Mood_Board_x2bwzr.png" className="grow-img align-self-center" />
+                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1645564787/decorelm-website/Shopping_List_rlj1un.png" className="grow-img align-self-center" />
                             </Col>
                         </Row>
                         <Row>
@@ -48,7 +48,7 @@ export default class Main extends Component {
                                 <div className="text-start align-self-center ms-auto step-text shadow bg-white w-100 p-5 m-0">
                                     <h4 className="header-tag">step 02</h4>
                                     <h3>The Direction</h3>
-                                    <p>Your designer will present some mood boards &amp; inspiration images to bring your ideas together &amp; guide the design direction.</p>
+                                    <p>Your designer, Kerry, will then present some initial ideas in an inspiration mood board to guide the design’s direction.</p>
                                     <hr />
                                 </div>
                             </Col>
@@ -58,7 +58,7 @@ export default class Main extends Component {
                                 <div className="text-start align-self-center ms-auto step-text shadow bg-white w-100 p-5 m-0">
                                     <h4 className="header-tag">step 03</h4>
                                     <h3>The Designs</h3>
-                                    <p>You'll get a detailed document containing the room layout plans, designer notes &amp; recommended furniture.</p>
+                                    <p>You’ll receive a detailed design concept containing the room design, layout plans and designer’s notes.</p>
                                     <hr />
                                 </div>
                             </Col>
@@ -74,7 +74,7 @@ export default class Main extends Component {
                                 <div className="text-start align-self-center ms-auto step-text shadow bg-white w-100 p-5 m-0">
                                     <h4 className="header-tag">step 04</h4>
                                     <h3>Visualise &amp; Explore</h3>
-                                    <p>View your 3D visualisation of your room with the design implemented &amp; receive access to your own sourcing list with the items used in the design.</p>
+                                    <p>See your new space with a photo-realistic 3D tour that helps you visualise the spacing &amp; layout.</p>
                                     <a href="https://floorplanner.com/360vr/54038742-1633091109" className="button-blog" target="_blank">see example <i className="bi bi-arrow-right"></i></a>
                                 </div>
                             </Col>
@@ -95,7 +95,7 @@ export default class Main extends Component {
                         <Row>
                             <div className="mt-3 text-center">
                                 <h4 className="header-tag mb-4">partners</h4>
-                                <img src="https://www.westelm.co.uk/we-uk-18-2/extensions/PS/Theme_Westelm/18.2.4/img/West_Elm_logo.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://www.coxandcox.co.uk/static/version1645181634/frontend/CoxAndCox/default/en_GB/images/logo.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2"/><img src="https://media.made.com/mws-assets/images/MadeLogo.2.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2"/><img src="https://www.westelm.co.uk/we-uk-18-2/extensions/PS/Theme_Westelm/18.2.4/img/West_Elm_logo.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2"/><img src="https://www.coxandcox.co.uk/static/version1645181634/frontend/CoxAndCox/default/en_GB/images/logo.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2"/>
+                                <img src="https://www.westelm.co.uk/we-uk-18-2/extensions/PS/Theme_Westelm/18.2.4/img/West_Elm_logo.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://www.coxandcox.co.uk/static/version1645181634/frontend/CoxAndCox/default/en_GB/images/logo.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2"/><img src="https://media.made.com/mws-assets/images/MadeLogo.2.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2"/><img src="https://res.cloudinary.com/decorelm/image/upload/v1645563175/decorelm-website/nkuku_sjosad.png" style={{ maxWidth: '150px' }} className="mx-3 my-2"/><img src="https://res.cloudinary.com/decorelm/image/upload/v1645563331/decorelm-website/la-redoute-1_dh8t5t.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2"/>
                                 <p className="mt-5">Plus 100's more...</p>
                             </div>
                         </Row>
@@ -131,7 +131,7 @@ export default class Main extends Component {
                 <Testimonial />
                 <Container fluid style={{backgroundColor: "#f8f7f3"}}>
                     <Row className="banner">
-                        <Col md={7} className="d-flex">
+                        <Col md={6} className="d-flex">
                             <div className="text-start align-self-center mx-auto py-5 step-text w-75">
                                 <h4 className="header-tag">get started</h4>
                                 <h1>Arrange a free call today to get your project quote.</h1>
@@ -141,8 +141,8 @@ export default class Main extends Component {
                                 </ RouterLink>
                             </div>
                         </Col>
-                        <Col md={5} className="">
-                            <img src="https://res.cloudinary.com/decorelm/image/upload/v1644053752/decorelm-website/IMG_4606_sd5w9w.jpg" />
+                        <Col md={6}>
+                            <div className="cta-img"></div>
                         </Col>
                     </Row>
                 </Container>

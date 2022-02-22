@@ -22,6 +22,12 @@ img{
     margin-top: 20px;
 }
 
+.cta-img{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://media.istockphoto.com/photos/happy-young-couple-planning-budget-reading-good-news-picture-id1224986960");
+    background-position: center;
+}
 
 
 @media only screen and (max-device-width: 480px) {
