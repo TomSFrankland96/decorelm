@@ -30,7 +30,7 @@ export default class Main extends Component {
                 </Row>
                 <Row>
                     <Col md={6} xs={{ span: 12, order: 2 }} md={{ span: 6, order: 1 }}>
-                        <img className="w-75 mx-auto d-block" src="https://res.cloudinary.com/decorelm/image/upload/v1643743956/decorelm-website/benjamin-elliott-4zbITfP0-jM-unsplash_ql4vzf.jpg" />
+                        <img className="w-75 mx-auto d-block" src="https://media.istockphoto.com/photos/mockup-frame-in-interior-background-room-in-light-pastel-colors-picture-id1307183139" />
                     </Col>
                     <Col md={6} className="d-flex" xs={{ span: 12, order: 1 }} md={{ span: 6, order: 2 }}>
                         <div className="align-self-center about-text mx-auto my-4">

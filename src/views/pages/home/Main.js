@@ -32,11 +32,11 @@ export default class Main extends Component {
                                 <h2>Let us design your dream home</h2>
                                 <p>Whether you're thinking about, or in the middle of, changing up a room or your entire home!</p>
                             </div>
-                            <Col md={6}>
-                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1642959603/decorelm-website/Consultation_tcvmqq.png" />
+                            <Col md={6} className="g-0">
+                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1645643917/decorelm-website/istockphoto-1307863491-612x612_qii0fv.jpg" />
                             </Col>
-                            <Col md={6} className="d-flex">
-                                <div className="align-self-center text-start p-5">
+                            <Col md={6} className="d-flex g-0">
+                                <div className="align-self-center text-start p-5 shadow">
                                     <h3>Online Home Design Services</h3>
                                     <p>Collaborate with a professional interior designer to help bring your design to life and avoid making costly errors when decorating your space.</p>
                                     <RouterLink to="/services">

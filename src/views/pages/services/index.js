@@ -24,10 +24,10 @@ export default class Services extends Component {
                         "collaborate online with us"
                     }
                     header={
-                        "Our home design service brings your dream home to life."
+                        "Our online interior design service brings your dream home to life."
                     }
                     subheader={
-                        "Whether you're refreshing a room or redesigning your entire home, collaborate with a professional interior design online to get your dream home."
+                        "Whether you're refreshing a room or redesigning your entire home, collaborate with a professional interior design online to get your dream home for one flat fee."
                     }
                     page={this.state.page}
                 />

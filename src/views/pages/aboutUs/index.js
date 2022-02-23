@@ -11,7 +11,7 @@ export default class AboutUs extends Component {
         return (
             <>
                 <Header
-                    img={"https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2000&q=80"}
+                    img={"https://media.istockphoto.com/photos/white-cozy-living-room-interior-coastal-boho-style-picture-id1282414119"}
                     imgText={
                         "About Us"
                     }

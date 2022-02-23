@@ -45,8 +45,8 @@ export default class Navigation extends Component {
                                             <Nav.Link href="about-us">our story</Nav.Link>
                                         </NavDropdown.Item>
                                     </RouterLink>
-                                    <NavDropdown.Item href="#action/3.1">
-                                        <Nav.Link href="about-us">our reviews</Nav.Link>
+                                    <NavDropdown.Item href="https://www.bark.com/en/gb/company/decorelm-design-studio/RnVay/" target="_blank">
+                                        <Nav.Link href="https://www.bark.com/en/gb/company/decorelm-design-studio/RnVay/" target="_blank">our reviews</Nav.Link>
                                     </NavDropdown.Item>
                                 </NavDropdown>
                                 <RouterLink to="/blog">
@@ -82,8 +82,8 @@ export default class Navigation extends Component {
                                             <Nav.Link href="about-us">our story</Nav.Link>
                                         </NavDropdown.Item>
                                     </RouterLink>
-                                    <NavDropdown.Item href="#action/3.1">
-                                        <Nav.Link href="about-us">our reviews</Nav.Link>
+                                    <NavDropdown.Item href="https://www.bark.com/en/gb/company/decorelm-design-studio/RnVay/" target="_blank">
+                                        <Nav.Link href="https://www.bark.com/en/gb/company/decorelm-design-studio/RnVay/" target="_blank">our reviews</Nav.Link>
                                     </NavDropdown.Item>
                                 </NavDropdown>
                                 <RouterLink to="/blog">
