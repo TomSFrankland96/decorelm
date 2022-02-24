@@ -25,7 +25,7 @@ export default class Main extends Component {
                 <OurWork />
                 <Testimonial />
                 <section className="mt-5 d-block">
-                    <Container>
+                    <Container className="py-5">
                         <Row>
                             <div className="p-3">
                                 <h4 className="header-tag">home design services</h4>

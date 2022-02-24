@@ -27,7 +27,7 @@ function TestimonialsCarousel() {
                                         <q>I took a help from Tom &amp; Kerry for the living plus dining room suggestions. Kerry has done such an outstan...
                                         </q>
                                     </blockquote>
-                                    <figcaption>—Gagan Deep</figcaption><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i> <p className="align-self-end text-white text-end">Read More<i class="bi bi-arrow-right ms-3" /></p>
+                                    <figcaption>—Gagan</figcaption><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i> <p className="align-self-end text-white text-end">Read More<i class="bi bi-arrow-right ms-3" /></p>
                                 </figure>
                             </a>
                         </div>
@@ -37,10 +37,10 @@ function TestimonialsCarousel() {
                             <a href="https://www.bark.com/en/gb/company/decorelm-design-studio/RnVay/" target="_blank" className="t-link">
                                 <figure className="text-white">
                                     <blockquote>
-                                        <q>Great from start to finish. Highly organised and one gets a lot of value for money compared to in-person designers...
+                                        <q>Great from start to finish. Highly organised and one gets a lot of value for money compared to in-person...
                                         </q>
                                     </blockquote>
-                                    <figcaption>—Greg B</figcaption><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i> <p className="align-self-end text-white text-end">Read More<i class="bi bi-arrow-right ms-3" /></p>
+                                    <figcaption>—Greg</figcaption><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i> <p className="align-self-end text-white text-end">Read More<i class="bi bi-arrow-right ms-3" /></p>
                                 </figure>
                             </a>
                         </div>
@@ -57,7 +57,7 @@ function TestimonialsCarousel() {
                                         <q>I have never worked with an interior designer before. I found Kerry very helpful, and always quick to respond...
                                         </q>
                                     </blockquote>
-                                    <figcaption>—Mary D'Albert</figcaption><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i> <p className="align-self-end text-white text-end">Read More<i class="bi bi-arrow-right ms-3" /></p>
+                                    <figcaption>—Mary</figcaption><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i> <p className="align-self-end text-white text-end">Read More<i class="bi bi-arrow-right ms-3" /></p>
                                 </figure>
                             </a>
                         </div>
@@ -84,10 +84,10 @@ function TestimonialsCarousel() {
                             <a href="https://www.bark.com/en/gb/company/decorelm-design-studio/RnVay/" target="_blank" className="t-link">
                                 <figure className="text-white">
                                     <blockquote>
-                                        <q>I have been so impressed with the support and service I have received from Kerry. I have made some dreadful mistakes...
+                                        <q>I have been so impressed with the support and service I have received from Kerry. I have made some dreadful...
                                         </q>
                                     </blockquote>
-                                    <figcaption>—Denice Wray</figcaption><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i> <p className="align-self-end text-white text-end">Read More<i class="bi bi-arrow-right ms-3" /></p>
+                                    <figcaption>—Denice</figcaption><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i> <p className="align-self-end text-white text-end">Read More<i class="bi bi-arrow-right ms-3" /></p>
                                 </figure>
                             </a>
                         </div>
@@ -100,7 +100,7 @@ function TestimonialsCarousel() {
                                         <q>Amazing and fast service, once I had paid I was quickly introduced to ideas for my project. I had a tricky space...
                                         </q>
                                     </blockquote>
-                                    <figcaption>—Fatima Patel</figcaption><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i> <p className="align-self-end text-white text-end">Read More<i class="bi bi-arrow-right ms-3" /></p>
+                                    <figcaption>—Fatima</figcaption><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i> <p className="align-self-end text-white text-end">Read More<i class="bi bi-arrow-right ms-3" /></p>
                                 </figure>
                             </a>
                         </div>

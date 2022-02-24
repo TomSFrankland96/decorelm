@@ -19,6 +19,8 @@ import Work from './views/pages/work'
 import Enquire from './views/pages/enquire'
 import AboutUs from './views/pages/aboutUs'
 
+import Tiziana from './views/pages/work/projects/Tiziana'
+
 
 
 class App extends Component {
@@ -31,7 +33,8 @@ class App extends Component {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/services' element={<Services />} />
-            <Route path='/work' element={<Work />} />
+            <Route path='/projects' element={<Work />} />
+            <Route path='/projects/tiziana' exact element={<Tiziana />} />
             <Route path='/enquire' element={<Enquire />} />
             <Route path='/about-us' element={<AboutUs />} />
           </Routes>

@@ -16,7 +16,7 @@ export default class Home extends Component {
         return (
             <div>
                 <Header
-                    img={"https://media.istockphoto.com/photos/stylish-interior-of-living-room-with-mock-up-poster-frame-wooden-picture-id1305957861"}
+                    img={"https://res.cloudinary.com/decorelm/image/upload/v1645730518/decorelm-website/spacejoy-EVjqpcn79AM-unsplash_kqith7.jpg"}
                     imgText={
                         "Better Design, Better Planet"
                     }

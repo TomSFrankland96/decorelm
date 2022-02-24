@@ -29,9 +29,9 @@ export default class Navigation extends Component {
                                         <Nav.Link href="/services">Design Services</Nav.Link>
                                     </Nav.Item>
                                 </RouterLink>
-                                <RouterLink to="/work">
+                                <RouterLink to="/projects">
                                     <Nav.Item>
-                                        <Nav.Link href="/work">Projects</Nav.Link>
+                                        <Nav.Link href="/projects">Projects</Nav.Link>
                                     </Nav.Item>
                                 </RouterLink>
                                 <div className="brand-desktop">
@@ -66,9 +66,9 @@ export default class Navigation extends Component {
                                         <Nav.Link href="/services">Design Services</Nav.Link>
                                     </Nav.Item>
                                 </RouterLink>
-                                <RouterLink to="/work">
+                                <RouterLink to="/projects">
                                     <Nav.Item>
-                                        <Nav.Link href="/work">Projects</Nav.Link>
+                                        <Nav.Link href="/projects">Projects</Nav.Link>
                                     </Nav.Item>
                                 </RouterLink>
                                 <div className="brand-desktop">
