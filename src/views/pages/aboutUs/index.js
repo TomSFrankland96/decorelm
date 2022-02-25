@@ -11,7 +11,7 @@ export default class AboutUs extends Component {
         return (
             <>
                 <Header
-                    img={"https://media.istockphoto.com/photos/white-cozy-living-room-interior-coastal-boho-style-picture-id1282414119"}
+                    img={"https://res.cloudinary.com/decorelm/image/upload/v1645818958/decorelm-website/IMG_4742_bwdaev.jpg"}
                     imgText={
                         "About Us"
                     }

@@ -37,12 +37,12 @@ export default class Main extends Component {
                                 </div>
                             </Col>
                             <Col md={6} className="d-flex m-0 g-0">
-                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1645638621/decorelm-website/Direction_myht71.png" className="grow-img align-self-center" />
+                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1645820007/decorelm-website/Dir_epecb4.png" className="grow-img align-self-center" />
                             </Col>
                         </Row>
                         <Row>
                             <Col md={6} xs={{ order: 1, span: 12 }} md={{ order: 12, span: 6 }} className="d-flex m-width m-0 g-0">
-                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1645638895/decorelm-website/Inspo_otbmtw.png" className="grow-img align-self-center ms-auto" />
+                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1645819703/decorelm-website/Direction_cved8r.png" className="grow-img align-self-center ms-auto" />
                             </Col>
                             <Col md={6} xs={{ order: 12, span: 12 }} md={{ order: 1, span: 6 }} className="d-flex m-width m-0 g-0">
                                 <div className="text-start align-self-center ms-auto step-text shadow bg-white w-100 p-5 m-0">
@@ -64,12 +64,12 @@ export default class Main extends Component {
                                 </div>
                             </Col>
                             <Col md={6} className="d-flex m-0 g-0">
-                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1645639422/decorelm-website/design_ihkzzn.png" className="grow-img align-self-center me-auto" />
+                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1645819448/decorelm-website/Design_brx5yh.png" className="grow-img align-self-center me-auto" />
                             </Col>
                         </Row>
                         <Row>
                             <Col md={6} xs={{ order: 1, span: 12 }} md={{ order: 12, span: 6 }} className="d-flex m-0 g-0">
-                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1645639752/decorelm-website/3d_nyna1w.png" className="grow-img align-self-center ms-auto" />
+                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1645819370/decorelm-website/Visualise_r5c4vg.png" className="grow-img align-self-center ms-auto" />
                             </Col>
                             <Col md={6} xs={{ order: 12, span: 12 }} md={{ order: 1, span: 6 }} className="d-flex m-0 g-0">
                                 <div className="text-start align-self-center ms-auto step-text shadow bg-white w-100 p-5 m-0">
