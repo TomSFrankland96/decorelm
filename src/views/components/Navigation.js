@@ -12,7 +12,7 @@ export default class Navigation extends Component {
         return (
             <div className="sticky-top">
                 <Alert
-                    alert="bookings now available for march"
+                    alert={"bookings now available for march"}
                 />
                 <Navbar bg="white" expand="lg" collapseOnSelect className="shadow py-3">
                     <Container>
@@ -41,7 +41,7 @@ export default class Navigation extends Component {
                                 </div>
                                 <NavDropdown title="about us" id="basic-nav-dropdown">
                                     <RouterLink to="/about-us">
-                                        <NavDropdown.Item href="#action/3.1">
+                                        <NavDropdown.Item href="/about-us">
                                             <Nav.Link href="about-us">our story</Nav.Link>
                                         </NavDropdown.Item>
                                     </RouterLink>
@@ -49,17 +49,12 @@ export default class Navigation extends Component {
                                         <Nav.Link href="https://www.bark.com/en/gb/company/decorelm-design-studio/RnVay/" target="_blank">our reviews</Nav.Link>
                                     </NavDropdown.Item>
                                 </NavDropdown>
-                                <RouterLink to="/blog">
-                                    <Nav.Item>
-                                        <Nav.Link href="blog">Blog</Nav.Link>
-                                    </Nav.Item>
-                                </RouterLink>
-                                <Nav.Item href="https://www.bark.com/en/gb/company/decorelm-design-studio/RnVay/" target="_blank">
-                                    <Nav.Link href="https://www.bark.com/en/gb/company/decorelm-design-studio/RnVay/" target="_blank">reviews</Nav.Link>
+                                <Nav.Item>
+                                    <Nav.Link href="https://blog.decorelm.com">Blog</Nav.Link>
                                 </Nav.Item>
                                 <div className="highlight cta-mobile w-75">
                                     <RouterLink to="/enquire">
-                                        <Nav.Link href="enquire" className="ms-5">request availability <i class="bi bi-arrow-right"></i></Nav.Link>
+                                        <Nav.Link href="enquire" className="ms-5">enquire about design service <i class="bi bi-arrow-right"></i></Nav.Link>
                                     </RouterLink>
                                 </div>
                             </Nav>
@@ -81,25 +76,23 @@ export default class Navigation extends Component {
                                 </div>
                                 <NavDropdown title="about us" id="basic-nav-dropdown">
                                     <RouterLink to="/about-us">
-                                        <NavDropdown.Item>Our Story</NavDropdown.Item>
+                                        <NavDropdown.Item href="/about-us">Our Story</NavDropdown.Item>
                                     </RouterLink>
-                                    <NavDropdown.Item href="https://bark.com" target="_blank">Our Reviews</NavDropdown.Item>
+                                    <NavDropdown.Item href="https://www.bark.com/en/gb/company/decorelm-design-studio/RnVay/" target="_blank">Our Reviews</NavDropdown.Item>
                                 </NavDropdown>
                                 <div className="me-5">
-                                    <RouterLink to="/blog">
-                                        <Nav.Item>
-                                            <Nav.Link href="blog">Blog</Nav.Link>
-                                        </Nav.Item>
-                                    </RouterLink>
+                                    <Nav.Item>
+                                        <Nav.Link href="https://blog.decorelm.com">Blog</Nav.Link>
+                                    </Nav.Item>
                                 </div>
                                 <div className="highlight cta-mobile">
                                     <RouterLink to="/enquire">
-                                        <Nav.Link href="enquire">start your design project <i class="bi bi-arrow-right"></i></Nav.Link>
+                                        <Nav.Link href="enquire">enquire about design service <i class="bi bi-arrow-right"></i></Nav.Link>
                                     </RouterLink>
                                 </div>
                                 <div className="highlight ms-5">
                                     <RouterLink to="/enquire">
-                                        <Nav.Link href="enquire">start your design project <i class="bi bi-arrow-right"></i></Nav.Link>
+                                        <Nav.Link href="enquire">enquire about design service <i class="bi bi-arrow-right"></i></Nav.Link>
                                     </RouterLink>
                                 </div>
                             </Nav>

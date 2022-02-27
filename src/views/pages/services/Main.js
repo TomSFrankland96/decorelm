@@ -34,17 +34,17 @@ export default class Main extends Component {
                                 <div className="text-start align-self-center ms-auto step-text shadow bg-white w-100 p-5 m-0">
                                     <h4 className="header-tag">step 01</h4>
                                     <h3>The Details</h3>
-                                    <p>We’ll start by viewing images &amp; measurements of your room then arrange a chat to understand your unique preferences and requirements</p>
+                                    <p>We’ll start by viewing images &amp; measurements of your room then arrange a chat to understand your unique preferences and requirements.</p>
                                     <hr />
                                 </div>
                             </Col>
                             <Col md={6} className="d-flex m-0 g-0">
-                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1645820007/decorelm-website/Dir_epecb4.png" className="grow-img align-self-center" />
+                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1645995890/The_Details_qjv8vr.png" className="grow-img align-self-center" />
                             </Col>
                         </Row>
                         <Row>
                             <Col md={6} xs={{ order: 1, span: 12 }} md={{ order: 12, span: 6 }} className="d-flex m-width m-0 g-0">
-                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1645819703/decorelm-website/Direction_cved8r.png" className="grow-img align-self-center ms-auto" />
+                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1645996287/The_Direction_p3yi4m.png" className="grow-img align-self-center ms-auto" />
                             </Col>
                             <Col md={6} xs={{ order: 12, span: 12 }} md={{ order: 1, span: 6 }} className="d-flex m-width m-0 g-0">
                                 <div className="text-start align-self-center ms-auto step-text shadow bg-white w-100 p-5 m-0">
@@ -62,16 +62,16 @@ export default class Main extends Component {
                                     <h3>The Designs</h3>
                                     <p>You’ll receive a detailed design concept containing the room design, layout plans and designer’s notes.</p>
                                     <hr className="mb-3" />
-                                    <a href="https://floorplanner.com/360vr/54038742-1633091109" className="button-blog" target="_blank">see example <i className="bi bi-arrow-right"></i></a>
+                                    <a href="https://res.cloudinary.com/decorelm/image/upload/v1645993261/Examples_How_it_works-compressed_rn6wda.pdf" className="button-blog" target="_blank">see example <i className="bi bi-arrow-right"></i></a>
                                 </div>
                             </Col>
                             <Col md={6} className="d-flex m-0 g-0">
-                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1645819448/decorelm-website/Design_brx5yh.png" className="grow-img align-self-center me-auto" />
+                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1645996534/The_Designs_smffit.png" className="grow-img align-self-center me-auto" />
                             </Col>
                         </Row>
                         <Row>
                             <Col md={6} xs={{ order: 1, span: 12 }} md={{ order: 12, span: 6 }} className="d-flex m-0 g-0">
-                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1645819370/decorelm-website/Visualise_r5c4vg.png" className="grow-img align-self-center ms-auto" />
+                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1645996775/Visualise_3D_nlvapv.png" className="grow-img align-self-center ms-auto" />
                             </Col>
                             <Col md={6} xs={{ order: 12, span: 12 }} md={{ order: 1, span: 6 }} className="d-flex m-0 g-0">
                                 <div className="text-start align-self-center ms-auto step-text shadow bg-white w-100 p-5 m-0">
@@ -90,7 +90,7 @@ export default class Main extends Component {
                                     <h3>Shop the Design</h3>
                                     <p>Remove the stress of finding the furnishings &amp; order in your own time! You'll also receive 30 days post design support from this point.</p>
                                     <hr className="mb-3" />
-                                    <a href="https://res.cloudinary.com/decorelm/image/upload/v1644059149/decorelm-website/Shopping_List_onlfkr.png" className="button-blog" target="_blank">see example <i className="bi bi-arrow-right"></i></a>
+                                    <a href="https://collaborate.decorelm.com/projects/619675678ac17900164e81eb/rooms/619676328ac17900164e81f1" className="button-blog" target="_blank">see example <i className="bi bi-arrow-right"></i></a>
                                 </div>
                             </Col>
                             <Col md={6} className="d-flex m-0 g-0">
@@ -100,7 +100,7 @@ export default class Main extends Component {
                         <Row>
                             <div className="mt-3 text-center">
                                 <h4 className="header-tag mb-4">partners</h4>
-                                <img src="https://www.westelm.co.uk/we-uk-18-2/extensions/PS/Theme_Westelm/18.2.4/img/West_Elm_logo.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://www.coxandcox.co.uk/static/version1645181634/frontend/CoxAndCox/default/en_GB/images/logo.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://media.made.com/mws-assets/images/MadeLogo.2.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://res.cloudinary.com/decorelm/image/upload/v1645563175/decorelm-website/nkuku_sjosad.png" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://res.cloudinary.com/decorelm/image/upload/v1645563331/decorelm-website/la-redoute-1_dh8t5t.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2" />
+                                <img src="https://www.westelm.co.uk/we-uk-18-2/extensions/PS/Theme_Westelm/18.2.4/img/West_Elm_logo.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://www.coxandcox.co.uk/static/version1645181634/frontend/CoxAndCox/default/en_GB/images/logo.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://media.made.com/mws-assets/images/MadeLogo.2.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://res.cloudinary.com/decorelm/image/upload/v1645987614/Lick_tkxlt6.png" style={{ maxWidth: '120px' }} className="mx-3 my-2" /><img src="https://res.cloudinary.com/decorelm/image/upload/v1645563331/decorelm-website/la-redoute-1_dh8t5t.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2" />
                                 <p className="mt-5">Plus 100's more...</p>
                             </div>
                         </Row>
@@ -127,7 +127,7 @@ export default class Main extends Component {
                             </Row>
                             <div className="text-center my-3">
                                 <RouterLink to="/enquire">
-                                    <Button className="button" href="/enquire">start your design project <i className="bi bi-arrow-right" /></Button>
+                                    <Button className="button" href="/enquire">enquire about design service <i className="bi bi-arrow-right" /></Button>
                                 </ RouterLink>
                             </div>
                         </div>
@@ -142,7 +142,7 @@ export default class Main extends Component {
                                 <h1>Arrange a free call today to get your project quote.</h1>
                                 <p>We typically book up fast &amp; recommend booking your project ahead of time.</p>
                                 <RouterLink to="/enquire">
-                                    <Button className="button" href="/enquire">start your design project <i className="bi bi-arrow-right"></i></Button>
+                                    <Button className="button" href="/enquire">enquire about design service <i className="bi bi-arrow-right"></i></Button>
                                 </ RouterLink>
                             </div>
                         </Col>

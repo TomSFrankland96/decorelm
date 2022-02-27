@@ -17,6 +17,7 @@ import Services from './views/pages/services'
 import Work from './views/pages/work'
 import Enquire from './views/pages/enquire'
 import AboutUs from './views/pages/aboutUs'
+import NotFound from './views/pages/NotFound'
 
 import Claudia from './views/pages/work/projects/Claudia'
 import Edgar from './views/pages/work/projects/Edgar'
@@ -46,6 +47,7 @@ class App extends Component {
             <Route path="projects/elegant-living-room" exact element={<Tiziana />} />
             <Route path='/enquire' element={<Enquire />} />
             <Route path='/about-us' element={<AboutUs />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />
         </Router>

@@ -50,7 +50,7 @@ export default class Header extends Component {
                                     this.props.page == "services" && (
                                         <>
                                             <RouterLink to="/enquire">
-                                                <Button className="button" href="/enquire">start your design project <i class="bi bi-arrow-right"></i></Button>
+                                                <Button className="button" href="/enquire">enquire about design service <i class="bi bi-arrow-right"></i></Button>
                                             </RouterLink>
                                         </>
                                     )

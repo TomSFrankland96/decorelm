@@ -25,7 +25,7 @@ export default class AboutUs extends Component {
                             </h1>
                         </div>
                         <div>
-                            <img src="https://media.istockphoto.com/photos/modern-scandinavian-home-interior-with-design-wooden-commode-tropical-picture-id1295250677" />
+                            <img src="https://res.cloudinary.com/decorelm/image/upload/v1645993621/About_Us_crzfzx.jpg" />
                         </div>
                     </Col>
                     <Col md={5} className="p-5 d-flex">

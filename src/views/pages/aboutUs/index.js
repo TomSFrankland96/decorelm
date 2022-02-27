@@ -11,7 +11,7 @@ export default class AboutUs extends Component {
         return (
             <>
                 <Header
-                    img={"https://res.cloudinary.com/decorelm/image/upload/v1645818958/decorelm-website/IMG_4742_bwdaev.jpg"}
+                    img={"https://res.cloudinary.com/decorelm/image/upload/v1645992056/IMG_4742_1_ujshf1.jpg"}
                     imgText={
                         "About Us"
                     }

@@ -59,7 +59,7 @@ export default class Footer extends Component {
                                     <ul>
                                         <li>
                                             <RouterLink to="/enquire" className="link-white">
-                                                request availability
+                                                enquire about design service
                                             </RouterLink>
                                         </li>
                                         <li>
@@ -81,7 +81,7 @@ export default class Footer extends Component {
                                         </li>
                                         <li>
                                             <RouterLink to="/work" className="link-white">
-                                                work
+                                                projects
                                             </RouterLink>
                                         </li>
                                         <li>
@@ -90,11 +90,12 @@ export default class Footer extends Component {
                                             </RouterLink>
                                         </li>
                                         <li>
-                                            <li>
-                                                <RouterLink to="/blog" className="link-white">
-                                                    blog
-                                                </RouterLink>
-                                            </li>
+                                            <a href="https://bark.com" target="_blank">our reviews</a>
+                                        </li>
+                                        <li>
+                                            <RouterLink to="/blog" className="link-white">
+                                                blog
+                                            </RouterLink>
                                         </li>
                                     </ul>
                                 </div>

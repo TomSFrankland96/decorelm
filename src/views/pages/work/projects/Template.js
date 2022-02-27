@@ -21,9 +21,9 @@ export default class Template extends Component {
             <Container className="cont">
                 <Row>
                     <Col className="d-flex">
-                        <Button className="button align-self-center m-2"><RouterLink to="/projects" className="link"><i class="bi bi-arrow-left"></i> Return</RouterLink></Button>
+                        <Button className="button align-self-center m-2"><RouterLink to="/projects" className="link"><i class="bi bi-arrow-left"></i> All Projects</RouterLink></Button>
                     </Col>
-                    <Col xs={10}>
+                    <Col xs={9}>
                         <h2 className="text-center py-4">{this.props.headerText}</h2>
                     </Col>
                     <hr />
@@ -92,6 +92,11 @@ export default class Template extends Component {
                         <img src={this.props.b4} />
                     </Col>
                 </Row>
+                <div className="text-center my-5">
+                    <RouterLink to="/services">
+                        <Button className="button" href="/services">view home design services <i class="bi bi-arrow-right"></i></Button>
+                    </RouterLink>
+                </div>
             </Container >
         )
     }

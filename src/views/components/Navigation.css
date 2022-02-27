@@ -17,6 +17,10 @@
     color: #000000;
 }
 
+.navbar a:hover{
+    color: grey !important;
+}
+
 .navbar-light .navbar-nav .nav-link{
     color: #000000;
 }
@@ -37,7 +41,7 @@
 
 .centered-nav {
     left: 50%;
-    transform: translate(13.5%, 0);
+    transform: translate(16.5%, 0);
 }
 
 .nav-houzz{
@@ -98,3 +102,13 @@
   @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
   /* For landscape layouts only */
   }
+
+
+  .alert-link{
+      color: #ffffff;
+  }
+
+  .alert-link:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}

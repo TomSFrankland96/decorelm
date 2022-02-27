@@ -21,19 +21,19 @@ export default class OurWork extends Component {
                     <Row className="my-4">
                         <Col lg={3} md={6}>
                             <Single
-                                img="https://res.cloudinary.com/decorelm/image/upload/v1645469797/decorelm-website/Tiziana_7_hsrf1m.png"
-                                titleTag="Feb 2022 - London"
-                                title="Elegant Living Room"
-                                description="Some quick example text to..."
-                                link="/projects/tiziana"
+                                img="https://res.cloudinary.com/decorelm/image/upload/v1645469747/decorelm-website/Clara_9_xzotxx.png"
+                                titleTag="Jan 2022 - Cardiff"
+                                title="Calming Dining &amp; Living Room"
+                                link="/projects/calming-dining-and-living-room"
                             />
                         </Col>
                         <Col lg={3} md={6}>
                             <Single
-                                img="https://res.cloudinary.com/decorelm/image/upload/v1645469747/decorelm-website/Clara_9_xzotxx.png"
-                                titleTag="Jan 2022 - Cardiff"
-                                title="Calming Dining &amp; Living Room"
-                                link="https://blog.decorelm.com/manchester-modern-rustic-bedroom/"
+                                img="https://res.cloudinary.com/decorelm/image/upload/v1645469797/decorelm-website/Tiziana_7_hsrf1m.png"
+                                titleTag="Feb 2022 - London"
+                                title="Elegant Living Room"
+                                description="Some quick example text to..."
+                                link="/projects/elegant-living-room"
                             />
                         </Col>
                         <Col lg={3} md={6}>
@@ -42,7 +42,7 @@ export default class OurWork extends Component {
                                 titleTag="Dec 2021 - London"
                                 title="Coastal Living &amp; Dining Room"
                                 description="Some quick example text to..."
-                                link="www.google.com"
+                                link="/projects/coastal-living-and-dining-room"
                             />
                         </Col>
                         <Col lg={3} md={6} className="desktop-single">
@@ -51,7 +51,7 @@ export default class OurWork extends Component {
                                 titleTag="Oct 2021 - London"
                                 title="Scandinavian Living Room"
                                 description="Some quick example text to..."
-                                link="www.google.com"
+                                link="/projects/scandinavian-living-room"
                             />
                         </Col>
                     </Row>

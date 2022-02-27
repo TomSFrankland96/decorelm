@@ -7,6 +7,7 @@ import {
     Link as RouterLink
 } from 'react-router-dom'
 
+import "./OurWork.css"
 
 export default class Single extends Component {
     render() {

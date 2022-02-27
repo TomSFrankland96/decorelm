@@ -10,7 +10,7 @@ export default class Enquire extends Component {
         return (
             <div>
                 <Header
-                    img={"https://media.istockphoto.com/photos/coastal-bedroom-interior-mockup-3d-render-picture-id1284744586"}
+                    img={"https://res.cloudinary.com/decorelm/image/upload/v1645993858/Enquire_yqvmne.jpg"}
                     imgText={
                         "Enquire"
                     }
