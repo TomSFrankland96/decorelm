@@ -189,7 +189,9 @@ h3{
   margin: 15% 0% !important;
   text-align: center;
 }
-
+.button{
+  font-size: 0.9rem !important;
+}
 
 }
 

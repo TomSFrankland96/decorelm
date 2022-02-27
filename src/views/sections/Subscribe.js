@@ -14,7 +14,7 @@ export default class Subscribe extends Component {
                 <Container fluid className="align-self-center">
                     <Row className="brown">
                         <Col className="d-flex">
-                            <div className="align-self-center subscribe-box m-5">
+                            <div className="align-self-center subscribe-box m-4">
                                 <div className="text-start">
                                     <h4 className="header-tag">subscribe</h4>
                                     <h2 className="mb-5">Subscribe to receive free design tips &amp; product finds</h2>
@@ -24,8 +24,7 @@ export default class Subscribe extends Component {
                             </div>
                         </Col>
                         <Col md={5} className="d-flex g-0">
-                            <div className="ms-auto w-75 m-0">
-                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1642960553/decorelm-website/Screenshot_2022-01-09_at_15.44.22_rpzq4o.jpg" />
+                            <div className="subscribe-img w-100">
                             </div>
                         </Col>
                     </Row>

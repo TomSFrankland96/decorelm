@@ -55,6 +55,9 @@ img{
         max-width: 90%;
         padding: 30px;
     }
+    .ourWorkTop{
+        display: none !important;
+    }
 }
 
 @media only screen and (min-width: 700px) {
@@ -73,6 +76,23 @@ img{
     .cta-box{
         background-color: rgba(248, 247, 243, 0.75);
         max-width: 50%;
+        padding: 30px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .ourWorkBottom{
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1000px){
+    .ourWorkTop{
+        display: none !important;
+    }
+    .cta-box{
+        background-color: rgba(248, 247, 243, 0.75);
+        max-width: 70%;
         padding: 30px;
     }
 }

@@ -54,13 +54,16 @@ export default class Navigation extends Component {
                                         <Nav.Link href="blog">Blog</Nav.Link>
                                     </Nav.Item>
                                 </RouterLink>
+                                <Nav.Item href="https://www.bark.com/en/gb/company/decorelm-design-studio/RnVay/" target="_blank">
+                                    <Nav.Link href="https://www.bark.com/en/gb/company/decorelm-design-studio/RnVay/" target="_blank">reviews</Nav.Link>
+                                </Nav.Item>
                                 <div className="highlight cta-mobile w-75">
                                     <RouterLink to="/enquire">
                                         <Nav.Link href="enquire" className="ms-5">request availability <i class="bi bi-arrow-right"></i></Nav.Link>
                                     </RouterLink>
                                 </div>
                             </Nav>
-                            <Nav className="desktop-nav centered-nav">
+                            <Nav className="desktop-nav centered-nav mx-auto">
                                 <RouterLink to="/services">
                                     <Nav.Item>
                                         <Nav.Link href="/services">Design Services</Nav.Link>
@@ -78,27 +81,23 @@ export default class Navigation extends Component {
                                 </div>
                                 <NavDropdown title="about us" id="basic-nav-dropdown">
                                     <RouterLink to="/about-us">
-                                        <NavDropdown.Item href="#action/3.1">
-                                            <Nav.Link href="about-us">our story</Nav.Link>
-                                        </NavDropdown.Item>
+                                        <NavDropdown.Item>Our Story</NavDropdown.Item>
                                     </RouterLink>
-                                    <NavDropdown.Item href="https://www.bark.com/en/gb/company/decorelm-design-studio/RnVay/" target="_blank">
-                                        <Nav.Link href="https://www.bark.com/en/gb/company/decorelm-design-studio/RnVay/" target="_blank">our reviews</Nav.Link>
-                                    </NavDropdown.Item>
+                                    <NavDropdown.Item href="https://bark.com" target="_blank">Our Reviews</NavDropdown.Item>
                                 </NavDropdown>
-                                <RouterLink to="/blog">
-                                    <Nav.Item>
-                                        <Nav.Link href="blog">Blog</Nav.Link>
-                                    </Nav.Item>
-                                </RouterLink>
+                                <div className="me-5">
+                                    <RouterLink to="/blog">
+                                        <Nav.Item>
+                                            <Nav.Link href="blog">Blog</Nav.Link>
+                                        </Nav.Item>
+                                    </RouterLink>
+                                </div>
                                 <div className="highlight cta-mobile">
                                     <RouterLink to="/enquire">
                                         <Nav.Link href="enquire">start your design project <i class="bi bi-arrow-right"></i></Nav.Link>
                                     </RouterLink>
                                 </div>
-                            </Nav>
-                            <Nav className="ms-auto cta-desktop">
-                                <div className="highlight">
+                                <div className="highlight ms-5">
                                     <RouterLink to="/enquire">
                                         <Nav.Link href="enquire">start your design project <i class="bi bi-arrow-right"></i></Nav.Link>
                                     </RouterLink>

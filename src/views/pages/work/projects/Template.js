@@ -2,27 +2,51 @@ import React, { Component } from 'react'
 import {
     Col,
     Row,
-    Container
+    Container,
+    Button
 } from 'react-bootstrap'
 
+import {
+    Link as RouterLink
+} from "react-router-dom";
+
+import "./Template.css"
+
 export default class Template extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
     render() {
         return (
-            <Container style={{ backgroundColor: '#f8f7f3', marginTop: '50px' }}>
+            <Container className="cont">
                 <Row>
-                    <h2>{this.props.headerText}</h2>
+                    <Col className="d-flex">
+                        <Button className="button align-self-center m-2"><RouterLink to="/projects" className="link"><i class="bi bi-arrow-left"></i> Return</RouterLink></Button>
+                    </Col>
+                    <Col xs={10}>
+                        <h2 className="text-center py-4">{this.props.headerText}</h2>
+                    </Col>
                     <hr />
-                    <Col lg={6}>
+                </Row>
+                <Row>
+                    <Col lg={6} className="p-5">
                         <p>
-                            {this.props.subText}
+                            {this.props.p1}
+                        </p>
+                        <p>
+                            {this.props.p2}
+                        </p>
+                        <p>
+                            {this.props.p3}
                         </p>
                     </Col>
-                    <Col lg={6}>
+                    <Col lg={6} className="p-5">
                         <img src={this.props.inspiration} />
+                        <h3 className="my-4 text-end">Inspiration</h3>
                     </Col>
                 </Row>
                 <Row>
-                    <h3>Design Concept</h3>
+                    <h3 className="my-4">Design Concept</h3>
                     <Col lg={3}>
                         <img src={this.props.d1} />
                     </Col>
@@ -37,7 +61,7 @@ export default class Template extends Component {
                     </Col>
                 </Row>
                 <Row>
-                    <h3>Visualisation</h3>
+                    <h3 className="my-4">Visualisation</h3>
                     <Col lg={3}>
                         <img src={this.props.v1} />
                     </Col>
@@ -52,7 +76,9 @@ export default class Template extends Component {
                     </Col>
                 </Row>
                 <Row>
-                    <h3>Before</h3>
+                    {this.props.b1 && (
+                        <h3 className="my-4">Before</h3>
+                    )}
                     <Col lg={3}>
                         <img src={this.props.b1} />
                     </Col>
@@ -66,7 +92,7 @@ export default class Template extends Component {
                         <img src={this.props.b4} />
                     </Col>
                 </Row>
-            </Container>
+            </Container >
         )
     }
 }

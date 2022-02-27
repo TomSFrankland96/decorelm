@@ -4,7 +4,7 @@ import Main from './Main'
 
 export default class Enquire extends Component {
     componentDidMount() {
-        window.scrollTo(0, 350)
+        window.scrollTo(0, 100)
       }
     render() {
         return (

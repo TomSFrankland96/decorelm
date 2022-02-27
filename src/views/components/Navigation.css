@@ -23,6 +23,8 @@
 
 
 
+
+
 .logo{
     max-width: 180px;
 }
@@ -34,9 +36,8 @@
 }
 
 .centered-nav {
-    position: fixed;
     left: 50%;
-    transform: translate(-55%, 0);
+    transform: translate(13.5%, 0);
 }
 
 .nav-houzz{

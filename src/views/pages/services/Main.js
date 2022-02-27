@@ -18,13 +18,15 @@ export default class Main extends Component {
     render() {
         return (
             <div>
-                <OurWork />
+                <div className="ourWorkTop">
+                    <OurWork />
+                </div>
                 <Container fluid style={{ backgroundColor: "#f8f7f38c" }} className="py-5">
                     <div className="steps mx-auto">
                         <Row>
                             <div className="title mx-auto text-center">
                                 <h4 className="header-tag">how it works</h4>
-                                <h1>Our trusted collaborative process puts you at the core.</h1>
+                                <h1>Our unique &amp; trusted process puts you at the core.</h1>
                             </div>
                         </Row>
                         <Row className="mt-2 mb-5">
@@ -59,7 +61,7 @@ export default class Main extends Component {
                                     <h4 className="header-tag">step 03</h4>
                                     <h3>The Designs</h3>
                                     <p>You’ll receive a detailed design concept containing the room design, layout plans and designer’s notes.</p>
-                                    <hr className="mb-3"/>
+                                    <hr className="mb-3" />
                                     <a href="https://floorplanner.com/360vr/54038742-1633091109" className="button-blog" target="_blank">see example <i className="bi bi-arrow-right"></i></a>
                                 </div>
                             </Col>
@@ -76,7 +78,7 @@ export default class Main extends Component {
                                     <h4 className="header-tag">step 04</h4>
                                     <h3>Visualise &amp; Explore</h3>
                                     <p>See your new space with a photo-realistic 3D tour that helps you visualise the spacing &amp; layout.</p>
-                                    <hr className="mb-3"/>
+                                    <hr className="mb-3" />
                                     <a href="https://floorplanner.com/360vr/54038742-1633091109" className="button-blog" target="_blank">see example <i className="bi bi-arrow-right"></i></a>
                                 </div>
                             </Col>
@@ -87,7 +89,7 @@ export default class Main extends Component {
                                     <h4 className="header-tag">step 05</h4>
                                     <h3>Shop the Design</h3>
                                     <p>Remove the stress of finding the furnishings &amp; order in your own time! You'll also receive 30 days post design support from this point.</p>
-                                    <hr className="mb-3"/>
+                                    <hr className="mb-3" />
                                     <a href="https://res.cloudinary.com/decorelm/image/upload/v1644059149/decorelm-website/Shopping_List_onlfkr.png" className="button-blog" target="_blank">see example <i className="bi bi-arrow-right"></i></a>
                                 </div>
                             </Col>
@@ -98,7 +100,7 @@ export default class Main extends Component {
                         <Row>
                             <div className="mt-3 text-center">
                                 <h4 className="header-tag mb-4">partners</h4>
-                                <img src="https://www.westelm.co.uk/we-uk-18-2/extensions/PS/Theme_Westelm/18.2.4/img/West_Elm_logo.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://www.coxandcox.co.uk/static/version1645181634/frontend/CoxAndCox/default/en_GB/images/logo.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2"/><img src="https://media.made.com/mws-assets/images/MadeLogo.2.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2"/><img src="https://res.cloudinary.com/decorelm/image/upload/v1645563175/decorelm-website/nkuku_sjosad.png" style={{ maxWidth: '150px' }} className="mx-3 my-2"/><img src="https://res.cloudinary.com/decorelm/image/upload/v1645563331/decorelm-website/la-redoute-1_dh8t5t.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2"/>
+                                <img src="https://www.westelm.co.uk/we-uk-18-2/extensions/PS/Theme_Westelm/18.2.4/img/West_Elm_logo.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://www.coxandcox.co.uk/static/version1645181634/frontend/CoxAndCox/default/en_GB/images/logo.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://media.made.com/mws-assets/images/MadeLogo.2.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://res.cloudinary.com/decorelm/image/upload/v1645563175/decorelm-website/nkuku_sjosad.png" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://res.cloudinary.com/decorelm/image/upload/v1645563331/decorelm-website/la-redoute-1_dh8t5t.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2" />
                                 <p className="mt-5">Plus 100's more...</p>
                             </div>
                         </Row>
@@ -132,7 +134,7 @@ export default class Main extends Component {
                     </Row>
                 </Container>
                 <Testimonial />
-                <Container fluid style={{backgroundColor: "#f8f7f3"}}>
+                <Container fluid style={{ backgroundColor: "#f8f7f3" }}>
                     <Row className="banner">
                         <Col md={6} className="d-flex">
                             <div className="text-start align-self-center mx-auto py-5 step-text w-75">
@@ -191,6 +193,9 @@ export default class Main extends Component {
                         </Row>
                     </Container>
                 </section>
+                <div className="ourWorkBottom">
+                    <OurWork />
+                </div>
                 <AboutUs />
             </div >
         )

@@ -1,0 +1,16 @@
+.link{
+    color: black !important;
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: none;
+}
+
+
+
+.cont{
+    background-color: #f8f7f3;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
