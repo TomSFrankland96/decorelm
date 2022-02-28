@@ -34,7 +34,7 @@ export default class Work extends Component {
                     <Row>
                         <Col md={4} className="p-4">
                             <Single
-                                img="https://res.cloudinary.com/decorelm/image/upload/q_60/v1645469747/decorelm-website/Clara_9_xzotxx.jpg"
+                                img="https://res.cloudinary.com/decorelm/image/upload/q_60/v1645469747/decorelm-website/Clara_9_xzotxx.png"
                                 titleTag="Jan 2022 - Cardiff"
                                 title="Calming Dining &amp; Living Room"
                                 link="/projects/calming-dining-and-living-room"
@@ -42,7 +42,7 @@ export default class Work extends Component {
                         </Col>
                         <Col md={4} className="p-4">
                             <Single
-                                img="https://res.cloudinary.com/decorelm/image/upload/q_60/v1645469797/decorelm-website/Tiziana_7_hsrf1m.jpg"
+                                img="https://res.cloudinary.com/decorelm/image/upload/q_60/v1645469797/decorelm-website/Tiziana_7_hsrf1m.png"
                                 titleTag="Feb 2022 - London"
                                 title="Elegant Living Room"
                                 description="Some quick example text to..."
@@ -51,7 +51,7 @@ export default class Work extends Component {
                         </Col>
                         <Col md={4} className="p-4">
                             <Single
-                                img="https://res.cloudinary.com/decorelm/image/upload/q_60/v1645469769/decorelm-website/Gagan_8_kxzzxp.jpg"
+                                img="https://res.cloudinary.com/decorelm/image/upload/q_60/v1645469769/decorelm-website/Gagan_8_kxzzxp.png"
                                 titleTag="Dec 2021 - London"
                                 title="Coastal Living &amp; Dining Room"
                                 description="Some quick example text to..."
@@ -62,7 +62,7 @@ export default class Work extends Component {
                     <Row>
                         <Col md={4} className="p-4">
                             <Single
-                                img="https://res.cloudinary.com/decorelm/image/upload/q_60/v1645469778/decorelm-website/Jenny_6_dbtwet.jpg"
+                                img="https://res.cloudinary.com/decorelm/image/upload/q_60/v1645469778/decorelm-website/Jenny_6_dbtwet.png"
                                 titleTag="Oct 2021 - London"
                                 title="Scandinavian Living Room"
                                 description="Some quick example text to..."
@@ -71,7 +71,7 @@ export default class Work extends Component {
                         </Col>
                         <Col md={4} className="p-4">
                             <Single
-                                img="https://res.cloudinary.com/decorelm/image/upload/q_60/v1645729277/decorelm-website/Edgar_7_rmktpe.jpg"
+                                img="https://res.cloudinary.com/decorelm/image/upload/q_60/v1645729277/decorelm-website/Edgar_7_rmktpe.png"
                                 titleTag="Oct 2021 - London"
                                 title="Modern Living Room"
                                 description="Some quick example text to..."
@@ -80,7 +80,7 @@ export default class Work extends Component {
                         </Col>
                         <Col md={4} className="p-4">
                             <Single
-                                img="https://res.cloudinary.com/decorelm/image/upload/q_60/v1645730348/decorelm-website/70_gu5fxw.jpg"
+                                img="https://res.cloudinary.com/decorelm/image/upload/q_60/v1645730348/decorelm-website/70_gu5fxw.png"
                                 titleTag="Oct 2021 - London"
                                 title="Bohemian Apartment"
                                 description="Some quick example text to..."

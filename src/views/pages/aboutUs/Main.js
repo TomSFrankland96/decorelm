@@ -25,12 +25,12 @@ export default class Main extends Component {
                         </div>
                     </Col>
                     <Col md={6}>
-                        <img className="w-75 mx-auto d-block" src="https://res.cloudinary.com/decorelm/image/upload/q_60/v1646054339/IMG_4731_r9hdvr.jpg" />
+                        <img className="w-75 mx-auto d-block" src="https://res.cloudinary.com/decorelm/image/upload/q_60/v1646054339/IMG_4731_r9hdvr.png" />
                     </Col>
                 </Row>
                 <Row>
                     <Col md={6} xs={{ span: 12, order: 2 }} md={{ span: 6, order: 1 }}>
-                        <img className="w-75 mx-auto d-block" src="https://res.cloudinary.com/decorelm/image/upload/q_60/v1645991845/IMG_4623_nqkqtx.jpg" />
+                        <img className="w-75 mx-auto d-block" src="https://res.cloudinary.com/decorelm/image/upload/q_60/v1645991845/IMG_4623_nqkqtx.png" />
                     </Col>
                     <Col md={6} className="d-flex" xs={{ span: 12, order: 1 }} md={{ span: 6, order: 2 }}>
                         <div className="align-self-center about-text mx-auto my-4">

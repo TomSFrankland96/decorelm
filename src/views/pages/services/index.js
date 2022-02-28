@@ -16,7 +16,7 @@ export default class Services extends Component {
         return (
             <div>
                 <Header
-                    img={"https://res.cloudinary.com/decorelm/image/upload/q_60/v1644053782/decorelm-website/IMG_4607_cu0ecd.jpg"}
+                    img={"https://res.cloudinary.com/decorelm/image/upload/q_60/v1644053782/decorelm-website/IMG_4607_cu0ecd.png"}
                     imgText={
                         "Home Design Service"
                     }
