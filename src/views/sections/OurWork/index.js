@@ -22,7 +22,7 @@ export default class OurWork extends Component {
                         <Col lg={3} md={6}>
                             <Single
                                 img="https://res.cloudinary.com/decorelm/image/upload/q_60/v1645469747/decorelm-website/Clara_9_xzotxx.png"
-                                titleTag="Jan 2022 - Cardiff"
+                                titleTag="Feb 2022 - Cardiff"
                                 title="Calming Dining &amp; Living Room"
                                 link="/projects/calming-dining-and-living-room"
                             />
@@ -30,7 +30,7 @@ export default class OurWork extends Component {
                         <Col lg={3} md={6}>
                             <Single
                                 img="https://res.cloudinary.com/decorelm/image/upload/q_60/v1645469797/decorelm-website/Tiziana_7_hsrf1m.png"
-                                titleTag="Feb 2022 - London"
+                                titleTag="Jan 2022 - Manchester"
                                 title="Elegant Living Room"
                                 description="Some quick example text to..."
                                 link="/projects/elegant-living-room"

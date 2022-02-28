@@ -35,7 +35,7 @@ export default class Work extends Component {
                         <Col md={4} className="p-4">
                             <Single
                                 img="https://res.cloudinary.com/decorelm/image/upload/q_60/v1645469747/decorelm-website/Clara_9_xzotxx.png"
-                                titleTag="Jan 2022 - Cardiff"
+                                titleTag="Feb 2022 - Cardiff"
                                 title="Calming Dining &amp; Living Room"
                                 link="/projects/calming-dining-and-living-room"
                             />
@@ -43,7 +43,7 @@ export default class Work extends Component {
                         <Col md={4} className="p-4">
                             <Single
                                 img="https://res.cloudinary.com/decorelm/image/upload/q_60/v1645469797/decorelm-website/Tiziana_7_hsrf1m.png"
-                                titleTag="Feb 2022 - London"
+                                titleTag="Jan 2022 - Manchester"
                                 title="Elegant Living Room"
                                 description="Some quick example text to..."
                                 link="/projects/elegant-living-room"
@@ -72,7 +72,7 @@ export default class Work extends Component {
                         <Col md={4} className="p-4">
                             <Single
                                 img="https://res.cloudinary.com/decorelm/image/upload/q_60/v1645729277/decorelm-website/Edgar_7_rmktpe.png"
-                                titleTag="Oct 2021 - London"
+                                titleTag="Oct 2021 - Northern Ireland"
                                 title="Modern Living Room"
                                 description="Some quick example text to..."
                                 link="/projects/modern-living-room"
