@@ -92,13 +92,13 @@ export default class Main extends Component {
                                 </div>
                             </Col>
                             <Col md={6} className="d-flex m-0 g-0">
-                                <img src="https://res.cloudinary.com/decorelm/image/upload/q_40/v1643830330/decorelm-website/Screenshot_2022-02-02_at_19.30.31_eykwka.png" className="grow-img align-self-center me-auto" />
+                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1646078533/services/Shop_the_Design-min_idkbxc.png" className="grow-img align-self-center me-auto" />
                             </Col>
                         </Row>
                         <Row>
                             <div className="mt-3 text-center">
                                 <h4 className="header-tag mb-4">partners</h4>
-                                <img src="https://res.cloudinary.com/decorelm/image/upload/q_40/v1646070702/West_Elm_logo_lvejfg.png" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://res.cloudinary.com/decorelm/image/upload/q_40/v1646070706/cox_rvthoh.png" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://res.cloudinary.com/decorelm/image/upload/v1646084913/services/MadeLogo.2_kb39fb.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://res.cloudinary.com/decorelm/image/upload/q_40/v1645987614/Lick_tkxlt6.png" style={{ maxWidth: '120px' }} className="mx-3 my-2" /><img src="https://res.cloudinary.com/decorelm/image/upload/q_40/v1645563331/decorelm-website/la-redoute-1_dh8t5t.png" style={{ maxWidth: '150px' }} className="mx-3 my-2" />
+                                <img src="https://res.cloudinary.com/decorelm/image/upload/q_40/v1646070702/West_Elm_logo_lvejfg.png" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://res.cloudinary.com/decorelm/image/upload/q_40/v1646070706/cox_rvthoh.png" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://res.cloudinary.com/decorelm/image/upload/v1646084913/services/MadeLogo.2_kb39fb.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://res.cloudinary.com/decorelm/image/upload/q_40/v1645987614/Lick_tkxlt6.png" style={{ maxWidth: '120px' }} className="mx-3 my-2" /><img src="https://res.cloudinary.com/decorelm/image/upload/v1646078532/services/La_Redoute-min_zjmlea.png" style={{ maxWidth: '150px' }} className="mx-3 my-2" />
                                 <p className="mt-5">Plus 100's more...</p>
                             </div>
                         </Row>
