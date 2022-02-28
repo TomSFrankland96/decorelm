@@ -11,8 +11,6 @@ import {
     Link as RouterLink
 } from 'react-router-dom'
 
-import FadeIn from '../../components/FadeIn';
-
 
 export default class Main extends Component {
     render() {
