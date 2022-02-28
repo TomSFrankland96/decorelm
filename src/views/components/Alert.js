@@ -9,7 +9,7 @@ import {
 export default class Alert extends Component {
     render() {
         return (
-            <Container fluid className="Alert">
+            <Container fluid className="Alert px-4">
                 <Row>
                     <div className="text-center">{this.props.alert}, <RouterLink to="/enquire" className="alert-link">click here</RouterLink> to get started</div>
                 </Row>

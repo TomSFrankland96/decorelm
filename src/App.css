@@ -190,7 +190,11 @@ h3{
   text-align: center;
 }
 .button{
-  font-size: 0.9rem !important;
+  font-size: 0.8rem !important;
+  width: 100%
+}
+h1{
+  margin-bottom: 30px !important
 }
 
 }

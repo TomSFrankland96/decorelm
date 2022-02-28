@@ -21,7 +21,7 @@ export default class OurWork extends Component {
                     <Row className="my-4">
                         <Col lg={3} md={6}>
                             <Single
-                                img="https://res.cloudinary.com/decorelm/image/upload/v1645469747/decorelm-website/Clara_9_xzotxx.png"
+                                img="https://res.cloudinary.com/decorelm/image/upload/q_50/v1645469747/decorelm-website/Clara_9_xzotxx.webp"
                                 titleTag="Jan 2022 - Cardiff"
                                 title="Calming Dining &amp; Living Room"
                                 link="/projects/calming-dining-and-living-room"
@@ -29,7 +29,7 @@ export default class OurWork extends Component {
                         </Col>
                         <Col lg={3} md={6}>
                             <Single
-                                img="https://res.cloudinary.com/decorelm/image/upload/v1645469797/decorelm-website/Tiziana_7_hsrf1m.png"
+                                img="https://res.cloudinary.com/decorelm/image/upload/q_50/v1645469797/decorelm-website/Tiziana_7_hsrf1m.webp"
                                 titleTag="Feb 2022 - London"
                                 title="Elegant Living Room"
                                 description="Some quick example text to..."
@@ -38,7 +38,7 @@ export default class OurWork extends Component {
                         </Col>
                         <Col lg={3} md={6}>
                             <Single
-                                img="https://res.cloudinary.com/decorelm/image/upload/v1645469769/decorelm-website/Gagan_8_kxzzxp.png"
+                                img="https://res.cloudinary.com/decorelm/image/upload/q_50/v1645469769/decorelm-website/Gagan_8_kxzzxp.webp"
                                 titleTag="Dec 2021 - London"
                                 title="Coastal Living &amp; Dining Room"
                                 description="Some quick example text to..."
@@ -47,7 +47,7 @@ export default class OurWork extends Component {
                         </Col>
                         <Col lg={3} md={6} className="desktop-single">
                             <Single
-                                img="https://res.cloudinary.com/decorelm/image/upload/v1645469778/decorelm-website/Jenny_6_dbtwet.png"
+                                img="https://res.cloudinary.com/decorelm/image/upload/q_50/v1645469778/decorelm-website/Jenny_6_dbtwet.webp"
                                 titleTag="Oct 2021 - London"
                                 title="Scandinavian Living Room"
                                 description="Some quick example text to..."

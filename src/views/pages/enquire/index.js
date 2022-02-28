@@ -10,7 +10,7 @@ export default class Enquire extends Component {
         return (
             <div>
                 <Header
-                    img={"https://res.cloudinary.com/decorelm/image/upload/v1645993858/Enquire_yqvmne.jpg"}
+                    img={"https://res.cloudinary.com/decorelm/image/upload/q_50/v1645993858/Enquire_yqvmne.webp"}
                     imgText={
                         "Enquire"
                     }

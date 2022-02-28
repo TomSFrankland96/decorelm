@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
-import WorkHighlights from '../../sections/WorkHighlights'
 import Testimonial from '../../sections/Testimonials'
 import AboutUs from '../../sections/AboutUs'
+import OurWork from '../../sections/OurWork'
+import Blog from '../../sections/Blog'
 
 import {
     Container,
@@ -14,14 +15,10 @@ import {
     Link as RouterLink
 } from 'react-router-dom'
 
-import OurWork from '../../sections/OurWork'
-import Blog from '../../sections/Blog'
-
 export default class Main extends Component {
     render() {
         return (
             <div>
-                <WorkHighlights />
                 <OurWork />
                 <Testimonial />
                 <section className="mt-5 d-block">
@@ -33,7 +30,7 @@ export default class Main extends Component {
                                 <p>Whether you're thinking about, or in the middle of, changing up a room or your entire home!</p>
                             </div>
                             <Col md={5} className="g-0">
-                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1645994297/Home_CTA_xgmuwd.jpg" />
+                                <img src="https://res.cloudinary.com/decorelm/image/upload/q_50/v1645994297/Home_CTA_xgmuwd.webp" />
                             </Col>
                             <Col md={7} className="d-flex g-0">
                                 <div className="align-self-center text-start p-5 shadow">
