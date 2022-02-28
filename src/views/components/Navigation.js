@@ -80,7 +80,7 @@ export default class Navigation extends Component {
                                     </RouterLink>
                                     <NavDropdown.Item href="https://www.bark.com/en/gb/company/decorelm-design-studio/RnVay/" target="_blank">Our Reviews</NavDropdown.Item>
                                 </NavDropdown>
-                                <div className="me-3">
+                                <div className="me-4">
                                     <Nav.Item>
                                         <Nav.Link href="https://blog.decorelm.com">Blog</Nav.Link>
                                     </Nav.Item>

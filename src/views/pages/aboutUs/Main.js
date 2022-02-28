@@ -25,7 +25,7 @@ export default class Main extends Component {
                         </div>
                     </Col>
                     <Col md={6}>
-                        <img className="w-75 mx-auto d-block" src="https://res.cloudinary.com/decorelm/image/upload/q_50/v1645819242/decorelm-website/IMG_4737_pl51k4.webp" />
+                        <img className="w-75 mx-auto d-block" src="https://res.cloudinary.com/decorelm/image/upload/q_50/v1646054339/IMG_4731_r9hdvr.webp" />
                     </Col>
                 </Row>
                 <Row>
