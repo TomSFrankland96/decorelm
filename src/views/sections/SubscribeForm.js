@@ -36,8 +36,8 @@ export default function SubscribeForm() {
         <div>
             {isFormSubmitted ? (
                 <Form noValidate validated={validated} onSubmit={handleSubmit}>
-                    <Form.Control type="email" value={email} onChange={updateEmail} placeholder="kerry@decorelm.com" required className="subscribe-field d-inline"/>
-                    <Button className="subscribe-button" type="submit">Submit <i className="bi bi-arrow-right" /></Button>
+                    <Form.Control type="email" value={email} onChange={updateEmail} placeholder="kerry@decorelm.com" required className="subscribe-field d-inline my-2"/>
+                    <Button className="subscribe-button my-2" type="submit">Submit <i className="bi bi-arrow-right" /></Button>
                 </Form>
             ) : (
                 "Thank you for subscribing!"

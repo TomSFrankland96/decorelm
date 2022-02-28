@@ -25,6 +25,13 @@
     color: #000000;
 }
 
+.dropdown-item:hover{
+    background-color: #f8f7f3;
+}
+
+.dropdown-item:active{
+    background-color: #f8f7f3;
+}
 
 
 

@@ -15,7 +15,7 @@ export default class Subscribe extends Component {
                     <Row className="brown">
                         <Col className="d-flex">
                             <div className="align-self-center subscribe-box m-4">
-                                <div className="text-start">
+                                <div className="text-start py-5">
                                     <h4 className="header-tag">subscribe</h4>
                                     <h2 className="mb-5">Subscribe to receive free design tips &amp; product finds</h2>
                                     <SubscribeForm />

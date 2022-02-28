@@ -58,11 +58,11 @@ export default function SubscribeForm() {
                     <Row>
                         <Form noValidate validated={validated} onSubmit={handleSubmit} className="px-4 mx-auto">
                             <Row className="my-4 text-start">
-                                <Form.Group as={Col} md="6" controlId="validationCustom01">
+                                <Form.Group as={Col} md="6" controlId="validationCustom01" className="my-3">
                                     <Form.Label>First name<sup>*</sup></Form.Label>
                                     <Form.Control type="text" value={firstName} onChange={updateFirstName} aria-label="First name" required className="enquire-field d-inline" />
                                 </ Form.Group>
-                                <Form.Group as={Col} md="6" controlId="validationCustom01">
+                                <Form.Group as={Col} md="6" controlId="validationCustom01" className="my-3">
                                     <Form.Label>Last name<sup>*</sup></Form.Label>
                                     <Form.Control type="text" value={lastName} onChange={updateLastName} aria-label="Last name" required className="enquire-field d-inline" />
                                 </ Form.Group>

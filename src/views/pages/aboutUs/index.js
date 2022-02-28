@@ -11,7 +11,7 @@ export default class AboutUs extends Component {
         return (
             <>
                 <Header
-                    img={"https://res.cloudinary.com/decorelm/image/upload/q_50/v1646054490/About_Us_kpdgvl.webp"}
+                    img={"https://res.cloudinary.com/decorelm/image/upload/q_60/v1646054490/About_Us_kpdgvl.jpg"}
                     imgText={
                         "About Us"
                     }

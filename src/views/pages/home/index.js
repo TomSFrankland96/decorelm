@@ -16,7 +16,7 @@ export default class Home extends Component {
         return (
             <div>
                 <Header
-                    img={"https://res.cloudinary.com/decorelm/image/upload/q_50/v1645993951/Decorelm_Home_wmpsdf.webp"}
+                    img={"https://res.cloudinary.com/decorelm/image/upload/q_60/v1645993951/Decorelm_Home_wmpsdf.jpg"}
                     imgText={
                         "Better Design, Better Planet"
                     }
