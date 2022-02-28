@@ -14,7 +14,7 @@ export default class Navigation extends Component {
                 <Alert
                     alert={"bookings now available for march"}
                 />
-                <Navbar bg="white" expand="lg" collapseOnSelect className="shadow py-3">
+                <Navbar bg="white" expand="xl" collapseOnSelect className="shadow py-3">
                     <Container>
                         <div className="brand-mobile">
                             <RouterLink to="/">
