@@ -39,9 +39,10 @@
     padding: 0px;
 }
 
+
 .centered-nav {
     left: 50%;
-    transform: translate(16.5%, 0);
+    transform: translate(14%, 0);
 }
 
 .nav-houzz{

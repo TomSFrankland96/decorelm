@@ -37,7 +37,7 @@ export default class Main extends Component {
                                 </div>
                             </Col>
                             <Col md={6} className="d-flex m-0 g-0">
-                                <img src="https://res.cloudinary.com/decorelm/image/upload/q_50/v1645995890/The_Details_qjv8vr.webp" className="grow-img align-self-center" />
+                                <img src="https://res.cloudinary.com/decorelm/image/upload/q_50/v1646053381/The_Details_v3f3bw.webp" className="grow-img align-self-center" />
                             </Col>
                         </Row>
                         <Row>
