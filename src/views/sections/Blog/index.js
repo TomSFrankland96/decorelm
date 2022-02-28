@@ -22,7 +22,7 @@ export default class OurWork extends Component {
                             <Row>
                                 <Col md={6}>
                                     <Single
-                                        img={"https://res.cloudinary.com/decorelm/image/upload/q_60/v1644521519/decorelm-website/7_er5owg.png"}
+                                        img={"https://res.cloudinary.com/decorelm/image/upload/v1646082258/blog/Home-Office_a5yfkj.png"}
                                         titleTag={"design tips"}
                                         title={"Home Office"}
                                         description={"With many more hours to be spent at home..."}
@@ -31,7 +31,7 @@ export default class OurWork extends Component {
                                 </Col>
                                 <Col md={6}>
                                     <Single
-                                        img={"https://res.cloudinary.com/decorelm/image/upload/q_60/v1644521219/decorelm-website/2_ozah6y.png"}
+                                        img={"https://res.cloudinary.com/decorelm/image/upload/v1646082258/blog/Top-3-Home-Interior-Trends-2022_rhenzn.png"}
                                         titleTag={"inspiration"}
                                         title={"Top 3 Home Interior Trends for 2022"}
                                         description={"The new year is here and that means it’s..."}
@@ -42,7 +42,7 @@ export default class OurWork extends Component {
                             <Row>
                                 <Col>
                                     <Single
-                                        img={"https://res.cloudinary.com/decorelm/image/upload/q_60/v1644521065/decorelm-website/1_pe7ssy.png"}
+                                        img={"https://res.cloudinary.com/decorelm/image/upload/v1646082257/blog/Best-Sustainable-Homeware-Brands-In-The-UK_fq3sz8.png"}
                                         titleTag={"eco edit"}
                                         title={"Best Sustainable Homeware Brands in the UK"}
                                         description={"From planting trees to Fair Trade principles, these UK brands have put sustainabiliy..."}
@@ -55,7 +55,7 @@ export default class OurWork extends Component {
                             <Row>
                                 <Col md={6}>
                                     <Single
-                                        img="https://res.cloudinary.com/decorelm/image/upload/q_60/v1644521254/decorelm-website/3_gi4wf1.png"
+                                        img="https://res.cloudinary.com/decorelm/image/upload/v1646082257/blog/Tips-For-A-More-Sustainable-Christmas_ntkcgw.png"
                                         titleTag={"design tips"}
                                         title={"Tips for a more sustainable Christmas"}
                                         description={"From natural decorations to gifts that won’t cost the earth...."}
@@ -64,7 +64,7 @@ export default class OurWork extends Component {
                                 </Col>
                                 <Col md={6}>
                                     <Single
-                                        img={"https://res.cloudinary.com/decorelm/image/upload/q_60/v1644521272/decorelm-website/4_okxw9l.png"}
+                                        img={"https://res.cloudinary.com/decorelm/image/upload/v1646082256/blog/5-Tips-To-Create-The-Perfect-Cosy-Space-For-The-Festive-Season_gdviic.png"}
                                         titleTag={"design tips"}
                                         title={"5 tips to create the perfect cosy space for the festive season."}
                                         description={"We’re getting ready to cosy up for Christmas time so here’s some simple tips that will bring..."}
@@ -75,7 +75,7 @@ export default class OurWork extends Component {
                             <Row>
                                 <Col md={6}>
                                     <Single
-                                        img={"https://res.cloudinary.com/decorelm/image/upload/q_60/v1644521291/decorelm-website/5_yehi01.png"}
+                                        img={"https://res.cloudinary.com/decorelm/image/upload/v1646082257/blog/How-To-Perfect-Still-Life-Arrangements_rqgpiu.png"}
                                         titleTag={"design tips"}
                                         title={"How To Perfect Still-Life Arrangements"}
                                         description={"When it comes to styling small areas of your home it can often become overwhelming..."}
@@ -84,7 +84,7 @@ export default class OurWork extends Component {
                                 </Col>
                                 <Col md={6}>
                                     <Single
-                                        img={"https://res.cloudinary.com/decorelm/image/upload/q_60/v1644521322/decorelm-website/6_hw8lfb.png"}
+                                        img={"https://res.cloudinary.com/decorelm/image/upload/v1646082258/blog/Italy-Inspo_afxwfz.png"}
                                         titleTag={"inspiration"}
                                         title={"Italy Inspo"}
                                         description={"One of the most common problems I hear from clients is that they have no idea where to begin..."}

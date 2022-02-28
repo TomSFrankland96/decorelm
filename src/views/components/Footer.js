@@ -20,27 +20,27 @@ export default class Footer extends Component {
                             </div>
                             <Col>
                                 <a href="https://instagram.com/decorelm" target="_blank">
-                                    <img src="https://res.cloudinary.com/decorelm/image/upload/q_60/v1644262858/decorelm-website/Decorelm-Instagram4_kwtjlg.png" className="rounded social-img" />
+                                    <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_757/v1646079307/sections/Decorelm_Instagram_1_fb0ysf.png" className="rounded social-img" />
                                 </a>
                             </Col>
                             <Col>
                                 <a href="https://instagram.com/decorelm" target="_blank">
-                                    <img src="https://res.cloudinary.com/decorelm/image/upload/q_60/v1644262858/decorelm-website/Decorelm-Instagram3_nddxbg.png" className="rounded social-img" />
+                                    <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_757/v1646079308/sections/Decorelm_Instagram_2_atvem0.png" className="rounded social-img" />
                                 </a>
                             </Col>
                             <Col>
                                 <a href="https://instagram.com/decorelm" target="_blank">
-                                    <img src="https://res.cloudinary.com/decorelm/image/upload/q_60/v1644262857/decorelm-website/Decorelm-Instagram2_gdny44.png" className="rounded social-img" />
+                                    <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_757/v1646079308/sections/Decorelm_Instagram_3_bclynn.png" className="rounded social-img" />
                                 </a>
                             </Col>
                             <Col>
                                 <a href="https://instagram.com/decorelm" target="_blank">
-                                    <img src="https://res.cloudinary.com/decorelm/image/upload/q_60/v1644262858/decorelm-website/Decorelm-Instagram1_v9l0uw.png" className="rounded social-img" />
+                                    <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_757/v1646079309/sections/Decorelm_Instagram_4_sylumf.png" className="rounded social-img" />
                                 </a>
                             </Col>
                             <Col>
                                 <a href="https://instagram.com/decorelm" target="_blank">
-                                    <img src="https://res.cloudinary.com/decorelm/image/upload/q_60/v1644262858/decorelm-website/Decorelm-Instagram5_uz68de.png" className="rounded social-img" />
+                                    <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_757/v1646079308/sections/Decorelm_Instagram_5_i8oxax.png" className="rounded social-img" />
                                 </a>
                             </Col>
                         </Row>
