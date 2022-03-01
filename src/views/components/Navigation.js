@@ -71,7 +71,7 @@ export default class Navigation extends Component {
                                 </RouterLink>
                                 <div className="brand-desktop">
                                     <RouterLink to="/">
-                                        <Navbar.Brand href="/"><img src="https://res.cloudinary.com/decorelm/image/upload/v1646119109/Decorelm_Logo_2022_bu1lvx.png" className="logo mx-3" /></Navbar.Brand>
+                                        <Navbar.Brand href="/"><img src="https://res.cloudinary.com/decorelm/image/upload/v1646119389/Decorelm_Logo_2022_bu1lvx.png" className="logo mx-3" /></Navbar.Brand>
                                     </RouterLink>
                                 </div>
                                 <NavDropdown title="about us" id="basic-nav-dropdown">
