@@ -1,0 +1,103 @@
+img{
+    width: 100%;
+    margin: 0 !important;
+}
+
+.banner-img{
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.container-img{
+    background-image: url(https://res.cloudinary.com/decorelm/image/upload/c_scale,w_1423/v1646078533/services/Console_Table-min_sunkxl.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.cta-header{
+    font-size: 1.1rem !important;
+    margin-top: 20px;
+}
+
+.cta-img{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://res.cloudinary.com/decorelm/image/upload/v1645993774/Enquire_Now_niordu.jpg");
+    background-position: center;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .step-text{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 90% !important;
+        margin-top: 15%;
+    }
+    .title{
+        max-width: 90%;
+    }
+    .mobile-bd{
+        border-right: none !important;
+    }
+    .step-text{
+        padding: 10% 0%;
+    }
+    .steps{
+        max-width: 90%
+    }
+    .cta-box{
+        background-color: rgba(248, 247, 243, 0.75);
+        max-width: 90%;
+        padding: 30px;
+    }
+    .ourWorkTop{
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .boxes{
+        width: 90%;
+    }
+    .title{
+        max-width: 65%;
+    }
+    .border-start{
+        border-left: none !important;
+    }
+    .steps{
+        max-width: 80%
+    }
+    .cta-box{
+        background-color: rgba(248, 247, 243, 0.75);
+        max-width: 50%;
+        padding: 30px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .ourWorkBottom{
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1000px){
+    .ourWorkTop{
+        display: none !important;
+    }
+    .cta-box{
+        background-color: rgba(248, 247, 243, 0.75);
+        max-width: 70%;
+        padding: 30px;
+    }
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}

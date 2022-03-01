@@ -18,7 +18,7 @@ export default class Navigation extends Component {
                     <Container>
                         <div className="brand-mobile">
                             <RouterLink to="/">
-                                <Navbar.Brand href="/"><img src="https://res.cloudinary.com/decorelm/image/upload/v1642960552/decorelm-website/Screenshot_2022-01-08_at_13.57.45_r531o9.png" className="logo mx-3" /></Navbar.Brand>
+                                <Navbar.Brand href="/"><img src="https://res.cloudinary.com/decorelm/image/upload/v1646119109/Decorelm_Logo_2022_bu1lvx.png" className="logo mx-3" /></Navbar.Brand>
                             </RouterLink>
                         </div>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -36,7 +36,7 @@ export default class Navigation extends Component {
                                 </RouterLink>
                                 <div className="brand-desktop">
                                     <RouterLink to="/">
-                                        <Navbar.Brand href="/"><img src="https://res.cloudinary.com/decorelm/image/upload/v1642960552/decorelm-website/Screenshot_2022-01-08_at_13.57.45_r531o9.png" className="logo mx-3" /></Navbar.Brand>
+                                        <Navbar.Brand href="/"><img src="https://res.cloudinary.com/decorelm/image/upload/v1646119109/Decorelm_Logo_2022_bu1lvx.png" className="logo mx-3" /></Navbar.Brand>
                                     </RouterLink>
                                 </div>
                                 <NavDropdown title="about us" id="basic-nav-dropdown">
@@ -71,7 +71,7 @@ export default class Navigation extends Component {
                                 </RouterLink>
                                 <div className="brand-desktop">
                                     <RouterLink to="/">
-                                        <Navbar.Brand href="/"><img src="https://res.cloudinary.com/decorelm/image/upload/v1642960552/decorelm-website/Screenshot_2022-01-08_at_13.57.45_r531o9.png" className="logo mx-3" /></Navbar.Brand>
+                                        <Navbar.Brand href="/"><img src="https://res.cloudinary.com/decorelm/image/upload/v1646119109/Decorelm_Logo_2022_bu1lvx.png" className="logo mx-3" /></Navbar.Brand>
                                     </RouterLink>
                                 </div>
                                 <NavDropdown title="about us" id="basic-nav-dropdown">
