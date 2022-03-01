@@ -104,10 +104,10 @@ export default class Footer extends Component {
                                 <div className="Footer-col">
                                     <h5 className="Footer-header">Social</h5>
                                     <div>
-                                        <a href="https://www.bark.com/en/gb/company/decorelm-design-studio/RnVay/" target="_blank"><img src="https://res.cloudinary.com/decorelm/image/upload/q_60/v1644264632/decorelm-website/Decorelm-Bark_lf9ra0.png" className="social-icon" /></a>
-                                        <a href="https://instagram.com/decorelm" target="_blank"><img src="https://res.cloudinary.com/decorelm/image/upload/q_60/v1644264632/decorelm-website/Decorelm-Instagram_hmpmog.png" className="social-icon" /></a>
-                                        <a href="https://www.houzz.co.uk/professionals/interior-designers/decorelm-pfvwgb-pf~255770496" target="_blank"><img src="https://res.cloudinary.com/decorelm/image/upload/q_60/v1644264632/decorelm-website/Decorelm-Houzz_apgb7y.png" className="social-icon" /></a>
-                                        <a href="https://pin.it/1vmFdhv" target="_blank"><img src="https://res.cloudinary.com/decorelm/image/upload/q_60/v1644264632/decorelm-website/Decorelm-Pinterest_sqizqb.png" className="social-icon" /></a>
+                                        <a href="https://www.bark.com/en/gb/company/decorelm-design-studio/RnVay/" target="_blank"><img src="https://res.cloudinary.com/decorelm/image/upload/v1646149098/sections/1_asv0oc.png" className="social-icon" /></a>
+                                        <a href="https://instagram.com/decorelm" target="_blank"><img src="https://res.cloudinary.com/decorelm/image/upload/v1646149098/sections/2_eoxlj6.png" className="social-icon" /></a>
+                                        <a href="https://www.houzz.co.uk/professionals/interior-designers/decorelm-pfvwgb-pf~255770496" target="_blank"><img src="https://res.cloudinary.com/decorelm/image/upload/v1646149098/sections/4_mhqswp.png" className="social-icon" /></a>
+                                        <a href="https://pin.it/1vmFdhv" target="_blank"><img src="https://res.cloudinary.com/decorelm/image/upload/v1646149098/sections/3_xj8ang.png" className="social-icon" /></a>
                                     </div>
                                 </div>
                             </Col>
