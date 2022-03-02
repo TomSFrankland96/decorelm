@@ -26,9 +26,15 @@ import Jenny from './views/pages/work/projects/Jenny'
 import Tiziana from './views/pages/work/projects/Tiziana'
 
 import ReactGA from 'react-ga';
-ReactGA.initialize('G-8TM8QTJHJC');
 
 class App extends Component {
+  setGA = () => {
+    ReactGA.initialize('G-8TM8QTJHJC');
+    ReactGA.pageview('Init page view')
+  }
+  componentDidMount(){
+    this.setGA();
+  }
   render() {
     return (
       <div className="App">
