@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import Header from '../../sections/Header'
 import Main from './Main'
 
+import ReactGA from 'react-ga';
+
 export default class Home extends Component {
     constructor(props) {
         super(props);

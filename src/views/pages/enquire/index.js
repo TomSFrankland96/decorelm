@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import Header from '../../sections/Header'
 import Main from './Main'
 
+import ReactGA from 'react-ga';
+
 export default class Enquire extends Component {
     componentDidMount() {
         window.scrollTo(0, 100)
