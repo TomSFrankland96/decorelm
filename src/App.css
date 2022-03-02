@@ -9,6 +9,8 @@ body {
   font-size: 15px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Raleway:wght@300;400&display=swap');
+
 
 section{
   margin: 5% 2% !important;
