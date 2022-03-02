@@ -12,6 +12,7 @@ import Header from '../../sections/Header'
 export default class Work extends Component {
     componentDidMount() {
         window.scrollTo(0, 0)
+        ReactGA.pageview(window.location.pathname);
     }
     render() {
         return (

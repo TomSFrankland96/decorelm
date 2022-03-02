@@ -6,6 +6,7 @@ import Main from './Main'
 export default class AboutUs extends Component {
     componentDidMount() {
         window.scrollTo(0, 60)
+        ReactGA.pageview(window.location.pathname);
       }
     render() {
         return (

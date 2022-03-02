@@ -5,6 +5,7 @@ import Main from './Main'
 export default class Enquire extends Component {
     componentDidMount() {
         window.scrollTo(0, 100)
+        ReactGA.pageview(window.location.pathname);
       }
     render() {
         return (
