@@ -9,6 +9,8 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
+import ReactGA from 'react-ga';
+ReactGA.initialize('G-8TM8QTJHJC', [options]);
 
 import Navigation from './views/components/Navigation';
 import Footer from './views/components/Footer'

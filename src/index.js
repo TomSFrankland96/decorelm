@@ -3,10 +3,6 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import ReactGA from 'react-ga';
-
-ReactGA.initialize('G-8TM8QTJHJC', [options]);
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
