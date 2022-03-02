@@ -37,7 +37,7 @@ export default class Work extends Component {
                     <Row>
                         <Col md={4} className="p-4">
                             <Single
-                                img="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_757/v1646079827/sections/Calming-Dining-And-Living-Room_jf7lgh.png"
+                                img="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_757/v1646079827/sections/Calming-Dining-And-Living-Room_jf7lgh.webp"
                                 titleTag="Feb 2022 - Cardiff"
                                 title="Calming Dining &amp; Living Room"
                                 link="/projects/calming-dining-and-living-room"
@@ -45,7 +45,7 @@ export default class Work extends Component {
                         </Col>
                         <Col md={4} className="p-4">
                             <Single
-                                img="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_757/v1646079827/sections/Elegant-Living-Room_o9binp.png"
+                                img="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_757/v1646079827/sections/Elegant-Living-Room_o9binp.webp"
                                 titleTag="Jan 2022 - Manchester"
                                 title="Elegant Living Room"
                                 description="Some quick example text to..."
@@ -54,7 +54,7 @@ export default class Work extends Component {
                         </Col>
                         <Col md={4} className="p-4">
                             <Single
-                                img="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_757/v1646079827/sections/Coastal-Living-And-Dining-Room_nibrtp.png"
+                                img="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_757/v1646079827/sections/Coastal-Living-And-Dining-Room_nibrtp.webp"
                                 titleTag="Dec 2021 - London"
                                 title="Coastal Living &amp; Dining Room"
                                 description="Some quick example text to..."
@@ -65,7 +65,7 @@ export default class Work extends Component {
                     <Row>
                         <Col md={4} className="p-4">
                             <Single
-                                img="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_757/v1646079827/sections/Scandinavian-Living-Room_fmyqsw.png"
+                                img="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_757/v1646079827/sections/Scandinavian-Living-Room_fmyqsw.webp"
                                 titleTag="Oct 2021 - London"
                                 title="Scandinavian Living Room"
                                 description="Some quick example text to..."
@@ -74,7 +74,7 @@ export default class Work extends Component {
                         </Col>
                         <Col md={4} className="p-4">
                             <Single
-                                img="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_757/v1646081820/sections/Modern-Living-Room_qgsk2s.png"
+                                img="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_757/v1646081820/sections/Modern-Living-Room_qgsk2s.webp"
                                 titleTag="Oct 2021 - Northern Ireland"
                                 title="Modern Living Room"
                                 description="Some quick example text to..."
@@ -83,7 +83,7 @@ export default class Work extends Component {
                         </Col>
                         <Col md={4} className="p-4">
                             <Single
-                                img="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_757/v1646081820/sections/Bohemian-Apartment_lhfbyf.png"
+                                img="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_757/v1646081820/sections/Bohemian-Apartment_lhfbyf.webp"
                                 titleTag="Oct 2021 - London"
                                 title="Bohemian Apartment"
                                 description="Some quick example text to..."
