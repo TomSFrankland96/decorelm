@@ -11,7 +11,7 @@ img{
 
 
 .container-img{
-    background-image: url(https://res.cloudinary.com/decorelm/image/upload/c_scale,w_1423/v1646078533/services/Console_Table-min_sunkxl.jpg);
+    background-image: url(https://res.cloudinary.com/decorelm/image/upload/c_scale,w_1300/v1646078533/services/Console_Table-min_sunkxl.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -25,7 +25,7 @@ img{
 .cta-img{
     height: 100%;
     width: 100%;
-    background-image: url("https://res.cloudinary.com/decorelm/image/upload/v1645993774/Enquire_Now_niordu.jpg");
+    background-image: url("https://res.cloudinary.com/decorelm/image/upload/c_scale,w_1000/v1645993774/Enquire_Now_niordu.webp");
     background-position: center;
 }
 

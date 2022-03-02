@@ -37,12 +37,12 @@ export default class Main extends Component {
                                 </div>
                             </Col>
                             <Col md={6} className="d-flex m-0 g-0">
-                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1646078628/services/The_Details_-_01-min_bgbjvr.png" className="grow-img align-self-center" />
+                                <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_800/v1646078628/services/The_Details_-_01-min_bgbjvr.webp" className="grow-img align-self-center" />
                             </Col>
                         </Row>
                         <Row>
                             <Col md={6} xs={{ order: 1, span: 12 }} md={{ order: 12, span: 6 }} className="d-flex m-width m-0 g-0">
-                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1646078535/services/The_Direction_-_02-min_umotfv.png" className="grow-img align-self-center ms-auto" />
+                                <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_800/v1646078535/services/The_Direction_-_02-min_umotfv.webp" className="grow-img align-self-center ms-auto" />
                             </Col>
                             <Col md={6} xs={{ order: 12, span: 12 }} md={{ order: 1, span: 6 }} className="d-flex m-width m-0 g-0">
                                 <div className="text-start align-self-center ms-auto step-text shadow bg-white w-100 p-5 m-0">
@@ -64,12 +64,12 @@ export default class Main extends Component {
                                 </div>
                             </Col>
                             <Col md={6} className="d-flex m-0 g-0">
-                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1646078534/services/The_Designs_-_03-min_u2fmy4.png" className="grow-img align-self-center me-auto" />
+                                <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_800/v1646078534/services/The_Designs_-_03-min_u2fmy4.webp" className="grow-img align-self-center me-auto" />
                             </Col>
                         </Row>
                         <Row>
                             <Col md={6} xs={{ order: 1, span: 12 }} md={{ order: 12, span: 6 }} className="d-flex m-0 g-0">
-                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1646078534/services/Visualise_Explore-min_gql015.png" className="grow-img align-self-center ms-auto" />
+                                <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_800/v1646078534/services/Visualise_Explore-min_gql015.webp" className="grow-img align-self-center ms-auto" />
                             </Col>
                             <Col md={6} xs={{ order: 12, span: 12 }} md={{ order: 1, span: 6 }} className="d-flex m-0 g-0">
                                 <div className="text-start align-self-center ms-auto step-text shadow bg-white w-100 p-5 m-0">
@@ -92,13 +92,13 @@ export default class Main extends Component {
                                 </div>
                             </Col>
                             <Col md={6} className="d-flex m-0 g-0">
-                                <img src="https://res.cloudinary.com/decorelm/image/upload/v1646078533/services/Shop_the_Design-min_idkbxc.png" className="grow-img align-self-center me-auto" />
+                                <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_800/v1646078533/services/Shop_the_Design-min_idkbxc.webp" className="grow-img align-self-center me-auto" />
                             </Col>
                         </Row>
                         <Row>
                             <div className="mt-3 text-center">
                                 <h4 className="header-tag mb-4">partners</h4>
-                                <img src="https://res.cloudinary.com/decorelm/image/upload/q_40/v1646070702/West_Elm_logo_lvejfg.png" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://res.cloudinary.com/decorelm/image/upload/q_40/v1646070706/cox_rvthoh.png" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://res.cloudinary.com/decorelm/image/upload/v1646084913/services/MadeLogo.2_kb39fb.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://res.cloudinary.com/decorelm/image/upload/q_40/v1645987614/Lick_tkxlt6.png" style={{ maxWidth: '120px' }} className="mx-3 my-2" /><img src="https://res.cloudinary.com/decorelm/image/upload/v1646078532/services/La_Redoute-min_zjmlea.png" style={{ maxWidth: '150px' }} className="mx-3 my-2" />
+                                <img src="https://res.cloudinary.com/decorelm/image/upload/q_40/v1646070702/West_Elm_logo_lvejfg.webp" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://res.cloudinary.com/decorelm/image/upload/q_40/v1646070706/cox_rvthoh.webp" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://res.cloudinary.com/decorelm/image/upload/v1646084913/services/MadeLogo.2_kb39fb.svg" style={{ maxWidth: '150px' }} className="mx-3 my-2" /><img src="https://res.cloudinary.com/decorelm/image/upload/q_40/v1645987614/Lick_tkxlt6.webp" style={{ maxWidth: '120px' }} className="mx-3 my-2" /><img src="https://res.cloudinary.com/decorelm/image/upload/v1646078532/services/La_Redoute-min_zjmlea.webp" style={{ maxWidth: '150px' }} className="mx-3 my-2" />
                                 <p className="mt-5">Plus 100's more...</p>
                             </div>
                         </Row>

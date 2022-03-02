@@ -25,7 +25,7 @@ export default class AboutUs extends Component {
                             </h1>
                         </div>
                         <div>
-                            <img src="https://res.cloudinary.com/decorelm/image/upload/v1646079826/sections/About_Us_qcsdle.jpg" />
+                            <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_1200/v1646079826/sections/About_Us_qcsdle.webp" />
                         </div>
                     </Col>
                     <Col md={5} className="p-5 d-flex">
