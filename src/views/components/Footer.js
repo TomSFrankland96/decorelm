@@ -20,27 +20,27 @@ export default class Footer extends Component {
                             </div>
                             <Col>
                                 <a href="https://instagram.com/decorelm" target="_blank">
-                                    <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_757/v1646079307/sections/Decorelm_Instagram_1_fb0ysf.png" className="rounded social-img" />
+                                    <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_500/v1646079307/sections/Decorelm_Instagram_1_fb0ysf.webp" className="rounded social-img" />
                                 </a>
                             </Col>
                             <Col>
                                 <a href="https://instagram.com/decorelm" target="_blank">
-                                    <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_757/v1646079308/sections/Decorelm_Instagram_2_atvem0.png" className="rounded social-img" />
+                                    <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_500/v1646079308/sections/Decorelm_Instagram_2_atvem0.webp" className="rounded social-img" />
                                 </a>
                             </Col>
                             <Col>
                                 <a href="https://instagram.com/decorelm" target="_blank">
-                                    <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_757/v1646079308/sections/Decorelm_Instagram_3_bclynn.png" className="rounded social-img" />
+                                    <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_500/v1646079308/sections/Decorelm_Instagram_3_bclynn.webp" className="rounded social-img" />
                                 </a>
                             </Col>
                             <Col>
                                 <a href="https://instagram.com/decorelm" target="_blank">
-                                    <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_757/v1646079309/sections/Decorelm_Instagram_4_sylumf.png" className="rounded social-img" />
+                                    <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_500/v1646079309/sections/Decorelm_Instagram_4_sylumf.webp" className="rounded social-img" />
                                 </a>
                             </Col>
                             <Col>
                                 <a href="https://instagram.com/decorelm" target="_blank">
-                                    <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_757/v1646079308/sections/Decorelm_Instagram_5_i8oxax.png" className="rounded social-img" />
+                                    <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_500/v1646079308/sections/Decorelm_Instagram_5_i8oxax.webp" className="rounded social-img" />
                                 </a>
                             </Col>
                         </Row>
@@ -104,10 +104,10 @@ export default class Footer extends Component {
                                 <div className="Footer-col">
                                     <h5 className="Footer-header">Social</h5>
                                     <div>
-                                        <a href="https://www.bark.com/en/gb/company/decorelm-design-studio/RnVay/" target="_blank"><img src="https://res.cloudinary.com/decorelm/image/upload/v1646149098/sections/1_asv0oc.png" className="social-icon" /></a>
-                                        <a href="https://instagram.com/decorelm" target="_blank"><img src="https://res.cloudinary.com/decorelm/image/upload/v1646149098/sections/2_eoxlj6.png" className="social-icon" /></a>
-                                        <a href="https://www.houzz.co.uk/professionals/interior-designers/decorelm-pfvwgb-pf~255770496" target="_blank"><img src="https://res.cloudinary.com/decorelm/image/upload/v1646149098/sections/4_mhqswp.png" className="social-icon" /></a>
-                                        <a href="https://pin.it/1vmFdhv" target="_blank"><img src="https://res.cloudinary.com/decorelm/image/upload/v1646149098/sections/3_xj8ang.png" className="social-icon" /></a>
+                                        <a href="https://www.bark.com/en/gb/company/decorelm-design-studio/RnVay/" target="_blank"><img src="https://res.cloudinary.com/decorelm/image/upload/v1646149098/sections/1_asv0oc.webp" className="social-icon" /></a>
+                                        <a href="https://instagram.com/decorelm" target="_blank"><img src="https://res.cloudinary.com/decorelm/image/upload/v1646149098/sections/2_eoxlj6.webp" className="social-icon" /></a>
+                                        <a href="https://www.houzz.co.uk/professionals/interior-designers/decorelm-pfvwgb-pf~255770496" target="_blank"><img src="https://res.cloudinary.com/decorelm/image/upload/v1646149098/sections/4_mhqswp.webp" className="social-icon" /></a>
+                                        <a href="https://pin.it/1vmFdhv" target="_blank"><img src="https://res.cloudinary.com/decorelm/image/upload/v1646149098/sections/3_xj8ang.webp" className="social-icon" /></a>
                                     </div>
                                 </div>
                             </Col>
