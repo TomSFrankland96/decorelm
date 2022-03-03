@@ -63,3 +63,13 @@ a{
 a:hover{
     color: grey
 }
+
+.award-text{
+    font-size: 0.8em;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .award-text{
+        display: none;
+    }
+}

@@ -27,7 +27,7 @@ export default class Services extends Component {
                         "collaborate with us"
                     }
                     header={
-                        "5 Star Rated, Trusted Interior Design Service"
+                        "Award-Winning, 5 Star Rated Interior Design Service"
                     }
                     subheader={
                         "Finding it hard to overcome the challenges of home design? Collaborate with us to transform your home swiftly & for one flat fee."

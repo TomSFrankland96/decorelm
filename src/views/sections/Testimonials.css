@@ -16,6 +16,10 @@ q{
     font-size: 1.2rem;
 }
 
+.all-reviews{
+    font-size: 1.3em;
+    color: white;
+}
 
 @media only screen and (max-device-width: 480px) {
     .testimonial-box{
