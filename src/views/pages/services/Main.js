@@ -203,8 +203,8 @@ export default class Main extends Component {
                             </Row>
                             <div className="my-3">
                                 <h4 className="uppercase r-header">Want to ask us another question?</h4>
-                                <RouterLink to="/contact">
-                                    <Button className="button" href="/contact">contact us now <i className="bi bi-arrow-right"></i></Button>
+                                <RouterLink to="/enquire">
+                                    <Button className="button" href="/enquire">enquire now <i className="bi bi-arrow-right"></i></Button>
                                 </ RouterLink>
                             </div>
                         </Row>
