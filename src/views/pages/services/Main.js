@@ -16,6 +16,25 @@ export default class Main extends Component {
     render() {
         return (
             <div>
+                <Container>
+                    <Row className="d-flex justify-content-center text-white">
+                        <Col className="green text-center shadow mx-3 my-2 p-4" lg={3}>
+                            <h3 className="uppercase cta-header">01 - receive bespoke room designs</h3>
+                            <hr className="my-3" />
+                            <p>We'll create your own unique designs based on your ideas, loves and goals for each room.</p>
+                        </Col>
+                        <Col className="green text-center shadow mx-3 my-2 p-4" lg={3}>
+                            <h3 className="uppercase cta-header">02 - get the right furniture sourced</h3>
+                            <hr className="my-3" />
+                            <p>Save hours of trying to find the right furniture. You'll receive all design items into one list.</p>
+                        </Col>
+                        <Col className="green text-center shadow mx-3 my-2 p-4" lg={3}>
+                            <h3 className="uppercase cta-header">03 - see your designs in 3D</h3>
+                            <hr className="my-3" />
+                            <p>Each design comes with realistic 3D visualisations of your room so you can experience the design.</p>
+                        </Col>
+                    </Row>
+                </Container>
                 <div className="ourWorkTop">
                     <OurWork />
                 </div>

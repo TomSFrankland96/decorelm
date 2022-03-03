@@ -27,10 +27,10 @@ export default class Services extends Component {
                         "collaborate with us"
                     }
                     header={
-                        "Bring your dream home to life with our online interior design service."
+                        "5 Star Rated, Trusted Interior Design Service"
                     }
                     subheader={
-                        "Collaborate with a professional interior design online to style & decorate each room for one flat fee."
+                        "Finding it hard to overcome the design challenges of home design? Collaborate with us online where we can transform your home for one flat fee."
                     }
                     page={this.state.page}
                 />
