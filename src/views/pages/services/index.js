@@ -30,7 +30,7 @@ export default class Services extends Component {
                         "5 Star Rated, Trusted Interior Design Service"
                     }
                     subheader={
-                        "Finding it hard to overcome the design challenges of home design? Collaborate with us online where we can transform your home for one flat fee."
+                        "Finding it hard to overcome the challenges of home design? Collaborate with us where we can transform your home swiftly & for one flat fee."
                     }
                     page={this.state.page}
                 />
