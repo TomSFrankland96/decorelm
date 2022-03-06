@@ -134,7 +134,7 @@ export default class Main extends Component {
                 </Container>
                 <Container className="my-5">
                     <Row>
-                        <video src="https://res.cloudinary.com/decorelm/video/upload/v1646587318/projects/Calming-Dining-And-Living-Room/Decorelm_p9vvzt.mp4" autoPlay loop />
+                        <video src="https://res.cloudinary.com/decorelm/video/upload/v1646587318/projects/Calming-Dining-And-Living-Room/Decorelm_p9vvzt.mp4" loop muted />
                     </Row>
                 </Container>
                 <div className="ourWorkTop">
