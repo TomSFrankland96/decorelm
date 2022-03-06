@@ -9,7 +9,7 @@ body {
   font-size: 15px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Raleway:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Licorice&family=Raleway:wght@300;400;500&display=swap');
 
 
 section{
@@ -74,6 +74,11 @@ h3{
   font-size: 2rem !important;
 }
 
+h5{
+  font-family: 'Raleway', serif;
+  font-weight: 400 !important;
+}
+
 .r-header{
   font-size: 1rem !important;
 }
@@ -82,6 +87,7 @@ h3{
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
   letter-spacing: 2px;
+  font-weight: 500;
 }
 
 .beige{
@@ -98,12 +104,13 @@ h3{
 
 
 .button{
-  background-color: #ddd8c4 !important;
+  background-color: #54725b !important;
   text-transform: uppercase;
-  font-size: 0.9rem !important;
+  font-size: 1rem !important;
+  font-weight: 500;
   letter-spacing: 2px !important;
   border: none !important;
-  color: #494949 !important;
+  color: #ffffff !important;
   border-radius: 0px !important;
   border-bottom-right-radius: 10px !important;
   padding: 8px 30px !important;
@@ -120,10 +127,10 @@ h3{
  text-transform: uppercase;
  font-size: 0.9rem !important;
  letter-spacing: 2px !important;
- border: none !important;
  color: #000000 !important;
  border-radius: 0px !important;
  border-bottom-right-radius: 10px !important;
+ border: 0.8px solid black !important;
  padding: 8px 30px !important;
 }
 
@@ -194,6 +201,11 @@ h3{
 .button{
   font-size: 0.8rem !important;
   width: 100%
+}
+.button-sec{
+  font-size: 0.8rem !important;
+  width: 100%;
+  margin-left: 0px !important;
 }
 h1{
   margin-bottom: 30px !important

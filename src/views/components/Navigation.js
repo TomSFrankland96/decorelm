@@ -24,11 +24,14 @@ export default class Navigation extends Component {
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="mobile-nav pt-3">
-                                <RouterLink to="/services">
-                                    <Nav.Item>
-                                        <Nav.Link href="/services">Design Services</Nav.Link>
-                                    </Nav.Item>
-                                </RouterLink>
+                                <NavDropdown title="Design Services" id="basic-nav-dropdown">
+                                    <RouterLink to="/services">
+                                        <NavDropdown.Item href="/services">E-Design Services</NavDropdown.Item>
+                                    </RouterLink>
+                                    <RouterLink to="/how-it-works">
+                                        <NavDropdown.Item href="/how-it-works">How It Works</NavDropdown.Item>
+                                    </RouterLink>
+                                </NavDropdown>
                                 <RouterLink to="/projects">
                                     <Nav.Item>
                                         <Nav.Link href="/projects">Projects</Nav.Link>
@@ -59,11 +62,14 @@ export default class Navigation extends Component {
                                 </div>
                             </Nav>
                             <Nav className="desktop-nav centered-nav mx-auto">
-                                <RouterLink to="/services">
-                                    <Nav.Item>
-                                        <Nav.Link href="/services">Design Services</Nav.Link>
-                                    </Nav.Item>
-                                </RouterLink>
+                                <NavDropdown title="Design Services" id="basic-nav-dropdown">
+                                    <RouterLink to="/services">
+                                        <NavDropdown.Item href="/services">E-Design Services</NavDropdown.Item>
+                                    </RouterLink>
+                                    <RouterLink to="/how-it-works">
+                                        <NavDropdown.Item href="/how-it-works">How It Works</NavDropdown.Item>
+                                    </RouterLink>
+                                </NavDropdown>
                                 <RouterLink to="/projects">
                                     <Nav.Item>
                                         <Nav.Link href="/projects">Projects</Nav.Link>

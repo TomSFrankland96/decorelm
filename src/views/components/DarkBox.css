@@ -1,50 +1,40 @@
 .DarkBox{
-    padding: 10%;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: inset 2000px 0 0 0 rgba(248, 247, 243, 0.75);
-    color: #494949;
-    height: 300px;
+    color: #ffffff;
     margin-left: auto;
     margin-right: auto;
 }
 
+.overlay{
+    background: rgba(0,0,0,0.3);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+}
+
 .line{
     width: 95%;
-    color: #494949; /* Modern Browsers */
-    opacity: 0.85;
+    color: #ffffff;
+    opacity: 0.9;
 }
 
 .box-header{
-    font-size: 1.2rem !important;
+    font-size: 1.4rem !important;
 }
 
 .box-text{
-    font-size: 1.1rem !important;
+    font-size: 1.2rem !important;
 }
 
-.overload{
-    background-image: url("https://res.cloudinary.com/decorelm/image/upload/v1643663636/decorelm-website/AdobeStock_345537025_ph9obj.jpg");
+.kerry{
+    background-image: url("https://res.cloudinary.com/decorelm/image/upload/v1645992056/IMG_4742_1_ujshf1.webp");
 }
 
-.sourcing{
-    background-image: url("https://res.cloudinary.com/decorelm/image/upload/v1643705107/decorelm-website/AdobeStock_239063394-min_ph2x23.jpg");
+.shopping{
+    background-image: url("https://res.cloudinary.com/decorelm/image/upload/v1646592585/services/made.com_ydbw5x.webp");
 }
 
-.visualisation{
-    background-image: url("https://res.cloudinary.com/decorelm/image/upload/v1643705315/decorelm-website/AdobeStock_314090421_bvlvjv.jpg");
-}
-
-.guarantee{
-    background-image: url("https://res.cloudinary.com/decorelm/image/upload/v1643705543/decorelm-website/AdobeStock_271218013_oernay.jpg");
-}
-
-.flexibility{
-    background-image: url("https://res.cloudinary.com/decorelm/image/upload/v1643830330/decorelm-website/Screenshot_2022-02-02_at_19.30.31_eykwka.png");
-}
-
-.support{
-    background-image: url("https://res.cloudinary.com/decorelm/image/upload/v1643705893/decorelm-website/AdobeStock_138103405_jnfcae.jpg");
+.visualise{
+    background-image: url("https://res.cloudinary.com/decorelm/image/upload/v1645993858/Enquire_yqvmne.webp")
 }

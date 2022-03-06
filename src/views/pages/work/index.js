@@ -21,7 +21,7 @@ export default class Work extends Component {
             <>
                 <Header
                     tag={
-                        "work"
+                        "projects"
                     }
                     header={
                         "Carefully crafted, meticulously measured"

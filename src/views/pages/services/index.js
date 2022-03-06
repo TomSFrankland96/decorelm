@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import Header from '../../sections/Header'
-import Main from './Main'
+import React, { Component } from 'react';
+import Header from '../../sections/Header';
+import Main from './Main.js';
 
 import ReactGA from 'react-ga';
 

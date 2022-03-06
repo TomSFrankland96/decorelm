@@ -13,6 +13,7 @@ import Navigation from './views/components/Navigation';
 import Footer from './views/components/Footer'
 import Home from './views/pages/home'
 import Services from './views/pages/services'
+import HowItWorks from './views/pages/how-it-works/HowItWorks';
 import Work from './views/pages/work'
 import Enquire from './views/pages/enquire'
 import AboutUs from './views/pages/aboutUs'
@@ -42,6 +43,7 @@ class App extends Component {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/services' element={<Services />} />
+            <Route path='/how-it-works' element={<HowItWorks />} />
             <Route path='/projects' element={<Work />} />
             <Route path='/projects/bohemian-apartment' exact element={<Claudia />} />
             <Route path="projects/modern-living-room" exact element={<Edgar />} />
