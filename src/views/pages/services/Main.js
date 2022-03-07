@@ -98,8 +98,8 @@ export default class Main extends Component {
                             </ul>
                             <RouterLink to="/enquire">
                                 <Button className="button mb-4">Enquire now <i className="bi bi-arrow-right" /></Button>
-                            </RouterLink>
-                            <RouterLink to="/enquire">
+                            </RouterLink><br />
+                            <RouterLink to="/how-it-works">
                                 <Button className="button-sec">Explore How It Works <i className="bi bi-arrow-right" /></Button>
                             </RouterLink>
                         </Col>
