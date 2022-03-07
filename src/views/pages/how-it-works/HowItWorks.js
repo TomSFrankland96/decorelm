@@ -117,7 +117,7 @@ export default class HowItWorks extends Component {
                                     <p>We'll chat via phone or email to learn more &amp; see images of your space.</p>
                                 </Col>
                                 <Col lg={4} className="my-3">
-                                    <h4 className="steps-cta">03 - Recieve your project quote</h4>
+                                    <h4 className="steps-cta">03 - Receive your project quote</h4>
                                     <p>You'll receive your final fixed project quote, and we can go from there!</p>
                                 </Col>
                             </Row>

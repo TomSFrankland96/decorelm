@@ -12,14 +12,16 @@ export default class Testimonial extends Component {
         return (
             <section>
                 <Container fluid className="align-self-center brown my-5">
-                    <Row className="py-5 testimonial-box mx-auto">
-                        <div className="align-self-center cta-padding">
+                    <Row className="py-5 mx-auto">
+                        <div className="align-self-center">
                             <div className="text-center">
                                 <h4 className="header-tag">testimonials</h4>
                                 <h2>Loved by many, rated 5 stars on Bark &amp; Houzz</h2>
                             </div>
                             <Row>
-                                <TestimonialsCarousel />
+                                <Col xs={12} md={8} className="mx-auto">
+                                    <TestimonialsCarousel />
+                                </Col>
                             </Row>
                             <h3 className="d-block">Awards</h3>
                             <div className="d-flex w-50 mx-auto">

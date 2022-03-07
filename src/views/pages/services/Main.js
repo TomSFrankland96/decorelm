@@ -27,13 +27,13 @@ export default class Main extends Component {
                             <DarkBox
                                 class="kerry"
                                 header="01 - receive bespoke room designs"
-                                content="We'll combine your own unique ideas &amp; tastes together with our design flair into one design."
+                                content="We'll combine your own unique tastes with our meticulous design flair into one detailed plan."
                             />
                         </Col>
                         <Col className="py-3" lg={4}>
                             <DarkBox
                                 class="shopping"
-                                header="02 - get the right furniture sourced"
+                                header="02 - get the best furniture sourced"
                                 content="Save hours of trying to find the right furniture. You'll receive all design items into one list."
                             />
                         </Col>
@@ -53,10 +53,10 @@ export default class Main extends Component {
                 </Container>
                 <Container fluid className="beige py-5">
                     <Row>
-                        <Col lg={6}>
+                        <Col xs={{ order: 2, span: 12 }} md={{ order: 1, span: 6 }}>
                             <EnquireForm />
                         </Col>
-                        <Col lg={6}>
+                        <Col xs={{ order: 1, span: 12 }} md={{ order: 2, span: 6 }}>
                             <div className="w-75 mx-auto my-5">
                                 <h2>Timeless design that lasts years, not just through trends.</h2>
                                 <p>Don't leave your home decorating to chance, potentially costing you thousands of pounds in wrong decisions &amp; wasted time.</p>
@@ -120,7 +120,7 @@ export default class Main extends Component {
                                     <p>We'll chat via phone or email to learn more &amp; see images of your space.</p>
                                 </Col>
                                 <Col lg={4} className="my-2">
-                                    <h4 className="steps-cta">03 - Recieve your project quote</h4>
+                                    <h4 className="steps-cta">03 - Receive your project quote</h4>
                                     <p>You'll receive your final fixed project quote, and we can go from there!</p>
                                 </Col>
                             </Row>
