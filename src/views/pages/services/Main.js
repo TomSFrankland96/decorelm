@@ -60,7 +60,7 @@ export default class Main extends Component {
                             <div className="w-75 mx-auto my-5">
                                 <h2>Timeless design that lasts years, not just through trends.</h2>
                                 <p>Don't leave your home decorating to chance, potentially costing you thousands of pounds in wrong decisions &amp; wasted time.</p>
-                                <p>Our award-winning e-design service makes it easy for you to pull your ideas together combined our design flair to create a home you love.</p>
+                                <p>Our award-winning e-design service makes it easy for you to pull your ideas together combined with our professional help to create a home you love.</p>
                                 <p>Get in touch today by booking a free call or filling out enquiry form, I can't wait to hear about your upcoming project!</p>
                                 <Row>
                                     <Col>
