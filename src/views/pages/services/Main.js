@@ -21,7 +21,7 @@ export default class Main extends Component {
     render() {
         return (
             <div>
-                <Container className="my-5">
+                <Container className="my-5 py-5">
                     <Row className="d-flex justify-content-center">
                         <Col className="py-3" lg={4}>
                             <DarkBox
@@ -47,35 +47,10 @@ export default class Main extends Component {
                     </Row>
                     <div>
                         <RouterLink to="/how-it-works">
-                            <Button className="button-sec mx-auto d-block my-4">How it works <i className="bi bi-arrow-right" /></Button>
+                            <Button className="button-sec mx-auto d-block my-4">Explore How it works <i className="bi bi-arrow-right" /></Button>
                         </RouterLink>
                     </div>
                 </Container>
-                <Container fluid className="beige py-5">
-                    <Row>
-                        <Col xs={{ order: 2, span: 12 }} md={{ order: 1, span: 6 }}>
-                            <EnquireForm />
-                        </Col>
-                        <Col xs={{ order: 1, span: 12 }} md={{ order: 2, span: 6 }}>
-                            <div className="w-75 mx-auto my-5">
-                                <h2>Timeless design that lasts years, not just through trends.</h2>
-                                <p>Don't leave your home decorating to chance, potentially costing you thousands of pounds in wrong decisions &amp; wasted time.</p>
-                                <p>Our award-winning e-design service makes it easy for you to pull your ideas together combined with our professional help to create a home you love.</p>
-                                <p>Get in touch today by booking a free call or filling out enquiry form, I can't wait to hear about your upcoming project!</p>
-                                <Row>
-                                    <Col>
-                                        <img src="https://res.cloudinary.com/decorelm/image/upload/v1646054339/IMG_4731_r9hdvr.webp" />
-                                    </Col>
-                                    <Col>
-                                        <p style={{fontFamily: 'Licorice', fontSize: '3rem'}}>Kerry</p>
-                                        <p>Interior Designer</p>
-                                    </Col>
-                                </Row>
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-                <Testimonials />
                 <Container className="my-5">
                     <Row>
                         <Col lg={6}>
@@ -105,6 +80,31 @@ export default class Main extends Component {
                         </Col>
                     </Row>
                 </Container>
+                <Container fluid className="beige py-5 my-5">
+                    <Row>
+                        <Col xs={{ order: 2, span: 12 }} md={{ order: 1, span: 6 }}>
+                            <EnquireForm />
+                        </Col>
+                        <Col xs={{ order: 1, span: 12 }} md={{ order: 2, span: 6 }}>
+                            <div className="w-75 mx-auto my-5">
+                                <h2>Timeless design that lasts years, not just through trends.</h2>
+                                <p>Don't leave your home decorating to chance, potentially costing you thousands of pounds in wrong decisions &amp; wasted time.</p>
+                                <p>Our award-winning e-design service makes it easy for you to pull your ideas together combined with our professional help to create a home you love.</p>
+                                <p>Get in touch today by booking a free call or filling out enquiry form, I can't wait to hear about your upcoming project!</p>
+                                <Row>
+                                    <Col>
+                                        <img src="https://res.cloudinary.com/decorelm/image/upload/v1646054339/IMG_4731_r9hdvr.webp" />
+                                    </Col>
+                                    <Col>
+                                        <p style={{fontFamily: 'Licorice', fontSize: '3rem'}}>Kerry</p>
+                                        <p>Interior Designer</p>
+                                    </Col>
+                                </Row>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+                <Testimonials />
                 <Container fluid className="container-img my-5">
                     <Row className="py-5 mx-auto">
                         <div className="mx-auto text-center my-3 cta-box">
