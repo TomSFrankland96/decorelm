@@ -45,7 +45,8 @@ export default class Main extends Component {
                             />
                         </Col>
                     </Row>
-                    <div>
+                    <div className="text-center mt-5">
+                        <h3>Our unique &amp; trusted virtual process is key to transforming your home</h3>
                         <RouterLink to="/how-it-works">
                             <Button className="button-sec mx-auto d-block my-4">Explore How it works <i className="bi bi-arrow-right" /></Button>
                         </RouterLink>

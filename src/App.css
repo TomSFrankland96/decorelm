@@ -104,13 +104,13 @@ h5{
 
 
 .button{
-  background-color: #54725b !important;
+  background-color: #E9E7DC !important;
   text-transform: uppercase;
   font-size: 1rem !important;
   font-weight: 500;
   letter-spacing: 2px !important;
   border: none !important;
-  color: #ffffff !important;
+  color: #000000 !important;
   border-radius: 0px !important;
   border-bottom-right-radius: 10px !important;
   padding: 8px 30px !important;
