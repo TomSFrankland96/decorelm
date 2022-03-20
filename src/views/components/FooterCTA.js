@@ -25,7 +25,7 @@ function FooterCTA({ show }) {
                             <Button className="footer-cta-button-sec">Contact<br /><i class="bi bi-telephone"></i></Button>
                         </RouterLink>
                         <RouterLink to="/enquire" className="mx-2 w-100">
-                            <Button className="footer-cta-button">Get Free Quote <i className="bi bi-arrow-right" /></Button>
+                            <Button className="footer-cta-button">Get Free Quote<br /> <i className="bi bi-arrow-right" /></Button>
                         </RouterLink>
                     </div>
                 </Row>
