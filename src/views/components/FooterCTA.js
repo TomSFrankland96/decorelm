@@ -22,7 +22,7 @@ function FooterCTA({ show }) {
                     <h5 className="text-center footer-cta-header mb-3">Get a <span style={{ textDecoration: "underline" }}>Free Project Quote</span> Now</h5>
                     <div className="d-flex justify-content-center">
                         <RouterLink to="/contact" className="mx-2 w-100">
-                            <Button className="footer-cta-button-sec">Contact <i class="bi bi-telephone"></i></Button>
+                            <Button className="footer-cta-button-sec">Contact<br /><i class="bi bi-telephone"></i></Button>
                         </RouterLink>
                         <RouterLink to="/enquire" className="mx-2 w-100">
                             <Button className="footer-cta-button">Get Free Quote <i className="bi bi-arrow-right" /></Button>
