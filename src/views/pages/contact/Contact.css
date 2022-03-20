@@ -19,3 +19,7 @@ sup{
         width: 90%;
     }
 }
+
+.form{
+    min-height: 80vh;
+}

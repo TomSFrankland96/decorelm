@@ -40,7 +40,6 @@ export default function SubscribeForm() {
         ]
     }
     const handleSubmit = async (event) => {
-        console.log(formData)
         event.preventDefault();
         const form = event.currentTarget;
         if (form.checkValidity() === false) {
