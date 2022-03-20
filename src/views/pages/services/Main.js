@@ -21,6 +21,11 @@ export default class Main extends Component {
     render() {
         return (
             <div>
+                <Container className="mobile-img">
+                    <Row>
+                            <img src="https://res.cloudinary.com/decorelm/image/upload/v1647812098/iStock-1357529184_fjpwf2.webp" />
+                    </Row>
+                </Container>
                 <Container className="my-5 py-5">
                     <Row className="d-flex justify-content-center">
                         <div className="text-center">
@@ -57,8 +62,8 @@ export default class Main extends Component {
                 </Container>
                 <Container className="my-5">
                     <Row>
-                        <Col lg={6} className="d-flex">
-                            <img className="align-self-center" src="https://res.cloudinary.com/decorelm/image/upload/v1645994297/Home_CTA_xgmuwd.webp" />
+                        <Col lg={6} className="d-flex p-4">
+                            <img className="align-self-center" src="https://res.cloudinary.com/decorelm/image/upload/v1647812114/iStock-1305957861_z1ptao.webp" />
                         </Col>
                         <Col lg={6} className="p-4 py-5">
                             <h4 className="header-tag">what's included</h4>
@@ -70,7 +75,7 @@ export default class Main extends Component {
                                 <li>2D Design Concepts</li>
                                 <li>Multiple Space Layout Options</li>
                                 <li>Accessory Suggestions</li>
-                                <li>Your Own Sourcing List Portal</li>
+                                <li>Your Own Shopping List</li>
                                 <li>3D Photorealistic Design Visualisations</li>
                                 <li>Designer Notes &amp; Collaboration</li>
                                 <li>1 Month Post Design Support</li>

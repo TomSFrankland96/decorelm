@@ -7,3 +7,9 @@ li{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+@media only screen and (min-width: 1024px){
+    .mobile-img{
+        display: none;
+    }
+}
