@@ -23,6 +23,9 @@ export default class Main extends Component {
             <div>
                 <Container className="my-5 py-5">
                     <Row className="d-flex justify-content-center">
+                        <div className="text-center">
+                            <h3>Our unique &amp; trusted virtual process is key to transforming your home</h3>
+                        </div>
                         <Col className="py-3" lg={4}>
                             <DarkBox
                                 class="kerry"
@@ -46,7 +49,7 @@ export default class Main extends Component {
                         </Col>
                     </Row>
                     <div className="text-center mt-5">
-                        <h3>Our unique &amp; trusted virtual process is key to transforming your home</h3>
+                        <h3>Learn more about how the process works</h3>
                         <RouterLink to="/how-it-works">
                             <Button className="button-sec mx-auto d-block my-4">Explore How it works <i className="bi bi-arrow-right" /></Button>
                         </RouterLink>
@@ -54,8 +57,8 @@ export default class Main extends Component {
                 </Container>
                 <Container className="my-5">
                     <Row>
-                        <Col lg={6}>
-                            <img className="" src="https://res.cloudinary.com/decorelm/image/upload/v1645994297/Home_CTA_xgmuwd.webp" />
+                        <Col lg={6} className="d-flex">
+                            <img className="align-self-center" src="https://res.cloudinary.com/decorelm/image/upload/v1645994297/Home_CTA_xgmuwd.webp" />
                         </Col>
                         <Col lg={6} className="p-4 py-5">
                             <h4 className="header-tag">what's included</h4>
@@ -73,7 +76,7 @@ export default class Main extends Component {
                                 <li>1 Month Post Design Support</li>
                             </ul>
                             <RouterLink to="/enquire">
-                                <Button className="button mb-4">Enquire now <i className="bi bi-arrow-right" /></Button>
+                                <Button className="button mb-4">Get free quote now <i className="bi bi-arrow-right" /></Button>
                             </RouterLink><br />
                             <RouterLink to="/how-it-works">
                                 <Button className="button-sec">Explore How It Works <i className="bi bi-arrow-right" /></Button>
@@ -97,7 +100,7 @@ export default class Main extends Component {
                                         <img src="https://res.cloudinary.com/decorelm/image/upload/v1646054339/IMG_4731_r9hdvr.webp" />
                                     </Col>
                                     <Col>
-                                        <p style={{fontFamily: 'Licorice', fontSize: '3rem'}}>Kerry</p>
+                                        <p style={{ fontFamily: 'Licorice', fontSize: '3rem' }}>Kerry</p>
                                         <p>Interior Designer</p>
                                     </Col>
                                 </Row>
@@ -127,7 +130,7 @@ export default class Main extends Component {
                             </Row>
                             <div className="text-center my-3">
                                 <RouterLink to="/enquire">
-                                    <Button className="button" href="/enquire">enquire about design service <i className="bi bi-arrow-right" /></Button>
+                                    <Button className="dark-button" href="/enquire">get free quote now <i className="bi bi-arrow-right" /></Button>
                                 </ RouterLink>
                             </div>
                         </div>

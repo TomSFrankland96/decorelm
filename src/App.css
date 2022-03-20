@@ -27,6 +27,24 @@ section{
   letter-spacing: 2px;
 }
 
+.dark-button{
+  background-color: #c9c4b8 !important;
+    color: #494949 !important;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif !important;
+  border-bottom-right-radius: 20px !important;
+  border: none !important;
+  letter-spacing: 2px;
+}
+
+.button:hover{
+  opacity: 0.7;
+}
+
+.button-sec:hover{
+  opacity: 0.7;
+}
+
 .book-call{
   text-transform: uppercase;
   background-color: #54725b !important;

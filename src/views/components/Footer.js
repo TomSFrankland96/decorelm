@@ -108,6 +108,11 @@ export default class Footer extends Component {
                                         <a href="https://www.houzz.co.uk/professionals/interior-designers/decorelm-pfvwgb-pf~255770496" target="_blank"><img src="https://res.cloudinary.com/decorelm/image/upload/v1646149098/sections/4_mhqswp.webp" className="social-icon" /></a>
                                     </div>
                                 </div>
+                                <div className="Footer-col my-5 contact">
+                                    <RouterLink to="/contact" className="link-white">
+                                        Contact Us <i className="bi bi-arrow-right" />
+                                    </RouterLink>
+                                </div>
                             </Col>
                         </Row >
                         <footer className="pb-3 text-end">Decorelm 2022® - All Rights Reserved</footer>

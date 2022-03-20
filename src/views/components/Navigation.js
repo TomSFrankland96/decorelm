@@ -12,7 +12,7 @@ export default class Navigation extends Component {
         return (
             <div className="sticky-top">
                 <Alert
-                    alert={"bookings now available for march"}
+                    alert={"bookings now available for april"}
                 />
                 <Navbar bg="white" expand="xl" collapseOnSelect className="shadow py-3">
                     <Container>
@@ -57,7 +57,7 @@ export default class Navigation extends Component {
                                 </Nav.Item>
                                 <div className="highlight cta-mobile w-75">
                                     <RouterLink to="/enquire">
-                                        <Nav.Link href="enquire" className="ms-5">enquire about design service <i class="bi bi-arrow-right"></i></Nav.Link>
+                                        <Nav.Link href="enquire" className="ms-5">get free design project quote <i class="bi bi-arrow-right"></i></Nav.Link>
                                     </RouterLink>
                                 </div>
                             </Nav>
@@ -93,12 +93,12 @@ export default class Navigation extends Component {
                                 </div>
                                 <div className="highlight cta-mobile">
                                     <RouterLink to="/enquire">
-                                        <Nav.Link href="enquire">enquire about design service <i class="bi bi-arrow-right"></i></Nav.Link>
+                                        <Nav.Link href="enquire">get free design project quote <i class="bi bi-arrow-right"></i></Nav.Link>
                                     </RouterLink>
                                 </div>
                                 <div className="highlight">
                                     <RouterLink to="/enquire">
-                                        <Nav.Link href="enquire">enquire about design service <i class="bi bi-arrow-right"></i></Nav.Link>
+                                        <Nav.Link href="enquire">get free design project quote <i class="bi bi-arrow-right"></i></Nav.Link>
                                     </RouterLink>
                                 </div>
                             </Nav>
