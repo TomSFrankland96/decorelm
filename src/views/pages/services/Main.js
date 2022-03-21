@@ -21,15 +21,20 @@ export default class Main extends Component {
     render() {
         return (
             <div>
-                <Container className="mobile-img">
+                <Container >
                     <Row>
+                        <Col md={7} className="py-3">
                             <img src="https://res.cloudinary.com/decorelm/image/upload/v1647812098/iStock-1357529184_fjpwf2.webp" />
+                        </Col>
+                        <Col md={5} className="py-3">
+                            <img src="https://res.cloudinary.com/decorelm/image/upload/v1647873724/Decorelm_Interior_Design_okyr27.webp" />
+                        </Col>
                     </Row>
                 </Container>
                 <Container className="my-5 py-5">
                     <Row className="d-flex justify-content-center">
-                        <div className="text-center">
-                            <h3>Our unique &amp; trusted virtual process is key to transforming your home</h3>
+                        <div className="text-center my-4">
+                            <h2>Our unique &amp; trusted virtual process is key to transforming your home</h2>
                         </div>
                         <Col className="py-3" lg={4}>
                             <DarkBox
@@ -54,7 +59,7 @@ export default class Main extends Component {
                         </Col>
                     </Row>
                     <div className="text-center mt-5">
-                        <h3>Learn more about how the process works</h3>
+                        <h2>Learn more about how the process works</h2>
                         <RouterLink to="/how-it-works">
                             <Button className="button-sec mx-auto d-block my-4">Explore How it works <i className="bi bi-arrow-right" /></Button>
                         </RouterLink>
@@ -63,7 +68,7 @@ export default class Main extends Component {
                 <Container className="my-5">
                     <Row>
                         <Col lg={6} className="d-flex p-4">
-                            <img className="align-self-center" src="https://res.cloudinary.com/decorelm/image/upload/v1647812114/iStock-1305957861_z1ptao.webp" />
+                            <img className="align-self-center" src="https://res.cloudinary.com/decorelm/image/upload/v1647874323/Decorelm_1_lunhww.webp" />
                         </Col>
                         <Col lg={6} className="p-4 py-5">
                             <h4 className="header-tag">what's included</h4>
@@ -114,6 +119,16 @@ export default class Main extends Component {
                     </Row>
                 </Container>
                 <Testimonials />
+                <Container >
+                    <Row>
+                        <Col md={5} className="py-3 mx-auto">
+                            <img src="https://res.cloudinary.com/decorelm/image/upload/v1647874321/Decorelm_3_m5odqs.webp" />
+                        </Col>
+                        <Col md={5} className="py-3 mx-auto">
+                            <img src="https://res.cloudinary.com/decorelm/image/upload/v1647874323/Decorelm_2_g9nnn7.webp" />
+                        </Col>
+                    </Row>
+                </Container>
                 <Container fluid className="container-img my-5">
                     <Row className="py-5 mx-auto">
                         <div className="mx-auto text-center my-3 cta-box">
@@ -141,11 +156,12 @@ export default class Main extends Component {
                         </div>
                     </Row>
                 </Container>
-                <Container className="my-5">
+                {/* <Container className="my-5">
                     <Row>
-                        <video src="https://res.cloudinary.com/decorelm/video/upload/v1646587318/projects/Calming-Dining-And-Living-Room/Decorelm_p9vvzt.mp4" loop muted />
+                    <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_1400/v1647874711/Decorelm_qltwrg.gif" alt="Decorelm Gif" />
+
                     </Row>
-                </Container>
+                </Container> */}
                 <div className="ourWorkTop">
                     <OurWork />
                 </div>
