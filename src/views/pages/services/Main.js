@@ -39,22 +39,22 @@ export default class Main extends Component {
                         <Col className="py-3" lg={4}>
                             <DarkBox
                                 class="kerry"
-                                header="01 - receive bespoke room designs"
+                                header="01 - remove the stress of design ideas"
                                 content="We'll combine your own unique tastes with our meticulous design flair into one detailed plan."
                             />
                         </Col>
                         <Col className="py-3" lg={4}>
                             <DarkBox
                                 class="shopping"
-                                header="02 - get the best furniture sourced"
-                                content="Save hours of trying to find the right furniture. You'll receive all design items into one list."
+                                header="02 - save hours sourcing furniture"
+                                content="You'll receive the best quality furniture &amp; accessories from the design, within budget, into one list."
                             />
                         </Col>
                         <Col className="py-3" lg={4}>
                             <DarkBox
                                 class="visualise"
                                 header="03 - experience your designs in 3D"
-                                content="Each design comes with realistic 3D visualisations so you can experience the design."
+                                content="Each design comes with realistic 3D visualisations so you can experience the design before choosing."
                             />
                         </Col>
                     </Row>
@@ -67,31 +67,67 @@ export default class Main extends Component {
                 </Container>
                 <Container className="my-5">
                     <Row>
-                        <Col lg={6} className="d-flex p-4">
-                            <img className="align-self-center" src="https://res.cloudinary.com/decorelm/image/upload/v1647874323/Decorelm_1_lunhww.webp" />
+                        <div className="text-center">
+                            <h2>Design Packages</h2>
+                        </div>
+                    </Row>
+                    <Row>
+                        <Col lg={6} className="p-2 my-4">
+                            <div className="shadow p-5">
+                                <h4 className="header-tag">basic</h4>
+                                <h2>Receive bespoke designs &amp; sourcing for one room</h2>
+                                <h5 className="my-4">From £395</h5>
+                                <ul className="list my-4">
+                                    <li>Design Consultation</li>
+                                    <li>1 Room Included</li>
+                                    <li>Inspiration Boards to Capture Design Direction</li>
+                                    <li>2D Design Concepts</li>
+                                    <li>Multiple Space Layout Options</li>
+                                    <li>Accessory Suggestions</li>
+                                    <li>Your Own Shopping List</li>
+                                    <li>3D Photorealistic Design Visualisations</li>
+                                    <li>4 Weeks Post Design Support</li>
+                                </ul>
+                                <RouterLink to="/enquire">
+                                    <Button className="button mb-4">Get free quote now <i className="bi bi-arrow-right" /></Button>
+                                </RouterLink><br />
+                                <RouterLink to="/how-it-works">
+                                    <Button className="button-sec">Explore How It Works <i className="bi bi-arrow-right" /></Button>
+                                </RouterLink>
+                            </div>
                         </Col>
-                        <Col lg={6} className="p-4 py-5">
-                            <h4 className="header-tag">what's included</h4>
-                            <h2>Each design comes with the following:</h2>
-                            <h5>From £395 per room</h5>
-                            <ul className="list my-4">
-                                <li>Initial Consultation</li>
-                                <li>Inspiration Boards to Capture Design Direction</li>
-                                <li>2D Design Concepts</li>
-                                <li>Multiple Space Layout Options</li>
-                                <li>Accessory Suggestions</li>
-                                <li>Your Own Shopping List</li>
-                                <li>3D Photorealistic Design Visualisations</li>
-                                <li>Designer Notes &amp; Collaboration</li>
-                                <li>1 Month Post Design Support</li>
-                            </ul>
-                            <RouterLink to="/enquire">
-                                <Button className="button mb-4">Get free quote now <i className="bi bi-arrow-right" /></Button>
-                            </RouterLink><br />
-                            <RouterLink to="/how-it-works">
-                                <Button className="button-sec">Explore How It Works <i className="bi bi-arrow-right" /></Button>
+                        <Col lg={6} className="p-2 my-4">
+                            <div className="shadow p-5">
+                                <h4 className="header-tag">premium</h4>
+                                <h2>Two rooms or multi-purpose space plus extra support time</h2>
+                                <h5 className="my-4">From £745</h5>
+                                <ul className="list my-4">
+                                    <li>Design Consultation</li>
+                                    <li>2 Rooms Included</li>
+                                    <li>Inspiration Boards to Capture Design Direction</li>
+                                    <li>2D Design Concepts</li>
+                                    <li>Multiple Space Layout Options</li>
+                                    <li>Accessory Suggestions</li>
+                                    <li>Your Own Shopping List</li>
+                                    <li>3D Photorealistic Design Visualisations</li>
+                                    <li>6 Weeks Post Design Support</li>
+                                </ul>
+                                <RouterLink to="/enquire">
+                                    <Button className="button mb-4">Get free quote now <i className="bi bi-arrow-right" /></Button>
+                                </RouterLink><br />
+                                <RouterLink to="/how-it-works">
+                                    <Button className="button-sec">Explore How It Works <i className="bi bi-arrow-right" /></Button>
+                                </RouterLink>
+                            </div>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <div className="text-center my-5">
+                            <h3>Have any questions or want a more custom service?</h3>
+                            <RouterLink to="/contact">
+                                <Button className="button-sec mx-auto d-block my-4">Contact Us <i className="bi bi-arrow-right" /></Button>
                             </RouterLink>
-                        </Col>
+                        </div>
                     </Row>
                 </Container>
                 <Container fluid className="beige py-5 my-5">
