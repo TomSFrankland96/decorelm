@@ -33,7 +33,6 @@ ReactGA.initialize('G-8TM8QTJHJC')
 class App extends Component {
   componentDidMount() {
     ReactGA.pageview(window.location.pathname + window.location.search)
-    console.log('testing')
   }
   render() {
     return (
@@ -44,7 +43,6 @@ class App extends Component {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/services' element={<Services />} />
-            <Route path='/how-it-works' element={<HowItWorks />} />
             <Route path='/projects' element={<Work />} />
             <Route path='/projects/bohemian-apartment' exact element={<Claudia />} />
             <Route path="projects/modern-living-room" exact element={<Edgar />} />

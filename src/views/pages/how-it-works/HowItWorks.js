@@ -33,7 +33,7 @@ function HowItWorks() {
                         <Col md={6} className="d-flex m-0 g-0">
                             <div className="text-start align-self-center ms-auto step-text shadow bg-white w-100 p-5 m-0">
                                 <h4 className="header-tag">step 01</h4>
-                                <h3>The Details</h3>
+                                <h3>About You &amp; Your Project Goals</h3>
                                 <p>We’ll start by viewing images &amp; measurements of your room then arrange a chat to understand your unique preferences and requirements.</p>
                                 <hr />
                             </div>
@@ -49,9 +49,11 @@ function HowItWorks() {
                         <Col md={6} xs={{ order: 12, span: 12 }} md={{ order: 1, span: 6 }} className="d-flex m-width m-0 g-0">
                             <div className="text-start align-self-center ms-auto step-text shadow bg-white w-100 p-5 m-0">
                                 <h4 className="header-tag">step 02</h4>
-                                <h3>The Direction</h3>
-                                <p>Your designer, Kerry, will then present some initial ideas in an inspiration mood board to guide the design’s direction.</p>
-                                <hr />
+                                <h3>The Design Direction</h3>
+                                <p>Your designer, Kerry, will then present some initial ideas in an inspiration mood board to bring your ideas together &amp; guide the design’s direction.</p>
+                                <p>You'll also get access to our unique design portal at this point.</p>
+                                <hr className="mb-3" />
+                                <a href="https://collaborate.decorelm.com/projects/624c1bcbbc18c3001695f7f7" className="button-blog" target="_blank">see example of design portal<i className="bi bi-arrow-right"></i></a>
                             </div>
                         </Col>
                     </Row>
@@ -59,9 +61,10 @@ function HowItWorks() {
                         <Col md={6} className="d-flex m-0 g-0">
                             <div className="text-start align-self-center ms-auto step-text shadow bg-white w-100 p-5 m-0">
                                 <h4 className="header-tag">step 03</h4>
-                                <h3>The Designs</h3>
-                                <p>You’ll receive a detailed design concept containing the room design, layout plans and designer’s notes.</p>
+                                <h3>Receive Your Design Delivered</h3>
+                                <p>You’ll receive a detailed design concept containing the room design, layout plans and designer’s notes in your own design portal.</p>
                                 <hr className="mb-3" />
+                                <a href="https://collaborate.decorelm.com/projects/624c1bcbbc18c3001695f7f7/rooms/624c1bf0bc18c3001695f800/designs" className="button-blog" target="_blank">see example of designs<i className="bi bi-arrow-right"></i></a>
                             </div>
                         </Col>
                         <Col md={6} className="d-flex m-0 g-0">
@@ -78,6 +81,7 @@ function HowItWorks() {
                                 <h3>Visualise &amp; Explore</h3>
                                 <p>See your new space with a photo-realistic 3D tour that helps you visualise the spacing &amp; layout.</p>
                                 <hr className="mb-3" />
+                                <a href="https://collaborate.decorelm.com/projects/624c1bcbbc18c3001695f7f7/rooms/624c1bf0bc18c3001695f800/render" className="button-blog" target="_blank">see example of 3D render<i className="bi bi-arrow-right"></i></a>
                             </div>
                         </Col>
                     </Row>
@@ -88,7 +92,7 @@ function HowItWorks() {
                                 <h3>Shop the Design</h3>
                                 <p>Remove the stress of finding the furnishings &amp; order in your own time! You'll also receive 30 days post design support from this point.</p>
                                 <hr className="mb-3" />
-                                <a href="https://collaborate.decorelm.com/projects/619675678ac17900164e81eb/rooms/619676328ac17900164e81f1" className="button-blog" target="_blank">see example <i className="bi bi-arrow-right"></i></a>
+                                <a href="https://collaborate.decorelm.com/projects/624c1bcbbc18c3001695f7f7/rooms/624c1bf0bc18c3001695f800" className="button-blog" target="_blank">see example of shopping list<i className="bi bi-arrow-right"></i></a>
                             </div>
                         </Col>
                         <Col md={6} className="d-flex m-0 g-0">
@@ -103,46 +107,6 @@ function HowItWorks() {
                         </div>
                     </Row>
                 </div>
-            </Container>
-            <Container fluid className="container-img">
-                <Row className="py-5 mx-auto">
-                    <div className="mx-auto text-center my-3 cta-box">
-                        <h4 className="header-tag">let's work together</h4>
-                        <h2>Ready to get started? The next steps are simple:</h2>
-                        <Row className="my-5">
-                            <Col lg={4} className="my-3">
-                                <h4 className="steps-cta">01 - Tell us about your project</h4>
-                                <p>Book a free, no-obligatory discovery call to speak with or us enquire via our form.</p>
-                            </Col>
-                            <Col lg={4} className="my-3">
-                                <h4 className="steps-cta">02 - Learn how we can help</h4>
-                                <p>We'll chat via phone or email to learn more &amp; see images of your space.</p>
-                            </Col>
-                            <Col lg={4} className="my-3">
-                                <h4 className="steps-cta">03 - Receive your project quote</h4>
-                                <p>You'll receive your final fixed project quote, and we can go from there!</p>
-                            </Col>
-                        </Row>
-                        <div className="text-center my-3">
-                            <RouterLink to="/enquire">
-                                <Button className="button" href="/enquire">enquire about design service <i className="bi bi-arrow-right" /></Button>
-                            </ RouterLink>
-                        </div>
-                    </div>
-                </Row>
-            </Container>
-            <Testimonial />
-            <Container fluid style={{ backgroundColor: "#f8f7f3" }}>
-                <Row className="">
-                    <Col md={6} className="d-flex">
-                        <div className="text-start align-self-center mx-auto py-2 step-text">
-                            <EnquireForm />
-                        </div>
-                    </Col>
-                    <Col md={6}>
-                        <div className="cta-img"></div>
-                    </Col>
-                </Row>
             </Container>
             <section>
                 <Container>
@@ -173,7 +137,7 @@ function HowItWorks() {
                             <Col lg={3} xs={12}>
                                 <div className="my-2 border p-4">
                                     <h4 className="uppercase r-header mb-3">How much budget do I need?</h4>
-                                    <p>We're flexible around what budget you have, contact us to learn more.</p>
+                                    <p>Contact us to learn more about recommended budget.</p>
                                 </div>
                             </Col>
                         </Row>
@@ -186,13 +150,6 @@ function HowItWorks() {
                     </Row>
                 </Container>
             </section>
-            <div className="ourWorkBottom">
-                <OurWork />
-            </div>
-            <AboutUs />
-            <FooterCTA
-                show={showCta}
-            />
         </div >
     )
 }

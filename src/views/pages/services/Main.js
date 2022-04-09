@@ -12,7 +12,8 @@ import { Link as RouterLink } from 'react-router-dom'
 import OurWork from '../../sections/OurWork/index'
 import DarkBox from '../../components/DarkBox'
 import Testimonials from '../../sections/Testimonials'
-import EnquireForm from '../../pages/enquire/EnquireForm'
+import EnquireForm from '../../pages/enquire/EnquireForm';
+import HowItWorks from "../how-it-works/HowItWorks";
 
 import './Main.css'
 
@@ -21,16 +22,6 @@ export default class Main extends Component {
     render() {
         return (
             <div>
-                <Container >
-                    <Row>
-                        <Col md={7} className="py-3">
-                            <img src="https://res.cloudinary.com/decorelm/image/upload/v1647812098/iStock-1357529184_fjpwf2.webp" />
-                        </Col>
-                        <Col md={5} className="py-3">
-                            <img src="https://res.cloudinary.com/decorelm/image/upload/v1647873724/Decorelm_Interior_Design_okyr27.webp" />
-                        </Col>
-                    </Row>
-                </Container>
                 <Container className="my-5 py-5">
                     <Row className="d-flex justify-content-center">
                         <div className="text-center my-4">
@@ -58,23 +49,19 @@ export default class Main extends Component {
                             />
                         </Col>
                     </Row>
-                    <div className="text-center mt-5">
-                        <h2>Learn more about how the process works</h2>
-                        <RouterLink to="/how-it-works">
-                            <Button className="button-sec mx-auto d-block my-4">Explore How it works <i className="bi bi-arrow-right" /></Button>
-                        </RouterLink>
-                    </div>
+                </Container>
+                <Container>
+                    <HowItWorks />
                 </Container>
                 <Container className="my-5">
                     <Row>
                         <div className="text-center">
-                            <h2>Design Packages</h2>
+                            <h2>Design Package</h2>
                         </div>
                     </Row>
                     <Row>
                         <Col lg={6} className="p-2 my-4">
                             <div className="shadow p-5">
-                                <h4 className="header-tag">basic</h4>
                                 <h2>Receive bespoke designs &amp; sourcing for one room</h2>
                                 <h5 className="my-4">From £395</h5>
                                 <ul className="list my-4">
@@ -91,33 +78,22 @@ export default class Main extends Component {
                                 <RouterLink to="/enquire">
                                     <Button className="button mb-4">Get free quote now <i className="bi bi-arrow-right" /></Button>
                                 </RouterLink><br />
-                                <RouterLink to="/how-it-works">
-                                    <Button className="button-sec">Explore How It Works <i className="bi bi-arrow-right" /></Button>
-                                </RouterLink>
+                                <Button className="button-sec" href="https://collaborate.decorelm.com/projects/624c1bcbbc18c3001695f7f7" target="_blank">See Example of What's Included<i className="bi bi-arrow-right" /></Button>
                             </div>
                         </Col>
                         <Col lg={6} className="p-2 my-4">
-                            <div className="shadow p-5">
-                                <h4 className="header-tag">premium</h4>
-                                <h2>Two rooms or multi-purpose space plus extra support time</h2>
-                                <h5 className="my-4">From £745</h5>
-                                <ul className="list my-4">
-                                    <li>Design Consultation</li>
-                                    <li>2 Rooms Included</li>
-                                    <li>Inspiration Boards to Capture Design Direction</li>
-                                    <li>2D Design Concepts</li>
-                                    <li>Multiple Space Layout Options</li>
-                                    <li>Accessory Suggestions</li>
-                                    <li>Your Own Shopping List</li>
-                                    <li>3D Photorealistic Design Visualisations</li>
-                                    <li>6 Weeks Post Design Support</li>
-                                </ul>
+                            <div className="p-5">
+                                <h4 className="header-tag">next steps</h4>
+                                <h2 className="mb-5">Get your project in 3 simple next steps</h2>
+                                <h4 className="steps-cta">01 - Talk to us</h4>
+                                <p className="mb-5">Book a free, no-obligatory discovery call to speak with or us enquire via our form.</p>
+                                <h4 className="steps-cta">02 - Get your final quote</h4>
+                                <p className="mb-5">We'll provide your final project quote via phone or email, depending on your communication preference.</p>
+                                <h4 className="steps-cta">03 - Book your slot</h4>
+                                <p className="mb-5">You'll then book your slot for your consultation and the design process will begin!</p>
                                 <RouterLink to="/enquire">
                                     <Button className="button mb-4">Get free quote now <i className="bi bi-arrow-right" /></Button>
                                 </RouterLink><br />
-                                <RouterLink to="/how-it-works">
-                                    <Button className="button-sec">Explore How It Works <i className="bi bi-arrow-right" /></Button>
-                                </RouterLink>
                             </div>
                         </Col>
                     </Row>
@@ -165,43 +141,10 @@ export default class Main extends Component {
                         </Col>
                     </Row>
                 </Container>
-                <Container fluid className="container-img my-5">
-                    <Row className="py-5 mx-auto">
-                        <div className="mx-auto text-center my-3 cta-box">
-                            <h4 className="header-tag">let's work together</h4>
-                            <h2>Ready to get started? The next steps are simple:</h2>
-                            <Row className="my-5">
-                                <Col lg={4} className="my-2">
-                                    <h4 className="steps-cta">01 - Tell us about your project</h4>
-                                    <p>Book a free, no-obligatory discovery call to speak with or us enquire via our form.</p>
-                                </Col>
-                                <Col lg={4} className="my-2">
-                                    <h4 className="steps-cta">02 - Learn how we can help</h4>
-                                    <p>We'll chat via phone or email to learn more &amp; see images of your space.</p>
-                                </Col>
-                                <Col lg={4} className="my-2">
-                                    <h4 className="steps-cta">03 - Receive your project quote</h4>
-                                    <p>You'll receive your final fixed project quote, and we can go from there!</p>
-                                </Col>
-                            </Row>
-                            <div className="text-center my-3">
-                                <RouterLink to="/enquire">
-                                    <Button className="dark-button" href="/enquire">get free quote now <i className="bi bi-arrow-right" /></Button>
-                                </ RouterLink>
-                            </div>
-                        </div>
-                    </Row>
-                </Container>
-                {/* <Container className="my-5">
-                    <Row>
-                    <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_1400/v1647874711/Decorelm_qltwrg.gif" alt="Decorelm Gif" />
-
-                    </Row>
-                </Container> */}
                 <div className="ourWorkTop">
                     <OurWork />
                 </div>
-            </div>
+            </div >
         )
     }
 }
