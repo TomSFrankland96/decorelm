@@ -64,7 +64,7 @@ function HowItWorks() {
                                 <h3>Receive Your Design Delivered</h3>
                                 <p>You’ll receive a detailed design concept containing the room design, layout plans and designer’s notes in your own design portal.</p>
                                 <hr className="mb-3" />
-                                <a href="https://collaborate.decorelm.com/projects/624c1bcbbc18c3001695f7f7/rooms/624c1bf0bc18c3001695f800/designs" className="button-blog" target="_blank">see example of designs<i className="bi bi-arrow-right"></i></a>
+                                <a href="https://collaborate.decorelm.com/projects/624c1bcbbc18c3001695f7f7/rooms/624c1bf0bc18c3001695f800/designs" className="button-blog" target="_blank">see example of <br/>designs<i className="bi bi-arrow-right"></i></a>
                             </div>
                         </Col>
                         <Col md={6} className="d-flex m-0 g-0">

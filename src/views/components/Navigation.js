@@ -25,7 +25,7 @@ export default class Navigation extends Component {
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="mobile-nav pt-3">
                                 <RouterLink to="/services">
-                                    <Nav.Item href="/services">E-Design Services</Nav.Item>
+                                    <Nav.Link href="/services">E-Design Services</Nav.Link>
                                 </RouterLink>
                                 <RouterLink to="/projects">
                                     <Nav.Item>

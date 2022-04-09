@@ -85,7 +85,7 @@ export default class Main extends Component {
                             <div className="p-5">
                                 <h4 className="header-tag">next steps</h4>
                                 <h2 className="mb-5">Get your project in 3 simple next steps</h2>
-                                <h4 className="steps-cta">01 - Talk to us</h4>
+                                <h4 className="steps-cta">01 - Chat with us</h4>
                                 <p className="mb-5">Book a free, no-obligatory discovery call to speak with or us enquire via our form.</p>
                                 <h4 className="steps-cta">02 - Get your final quote</h4>
                                 <p className="mb-5">We'll provide your final project quote via phone or email, depending on your communication preference.</p>
@@ -106,33 +106,44 @@ export default class Main extends Component {
                         </div>
                     </Row>
                 </Container>
-                <Container className="instagram pb-5 px-5" fluid>
+                <Container className="instagram pb-5 pt-3 px-5" fluid>
                     <Row>
-                        <div className="d-flex my-3">
-                            <h3>Learn more about us on Instagram</h3>
-                            <p className="align-self-end ms-4" style={{ fontSize: "1.3rem" }}><a href="https://instagram.com/decorelm" target="_blank" className="link">@decorelm</a></p>
-                        </div>
-                        <Col>
+                        <Container className="d-flex my-3">
+                            <Row>
+                                <Col sm={6}>
+                                    <h3>Learn more about us on Instagram</h3>
+                                </Col>
+                                <Col sm={6}>
+                                    <p className="align-self-end ms-4" style={{ fontSize: "1.3rem" }}><a href="https://instagram.com/decorelm" target="_blank" className="link">@decorelm</a></p>
+                                </Col>
+                            </Row>
+                        </Container>
+                        <Col xs={6} sm={2} className="my-3">
+                            <a href="https://instagram.com/decorelm" target="_blank">
+                                <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_500/v1649424307/view_1a_rk3bix.webp" className="rounded social-img" />
+                            </a>
+                        </Col>
+                        <Col xs={6} sm={2} className="my-3">
                             <a href="https://instagram.com/decorelm" target="_blank">
                                 <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_500/v1646079307/sections/Decorelm_Instagram_1_fb0ysf.webp" className="rounded social-img" />
                             </a>
                         </Col>
-                        <Col>
+                        <Col xs={6} sm={2} className="my-3">
                             <a href="https://instagram.com/decorelm" target="_blank">
                                 <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_500/v1646079308/sections/Decorelm_Instagram_2_atvem0.webp" className="rounded social-img" />
                             </a>
                         </Col>
-                        <Col>
+                        <Col xs={6} sm={2} className="my-3">
                             <a href="https://instagram.com/decorelm" target="_blank">
                                 <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_500/v1646079308/sections/Decorelm_Instagram_3_bclynn.webp" className="rounded social-img" />
                             </a>
                         </Col>
-                        <Col>
+                        <Col xs={6} sm={2} className="my-3">
                             <a href="https://instagram.com/decorelm" target="_blank">
                                 <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_500/v1646079309/sections/Decorelm_Instagram_4_sylumf.webp" className="rounded social-img" />
                             </a>
                         </Col>
-                        <Col>
+                        <Col xs={6} sm={2} className="my-3">
                             <a href="https://instagram.com/decorelm" target="_blank">
                                 <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_500/v1646079308/sections/Decorelm_Instagram_5_i8oxax.webp" className="rounded social-img" />
                             </a>
