@@ -29,7 +29,7 @@ footer{
 }
 
 .link{
-    color: #494949;
+    color: #494949 !important;
     text-decoration: none;
 }
 

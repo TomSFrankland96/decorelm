@@ -106,7 +106,40 @@ export default class Main extends Component {
                         </div>
                     </Row>
                 </Container>
-                <Container fluid className="beige py-5 my-5">
+                <Container className="instagram pb-5 px-5" fluid>
+                    <Row>
+                        <div className="d-flex my-3">
+                            <h3>Learn more about us on Instagram</h3>
+                            <p className="align-self-end ms-4" style={{ fontSize: "1.3rem" }}><a href="https://instagram.com/decorelm" target="_blank" className="link">@decorelm</a></p>
+                        </div>
+                        <Col>
+                            <a href="https://instagram.com/decorelm" target="_blank">
+                                <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_500/v1646079307/sections/Decorelm_Instagram_1_fb0ysf.webp" className="rounded social-img" />
+                            </a>
+                        </Col>
+                        <Col>
+                            <a href="https://instagram.com/decorelm" target="_blank">
+                                <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_500/v1646079308/sections/Decorelm_Instagram_2_atvem0.webp" className="rounded social-img" />
+                            </a>
+                        </Col>
+                        <Col>
+                            <a href="https://instagram.com/decorelm" target="_blank">
+                                <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_500/v1646079308/sections/Decorelm_Instagram_3_bclynn.webp" className="rounded social-img" />
+                            </a>
+                        </Col>
+                        <Col>
+                            <a href="https://instagram.com/decorelm" target="_blank">
+                                <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_500/v1646079309/sections/Decorelm_Instagram_4_sylumf.webp" className="rounded social-img" />
+                            </a>
+                        </Col>
+                        <Col>
+                            <a href="https://instagram.com/decorelm" target="_blank">
+                                <img src="https://res.cloudinary.com/decorelm/image/upload/c_scale,w_500/v1646079308/sections/Decorelm_Instagram_5_i8oxax.webp" className="rounded social-img" />
+                            </a>
+                        </Col>
+                    </Row>
+                </Container>
+                <Container fluid className="beige py-5 mb-5">
                     <Row>
                         <Col xs={{ order: 2, span: 12 }} md={{ order: 1, span: 6 }}>
                             <EnquireForm />
