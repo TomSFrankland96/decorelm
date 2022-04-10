@@ -26,14 +26,14 @@ function HowItWorks() {
                     <Row>
                         <div className="title mx-auto text-center">
                             <h4 className="header-tag">how it works</h4>
-                            <h1>Our unique &amp; trusted process puts you at the core.</h1>
+                            <h1>The Process</h1>
                         </div>
                     </Row>
                     <Row className="mt-2 mb-5">
                         <Col md={6} className="d-flex m-0 g-0">
                             <div className="text-start align-self-center ms-auto step-text shadow bg-white w-100 p-5 m-0">
                                 <h4 className="header-tag">step 01</h4>
-                                <h3>About You &amp; Your Project Goals</h3>
+                                <h3>Design Consultation</h3>
                                 <p>We’ll start by viewing images &amp; measurements of your room then arrange a chat to understand your unique preferences and requirements.</p>
                                 <hr />
                             </div>
@@ -49,7 +49,7 @@ function HowItWorks() {
                         <Col md={6} xs={{ order: 12, span: 12 }} md={{ order: 1, span: 6 }} className="d-flex m-width m-0 g-0">
                             <div className="text-start align-self-center ms-auto step-text shadow bg-white w-100 p-5 m-0">
                                 <h4 className="header-tag">step 02</h4>
-                                <h3>The Design Direction</h3>
+                                <h3>Inspiration &amp; Direction</h3>
                                 <p>Your designer, Kerry, will then present some initial ideas in an inspiration mood board to bring your ideas together &amp; guide the design’s direction.</p>
                                 <p>You'll also get access to our unique design portal at this point.</p>
                                 <hr className="mb-3" />
@@ -61,10 +61,10 @@ function HowItWorks() {
                         <Col md={6} className="d-flex m-0 g-0">
                             <div className="text-start align-self-center ms-auto step-text shadow bg-white w-100 p-5 m-0">
                                 <h4 className="header-tag">step 03</h4>
-                                <h3>Receive Your Design Delivered</h3>
+                                <h3>Receive Your Designs</h3>
                                 <p>You’ll receive a detailed design concept containing the room design, layout plans and designer’s notes in your own design portal.</p>
                                 <hr className="mb-3" />
-                                <a href="https://collaborate.decorelm.com/projects/624c1bcbbc18c3001695f7f7/rooms/624c1bf0bc18c3001695f800/designs" className="button-blog" target="_blank">see example of <br/>designs<i className="bi bi-arrow-right"></i></a>
+                                <a href="https://collaborate.decorelm.com/projects/624c1bcbbc18c3001695f7f7/rooms/624c1bf0bc18c3001695f800/designs" className="button-blog" target="_blank">see example of <br />designs<i className="bi bi-arrow-right"></i></a>
                             </div>
                         </Col>
                         <Col md={6} className="d-flex m-0 g-0">
@@ -117,27 +117,35 @@ function HowItWorks() {
                         </div>
                         <Row className="my-4">
                             <Col lg={3} xs={12}>
-                                <div className="my-2 border p-4">
-                                    <h4 className="uppercase r-header mb-3">How much does it cost for each room?</h4>
-                                    <p>We charge a simple flat fee per room, starting from £395.</p>
+                                <div className="my-2 border p-4 faq d-flex">
+                                    <div class="align-self-center">
+                                        <h4 className="uppercase r-header mb-3">How much does it cost for each room?</h4>
+                                        <p>We charge a simple flat fee per room, starting from £395.</p>
+                                    </div>
                                 </div>
                             </Col>
                             <Col lg={3} xs={12}>
-                                <div className="my-2 border mx-1 p-4">
-                                    <h4 className="uppercase r-header mb-3">How long does it take for each room?</h4>
-                                    <p>A typical room design can take anywhere between 7-14 days.</p>
+                                <div className="my-2 border p-4 faq d-flex">
+                                    <div class="align-self-center">
+                                        <h4 className="uppercase r-header mb-3">How long does it take for each room?</h4>
+                                        <p>A typical room design can take anywhere between 7-14 days.</p>
+                                    </div>
                                 </div>
                             </Col>
                             <Col lg={3} xs={12}>
-                                <div className="my-2 border p-4">
-                                    <h4 className="uppercase r-header mb-3">What if we don't like the designs?</h4>
-                                    <p>We embrace individuality &amp; work with you until you're happy.</p>
+                                <div className="my-2 border p-4 faq d-flex">
+                                    <div class="align-self-center">
+                                        <h4 className="uppercase r-header mb-3">What if we don't like the designs?</h4>
+                                        <p>We embrace individuality &amp; work with you until you're happy.</p>
+                                    </div>
                                 </div>
                             </Col>
                             <Col lg={3} xs={12}>
-                                <div className="my-2 border p-4">
-                                    <h4 className="uppercase r-header mb-3">How much budget do I need?</h4>
-                                    <p>Contact us to learn more about recommended budget.</p>
+                                <div className="my-2 border p-4 faq d-flex">
+                                    <div class="align-self-center">
+                                        <h4 className="uppercase r-header mb-3">How much budget do I need?</h4>
+                                        <p>Contact us to learn more about recommended budget.</p>
+                                    </div>
                                 </div>
                             </Col>
                         </Row>

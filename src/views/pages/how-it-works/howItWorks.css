@@ -106,3 +106,7 @@ img{
     padding-right:0;
     padding-left:0;
 }
+
+.faq{
+    min-height: 235px;
+}
