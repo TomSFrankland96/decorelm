@@ -23,7 +23,7 @@ function Ad() {
                     "Multi Award-Winning Residential E-Design Service"
                 }
                 subheader={
-                    "Feeling the pain designing for your home? Collaborate with us to design, source & complete your home for one flat fee."
+                    "Feeling the pain choosing the right colours, furniture and room layouts? Collaborate with us to design, source & complete your home for one flat fee."
                 }
                 page={"services"}
                 line={
