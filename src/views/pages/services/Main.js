@@ -84,7 +84,7 @@ export default class Main extends Component {
                         <Col lg={6} className="p-2 my-4">
                             <div className="p-5">
                                 <h4 className="header-tag">next steps</h4>
-                                <h2 className="mb-5">Get your project in 3 simple next steps</h2>
+                                <h2 className="mb-5">Get your project started in 3 simple next steps</h2>
                                 <h4 className="steps-cta">01 - Chat with us</h4>
                                 <p className="mb-5">Book a free, no-obligatory discovery call to speak with or us enquire via our form.</p>
                                 <h4 className="steps-cta">02 - Get your final quote</h4>
