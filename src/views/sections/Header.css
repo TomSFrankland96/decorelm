@@ -18,6 +18,8 @@
     }
     .Header-sub{
         max-width: 97% !important;
+        font-size: 1.2rem;
+        margin: 4%;
     }
     .bark{
         max-width: 90px;

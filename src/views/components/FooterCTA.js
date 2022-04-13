@@ -19,13 +19,9 @@ function FooterCTA({ show }) {
         <Navbar fixed="bottom" className={`bg-white shadow-lg ${show === true ? 'footer-cta' : `hide`}`}>
             <Container>
                 <Row className="mx-auto text-center">
-                    <h5 className="text-center footer-cta-header mb-3">Get a <span style={{ textDecoration: "underline" }}>Free Project Quote</span> Now</h5>
                     <div className="d-flex justify-content-center">
-                        <RouterLink to="/contact" className="mx-2 w-100">
-                            <Button className="footer-cta-button-sec">Contact<br /><i class="bi bi-telephone"></i></Button>
-                        </RouterLink>
                         <RouterLink to="/enquire" className="mx-2 w-100">
-                            <Button className="footer-cta-button">Free Quote<br /> <i className="bi bi-arrow-right" /></Button>
+                            <Button className="footer-cta-button my-2">Get Free Project Quote <i className="bi bi-arrow-right" /></Button>
                         </RouterLink>
                     </div>
                 </Row>
