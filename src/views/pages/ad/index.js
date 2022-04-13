@@ -7,7 +7,7 @@ function Ad() {
     const [showCta, setShowCta] = useState(false)
     useEffect(() => {
         window.scrollTo(0, 60)
-        setTimeout(function () { setShowCta(true); }, 3000);
+        setTimeout(function () { setShowCta(true); }, 8000);
     }, []);
     return (
         <div>

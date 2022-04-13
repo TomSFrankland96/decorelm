@@ -21,7 +21,7 @@ function FooterCTA({ show }) {
                 <Row className="mx-auto text-center">
                     <div className="d-flex justify-content-center">
                         <RouterLink to="/enquire" className="mx-2 w-100">
-                            <Button className="footer-cta-button my-2">Get Free Project Quote <i className="bi bi-arrow-right" /></Button>
+                            <Button className="footer-cta-button">Get Free Quote Now<i className="bi bi-arrow-right" /></Button>
                         </RouterLink>
                     </div>
                 </Row>

@@ -4,10 +4,6 @@ display: none;
 }
 }
 
-.footer-cta-header{
-    font-size: 1.1rem;
-    font-family: 'Raleway';
-}
 
 .footer-cta-button{
     text-transform: uppercase;
@@ -18,40 +14,20 @@ display: none;
     border: none !important;
     letter-spacing: 2px;
     width: 100%;
-    font-size: 0.9rem;
-    font-weight: 600;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
-.footer-cta-button-sec{
-    text-transform: uppercase;
-    background-color: #ffffff;
-    color: #494949 !important;
-    font-family: 'Raleway', sans-serif !important;
-    border-bottom-right-radius: 20px !important;
-    border: 0.5px solid black !important;
-    letter-spacing: 2px;
-    width: 100%;
-    font-size: 0.9rem;
-}
 
 .footer-cta-button:hover{
     opacity: 0.5;
 }
 
-.footer-cta-button-sec:hover{
-    background-color: #ffffff !important;
-    opacity: 0.5;
-}
 
 
 @media only screen and (max-device-width: 480px) {
     .footer-cta-button{
-        font-size: 0.7rem;
-        width: 100%;
-        margin-bottom: 5px;
-    }
-    .footer-cta-button-sec{
-        font-size: 0.7rem;
+        font-size: 1rem;
         width: 100%;
         margin-bottom: 5px;
     }
@@ -64,13 +40,7 @@ display: none;
 /* different techniques for iPad screening */
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
     .footer-cta-button{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
-    
-    .footer-cta-button-sec{
-        font-size: 1.2rem;
-    }
-    .footer-cta-header{
-        font-size: 1.5rem;
-    }
+
     }
