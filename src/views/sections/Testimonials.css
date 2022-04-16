@@ -20,6 +20,13 @@ q{
     font-size: 1.3em;
 }
 
+.test-image{
+    max-width: 600px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media only screen and (max-device-width: 480px) {
     .testimonial-box{
         max-width: 90%;

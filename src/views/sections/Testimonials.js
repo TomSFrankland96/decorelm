@@ -16,7 +16,7 @@ export default class Testimonial extends Component {
                         <div className="align-self-center">
                             <div className="text-center">
                                 <h4 className="header-tag">testimonials</h4>
-                                <h2>Loved by many, rated 5 stars on Bark &amp; Houzz</h2>
+                                <h2>Rated 5 stars on Bark &amp; Houzz</h2>
                             </div>
                             <Row>
                                 <Col xs={12} md={8} className="mx-auto">

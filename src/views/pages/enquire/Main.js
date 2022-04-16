@@ -25,7 +25,7 @@ export default class Main extends Component {
                             <p>Mon-Fri
                                 8am-6pm
                             </p>
-                            <Button className="footer-cta-button"><i class="bi bi-telephone"></i> <a href="tel:01772298588">01772 298588</a></Button>
+                            <Button className="footer-cta-button mb-4"><i class="bi bi-telephone"></i> <a href="tel:01772298588">01772 298588</a></Button>
                         </Col>
                         <Col sm={8}>
                             <EnquireForm />
