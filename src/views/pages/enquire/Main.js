@@ -17,15 +17,19 @@ export default class Main extends Component {
         return (
             <section>
                 <Container>
-                    <Row>
-                        <div className="mx-auto enquire-text">
-                            <p>Got a project that you need help with? Book a free, no-obligation discovery call to discuss your design ambition and learn the next steps.</p>
-                            <a href="https://calendly.com/decorelm/15min" target="_blank" style={{ color: "#494949", textDecoration: "none" }}><Button className="my-5 book-call">book a free call <i class="bi bi-arrow-right"></i></Button></a>
-                        </div>
-                        <div className="mx-auto enquire-text">
-                            <p>Alternatively, if you'd like to make an email enquiry or ask any questions please complete the form below.</p>
-                        </div>
-                        <EnquireForm />
+                    <div className="mx-auto enquire-text">
+                        <p>Got a project that you need help with? Call us now or complete the enquiry form to chat about your design project and receive a final quote.</p>
+                    </div>
+                    <Row className="my-5">
+                        <Col sm={4}>
+                            <p>Mon-Fri
+                                8am-6pm
+                            </p>
+                            <Button className="footer-cta-button"><i class="bi bi-telephone"></i> <a href="tel:01772298588">01772 298588</a></Button>
+                        </Col>
+                        <Col sm={8}>
+                            <EnquireForm />
+                        </Col>
                     </Row>
                 </Container>
             </section>
