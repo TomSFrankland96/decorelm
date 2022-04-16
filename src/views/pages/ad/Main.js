@@ -32,54 +32,6 @@ export default class Main extends Component {
                         </Col>
                     </Row>
                 </Container>
-                <Container className="my-5">
-                    <Row>
-                        <div className="text-center">
-                            <h2>Design Package</h2>
-                        </div>
-                    </Row>
-                    <Row>
-                        <Col lg={6} className="p-2 my-4">
-                            <div className="shadow p-5">
-                                <h2>Receive bespoke designs &amp; sourcing for one room</h2>
-                                <h5 className="my-4">From £395</h5>
-                                <ul className="list my-4">
-                                    <li>Design Consultation</li>
-                                    <li>Inspiration Boards to Capture Design Direction</li>
-                                    <li>2D Design Concepts</li>
-                                    <li>Multiple Space Layout Options</li>
-                                    <li>Your Own Shopping List</li>
-                                    <li>3D Photorealistic Design Visualisations</li>
-                                    <li>4 Weeks Post Design Support</li>
-                                </ul>
-                                <RouterLink to="/enquire">
-                                    <Button className="button mb-4">Get free quote now <i className="bi bi-arrow-right" /></Button>
-                                </RouterLink><br />
-                                <Button className="button-sec" href="https://collaborate.decorelm.com/projects/624c1bcbbc18c3001695f7f7" target="_blank">See Example of What's Included<i className="bi bi-arrow-right" /></Button>
-                            </div>
-                        </Col>
-                        <Col lg={6} className="p-2 my-4 d-flex">
-                            <div className="p-5 align-self-center">
-                                <h4 className="header-tag">next steps</h4>
-                                <h3 className="mb-5">Get your project started in 3 simple next steps</h3>
-                                <h4 className="steps-cta">01 - Chat with us</h4>
-                                <p className="mb-5">Book a free, no-obligatory discovery call to speak with or us enquire via our form.</p>
-                                <h4 className="steps-cta">02 - Get your final quote</h4>
-                                <p className="mb-5">We'll provide your final project quote via phone or email, depending on your communication preference.</p>
-                                <h4 className="steps-cta">03 - Book your slot</h4>
-                                <p className="mb-5">You'll then book your slot for your consultation and the design process will begin!</p>
-                            </div>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <div className="text-center my-5">
-                            <h3>Have any questions or want a more custom service?</h3>
-                            <RouterLink to="/contact">
-                                <Button className="button-sec mx-auto d-block my-4">Contact Us <i className="bi bi-arrow-right" /></Button>
-                            </RouterLink>
-                        </div>
-                    </Row>
-                </Container>
                 <Container className="instagram pb-5 pt-3 px-5" fluid>
                     <Row>
                         <Container className="d-flex my-3">
@@ -146,6 +98,54 @@ export default class Main extends Component {
                                 </Row>
                             </div>
                         </Col>
+                    </Row>
+                </Container>
+                <Container className="my-5">
+                    <Row>
+                        <div className="text-center">
+                            <h2>Design Package</h2>
+                        </div>
+                    </Row>
+                    <Row>
+                        <Col lg={6} className="p-2 my-4">
+                            <div className="shadow p-5">
+                                <h2>Receive bespoke designs &amp; sourcing for one room</h2>
+                                <h5 className="my-4">From £395</h5>
+                                <ul className="list my-4">
+                                    <li>Design Consultation</li>
+                                    <li>Inspiration Boards to Capture Design Direction</li>
+                                    <li>2D Design Concepts</li>
+                                    <li>Multiple Space Layout Options</li>
+                                    <li>Your Own Shopping List</li>
+                                    <li>3D Photorealistic Design Visualisations</li>
+                                    <li>4 Weeks Post Design Support</li>
+                                </ul>
+                                <RouterLink to="/enquire">
+                                    <Button className="button mb-4">Get free quote now <i className="bi bi-arrow-right" /></Button>
+                                </RouterLink><br />
+                                <Button className="button-sec" href="https://collaborate.decorelm.com/projects/624c1bcbbc18c3001695f7f7" target="_blank">See Example of What's Included<i className="bi bi-arrow-right" /></Button>
+                            </div>
+                        </Col>
+                        <Col lg={6} className="p-2 my-4 d-flex">
+                            <div className="p-5 align-self-center">
+                                <h4 className="header-tag">next steps</h4>
+                                <h3 className="mb-5">Get your project started in 3 simple next steps</h3>
+                                <h4 className="steps-cta">01 - Chat with us</h4>
+                                <p className="mb-5">Book a free, no-obligatory discovery call to speak with or us enquire via our form.</p>
+                                <h4 className="steps-cta">02 - Get your final quote</h4>
+                                <p className="mb-5">We'll provide your final project quote via phone or email, depending on your communication preference.</p>
+                                <h4 className="steps-cta">03 - Book your slot</h4>
+                                <p className="mb-5">You'll then book your slot for your consultation and the design process will begin!</p>
+                            </div>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <div className="text-center my-5">
+                            <h3>Have any questions or want a more custom service?</h3>
+                            <RouterLink to="/contact">
+                                <Button className="button-sec mx-auto d-block my-4">Contact Us <i className="bi bi-arrow-right" /></Button>
+                            </RouterLink>
+                        </div>
                     </Row>
                 </Container>
                 <Testimonials />
