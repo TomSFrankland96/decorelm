@@ -20,8 +20,9 @@ function FooterCTA({ show }) {
             <Container>
                 <Row className="mx-auto text-center">
                     <div className="d-flex justify-content-center">
-                        <p>Contact Us</p>
-                        <Button className="footer-cta-button"><i class="bi bi-telephone"></i> <a href="tel:01772298588">01772 298588</a></Button>
+                        <RouterLink to="/enquire">
+                            <Button className="footer-cta-button">Get free project quote <i class="bi bi-arrow-right-short"></i></Button>
+                        </RouterLink>
                     </div>
                 </Row>
             </Container>
