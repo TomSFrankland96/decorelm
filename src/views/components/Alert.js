@@ -11,7 +11,7 @@ export default class Alert extends Component {
         return (
             <Container fluid className="Alert px-4">
                 <Row>
-                    <div className="text-center">{this.props.alert}, <RouterLink to="/enquire" className="alert-link">click here</RouterLink> to get free quote now</div>
+                    <div className="text-center">{this.props.alert}, <RouterLink to="/enquire" className="alert-link">click here</RouterLink> to enquire now</div>
                 </Row>
             </Container>
         )

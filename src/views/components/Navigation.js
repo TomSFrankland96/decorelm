@@ -52,7 +52,7 @@ export default class Navigation extends Component {
                                 </Nav.Item>
                                 <div className="highlight cta-mobile w-75">
                                     <RouterLink to="/enquire">
-                                        <Nav.Link href="enquire" className="ms-5">get free design project quote <i class="bi bi-arrow-right"></i></Nav.Link>
+                                        <Nav.Link href="enquire" className="ms-5">Enquire about design service <i class="bi bi-arrow-right"></i></Nav.Link>
                                     </RouterLink>
                                 </div>
                             </Nav>
@@ -87,12 +87,12 @@ export default class Navigation extends Component {
                                 </div>
                                 <div className="highlight cta-mobile">
                                     <RouterLink to="/enquire">
-                                        <Nav.Link href="enquire">get free design project quote <i class="bi bi-arrow-right"></i></Nav.Link>
+                                        <Nav.Link href="enquire">Enquire about design service <i class="bi bi-arrow-right"></i></Nav.Link>
                                     </RouterLink>
                                 </div>
                                 <div className="highlight">
                                     <RouterLink to="/enquire">
-                                        <Nav.Link href="enquire">get free design project quote <i class="bi bi-arrow-right"></i></Nav.Link>
+                                        <Nav.Link href="enquire">Enquire about design service <i class="bi bi-arrow-right"></i></Nav.Link>
                                     </RouterLink>
                                 </div>
                             </Nav>

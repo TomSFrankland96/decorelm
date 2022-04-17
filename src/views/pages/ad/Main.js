@@ -1,19 +1,17 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 import {
     Col,
     Container,
     Row,
     Button
-} from 'react-bootstrap'
+} from 'react-bootstrap';
 
-import { Link as RouterLink } from 'react-router-dom'
+import { Link as RouterLink } from 'react-router-dom';
 
-import OurWork from '../../sections/OurWork/index'
-import DarkBox from '../../components/DarkBox'
-import Testimonials from '../../sections/Testimonials'
+import OurWork from '../../sections/OurWork/index';
+import Testimonials from '../../sections/Testimonials';
 import EnquireForm from '../enquire/EnquireForm';
-import HowItWorks from "../how-it-works/HowItWorks";
 
 import './Main.css'
 
@@ -34,10 +32,10 @@ export default class Main extends Component {
                 </Container>
                 <Container fluid className="beige py-5 mb-5">
                     <Row>
-                        <Col xs={{ order: 2, span: 12 }} md={{ order: 1, span: 6 }}>
+                        <Col xs={{ order: 2, span: 12 }} lg={{ order: 1, span: 6 }}>
                             <EnquireForm />
                         </Col>
-                        <Col xs={{ order: 1, span: 12 }} md={{ order: 2, span: 6 }}>
+                        <Col xs={{ order: 1, span: 12 }} lg={{ order: 2, span: 6 }}>
                             <div className="w-75 mx-auto my-5">
                                 <h2>Timeless design that lasts years, not just through trends.</h2>
                                 <p>Don't leave your home decorating to chance, potentially costing you thousands of pounds in wrong decisions &amp; wasted time.</p>
@@ -77,7 +75,7 @@ export default class Main extends Component {
                                     <li>4 Weeks Post Design Support</li>
                                 </ul>
                                 <RouterLink to="/enquire">
-                                    <Button className="button mb-4">Get free quote now <i className="bi bi-arrow-right" /></Button>
+                                    <Button className="button mb-4">Enquire about design service <i className="bi bi-arrow-right" /></Button>
                                 </RouterLink><br />
                                 <Button className="button-sec" href="https://collaborate.decorelm.com/projects/624c1bcbbc18c3001695f7f7" target="_blank">See Example of What's Included<i className="bi bi-arrow-right" /></Button>
                             </div>
@@ -87,7 +85,7 @@ export default class Main extends Component {
                                 <h4 className="header-tag">next steps</h4>
                                 <h3 className="mb-5">Get your project started in 3 simple next steps</h3>
                                 <h4 className="steps-cta">01 - Chat with us</h4>
-                                <p className="mb-5">Book a free, no-obligatory discovery call to speak with or us enquire via our form.</p>
+                                <p className="mb-5">Give us a call or contact via our enquiry form.</p>
                                 <h4 className="steps-cta">02 - Get your final quote</h4>
                                 <p className="mb-5">We'll provide your final project quote via phone or email, depending on your communication preference.</p>
                                 <h4 className="steps-cta">03 - Book your slot</h4>

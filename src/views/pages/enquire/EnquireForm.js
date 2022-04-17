@@ -56,7 +56,7 @@ export default function SubscribeForm() {
             {isFormSubmitted ? (
                 <Container className="shadow form py-5 bg-white">
                     <Row>
-                        <h3>Enquire Now For a Free Project Quote</h3>
+                        <h3>Enquire Now About Your Design Project</h3>
                         <p className="mt-2">We'll be in touch via email to discuss your project &amp; arrange the next steps.</p>
                         <Form noValidate validated={validated} onSubmit={handleSubmit} className="px-4 mx-auto">
                             <Row className="my-4 text-start">
