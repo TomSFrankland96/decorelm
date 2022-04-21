@@ -1,11 +1,7 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import './App.css';
 
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
@@ -29,18 +25,17 @@ import Jenny from './views/pages/work/projects/Jenny';
 import Tiziana from './views/pages/work/projects/Tiziana';
 
 import ReactGA from 'react-ga';
-ReactGA.initialize('G-8TM8QTJHJC')
+ReactGA.initialize('G-8TM8QTJHJC');
 
 class App extends Component {
   componentDidMount() {
-    ReactGA.pageview(window.location.pathname + window.location.search)
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }
   render() {
     return (
-      <div className="App">
+      <div className='App'>
         <Router>
-          <Navigation
-          />
+          <Navigation />
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/services' element={<Services />} />
@@ -48,15 +43,15 @@ class App extends Component {
             <Route path='/projects' element={<Work />} />
             <Route path='/reviews' element={<Reviews />} />
             <Route path='/projects/bohemian-apartment' exact element={<Claudia />} />
-            <Route path="projects/modern-living-room" exact element={<Edgar />} />
-            <Route path="projects/calming-dining-and-living-room" exact element={<Mike />} />
-            <Route path="projects/coastal-living-and-dining-room" exact element={<Gagan />} />
-            <Route path="projects/scandinavian-living-room" exact element={<Jenny />} />
-            <Route path="projects/elegant-living-room" exact element={<Tiziana />} />
+            <Route path='projects/modern-living-room' exact element={<Edgar />} />
+            <Route path='projects/calming-dining-and-living-room' exact element={<Mike />} />
+            <Route path='projects/coastal-living-and-dining-room' exact element={<Gagan />} />
+            <Route path='projects/scandinavian-living-room' exact element={<Jenny />} />
+            <Route path='projects/elegant-living-room' exact element={<Tiziana />} />
             <Route path='/enquire' element={<Enquire />} />
             <Route path='/about-us' element={<AboutUs />} />
             <Route path='/contact' element={<Contact />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path='*' element={<NotFound />} />
           </Routes>
           <Footer />
         </Router>

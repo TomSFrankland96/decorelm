@@ -12,7 +12,7 @@ function Ad() {
     return (
         <div>
             <Header
-                img={"https://res.cloudinary.com/decorelm/image/upload/c_scale,w_1300/v1646079033/services/Services_Page_Header-min_zuomjw.webp"}
+                img={"https://res.cloudinary.com/decorelm/image/upload/c_scale,w_1000/v1649864230/Decorelm_Living_Room_kfv2kc.webp"}
                 imgText={
                     ""
                 }
@@ -20,10 +20,10 @@ function Ad() {
                     "collaborate with us"
                 }
                 header={
-                    "Multi Award-Winning Residential E-Design Service"
+                    "Transform your house into your dream home for one flat fee"
                 }
                 subheader={
-                    "Feeling the pain choosing the right colours, furniture and room layouts? Collaborate with us to design, source & complete your home for one flat fee."
+                    "Are you struggling to choose the right colours, furniture & room layouts? Collaborate with us to make your home beautiful, swiftly & with no hidden charges."
                 }
                 page={"services"}
                 line={
@@ -31,9 +31,6 @@ function Ad() {
                 }
             />
             <Main />
-            <FooterCTA
-                show={showCta}
-            />
         </div>
     )
 }
