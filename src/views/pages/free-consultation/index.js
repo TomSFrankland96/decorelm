@@ -14,7 +14,7 @@ function FreeConsultation() {
                     "Transform your house into your dream home for one flat fee"
                 }
                 subheader={
-                    "Are you struggling to choose the right colours, furniture & room layouts? Collaborate with us to make your home beautiful, swiftly & with no hidden charges."
+                    "Are you decorating your home but struggling to choose the right colours, furniture & room layouts? Collaborate with us to make your home beautiful, swiftly & with no hidden charges."
                 }
                 line={
                     "line-in-middle mx-auto"
