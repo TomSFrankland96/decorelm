@@ -1,0 +1,22 @@
+
+
+li{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 1024px){
+    .mobile-img{
+        display: none;
+    }
+}
+
+#large{
+  font-size: 3.5rem !important;
+}
+
+@media only screen and (max-width: 1024px){
+  #large{
+    font-size: 3rem !important;
+  }
+};

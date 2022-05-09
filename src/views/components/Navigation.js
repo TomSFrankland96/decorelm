@@ -14,7 +14,8 @@ export default class Navigation extends Component {
                 <Alert
                     alert={"bookings now available for april"}
                 />
-                <Navbar bg="white" expand="xl" collapseOnSelect className="shadow py-3">
+                {window.location.pathname !== '/free-consultation' ? (
+                  <Navbar bg="white" expand="xl" collapseOnSelect className="shadow py-3">
                     <Container>
                         <div className="brand-mobile">
                             <RouterLink to="/">
@@ -99,6 +100,34 @@ export default class Navigation extends Component {
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
+                ) : (
+                  <Navbar bg="white" expand="xl" collapseOnSelect className="shadow py-3">
+                    <Container>
+                        <div className="brand-mobile">
+                            <RouterLink to="/">
+                                <Navbar.Brand href="/"><img src="https://res.cloudinary.com/decorelm/image/upload/v1646119109/Decorelm_Logo_2022_bu1lvx.png" className="logo mx-3" /></Navbar.Brand>
+                            </RouterLink>
+                        </div>
+                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                        <Navbar.Collapse id="basic-navbar-nav">
+                            <Nav className="mobile-nav pt-3">
+                                <div className="brand-desktop">
+                                    <RouterLink to="/">
+                                        <Navbar.Brand href="/"><img src="https://res.cloudinary.com/decorelm/image/upload/v1646119109/Decorelm_Logo_2022_bu1lvx.png" className="logo mx-3" /></Navbar.Brand>
+                                    </RouterLink>
+                                </div>
+                            </Nav>
+                            <Nav className="desktop-nav centered-nav mx-auto">
+                                <div className="brand-desktop">
+                                    <RouterLink to="/">
+                                        <Navbar.Brand href="/"><img src="https://res.cloudinary.com/decorelm/image/upload/v1646119389/Decorelm_Logo_2022_bu1lvx.png" className="logo mx-3" /></Navbar.Brand>
+                                    </RouterLink>
+                                </div>
+                            </Nav>
+                        </Navbar.Collapse>
+                    </Container>
+                </Navbar>
+                )}
             </div >
         )
     }

@@ -29,6 +29,14 @@ export default class Header extends Component {
                                             </div>
                                         )
                                     }
+                                    {
+                                        this.props.page == "ad" && (
+                                            <div className="d-flex justify-content-center bottom-right">
+                                                <a href="https://www.bark.com/en/gb/company/decorelm-design-studio/RnVay/" target="_blank"><img className="bark reviews me-3" src="https://res.cloudinary.com/decorelm/image/upload/v1646085413/services/Bark_g0oqrg.png" alt="Kerry Armstrong in Leeds, West Yorkshire, UK on Bark" /></a>
+                                                <a href="https://www.houzz.co.uk/pro/decorelm/decorelm" target="_blank"><img className="reviews houzz" src="https://st.hzcdn.com/static_en-GB/badge_57_8@2x.png" alt="Kerry Armstrong in Leeds, West Yorkshire, UK on Houzz" border="0" /></a>
+                                            </div>
+                                        )
+                                    }
                                 </div>
                             )}
                             <div className="Header-text w-100 mx-auto">

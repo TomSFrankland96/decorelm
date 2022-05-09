@@ -16,6 +16,7 @@ import AboutUs from './views/pages/aboutUs';
 import Contact from './views/pages/contact';
 import NotFound from './views/pages/NotFound';
 import Reviews from './views/pages/reviews';
+import FreeConsultation from './views/pages/free-consultation';
 
 import Claudia from './views/pages/work/projects/Claudia';
 import Edgar from './views/pages/work/projects/Edgar';
@@ -40,6 +41,7 @@ class App extends Component {
             <Route path='/' element={<Home />} />
             <Route path='/services' element={<Services />} />
             <Route path='/services/e-design' exact element={<Ad />} />
+            <Route path='/free-consultation' exact element={<FreeConsultation />} />
             <Route path='/projects' element={<Work />} />
             <Route path='/reviews' element={<Reviews />} />
             <Route path='/projects/bohemian-apartment' exact element={<Claudia />} />
