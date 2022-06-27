@@ -12,7 +12,7 @@ export default class Navigation extends Component {
         return (
             <div className="sticky-top">
                 <Alert
-                    alert={"bookings now available for June"}
+                    alert={"bookings now available for July"}
                 />
                 {window.location.pathname !== '/free-consultation' ? (
                   <Navbar bg="white" expand="xl" collapseOnSelect className="shadow py-3">
